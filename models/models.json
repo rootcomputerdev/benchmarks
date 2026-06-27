@@ -1,0 +1,67 @@
+{
+  "models": [
+    {
+      "name": "h2",
+      "backend": "http",
+      "url": "https://chathaiku.com/api/haiku.php",
+      "params": 217000000
+    },
+    {
+      "name": "distilgpt2",
+      "backend": "huggingface",
+      "model_id": "distilgpt2"
+    },
+    {
+      "name": "gpt2",
+      "backend": "huggingface",
+      "model_id": "gpt2"
+    },
+    {
+      "name": "opt-125m",
+      "backend": "huggingface",
+      "model_id": "facebook/opt-125m"
+    },
+    {
+      "name": "smollm-135m",
+      "backend": "huggingface",
+      "model_id": "HuggingFaceTB/SmolLM-135M"
+    },
+    {
+      "name": "pythia-160m",
+      "backend": "huggingface",
+      "model_id": "EleutherAI/pythia-160m"
+    },
+    {
+      "name": "smollm-135m-instruct",
+      "backend": "huggingface",
+      "model_id": "HuggingFaceTB/SmolLM-135M-Instruct",
+      "chat_template": true
+    },
+    {
+      "name": "gpt2-medium",
+      "backend": "huggingface",
+      "model_id": "gpt2-medium"
+    },
+    {
+      "name": "smollm-360m",
+      "backend": "huggingface",
+      "model_id": "HuggingFaceTB/SmolLM-360M"
+    },
+    {
+      "name": "pythia-410m",
+      "backend": "huggingface",
+      "model_id": "EleutherAI/pythia-410m"
+    },
+    {
+      "name": "qwen2.5-0.5b",
+      "backend": "huggingface",
+      "model_id": "Qwen/Qwen2.5-0.5B"
+    },
+    {
+      "name": "tinyllama-1.1b-chat",
+      "backend": "huggingface",
+      "model_id": "TinyLlama/TinyLlama-1.1B-Chat-v1.0",
+      "chat_template": true
+    }
+  ]
+}
