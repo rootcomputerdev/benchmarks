@@ -1,0 +1,101 @@
+{"_meta": true, "name": "Featherweight v1", "description": "A 100-question multi-choice benchmark for the featherweight class of language models (sub-1B-parameter). Ten categories of ten questions each: geography, history, arithmetic, science, language, vocabulary, common sense, logical reasoning, categorization, reading comprehension. Answer positions balanced 25/25/25/25 across A/B/C/D so position bias scores at chance.", "version": "1.0", "intended_use": "Comparing small language models on basic capabilities. A 200M-class model trained on a general corpus should score meaningfully above 25% chance with headroom for improvement.", "scoring": "1 point per correct answer. Report accuracy and per-category breakdown.", "license": "CC-BY-4.0"}
+{"id": "geo01", "category": "geography", "question": "What is the capital of France?", "choices": ["Paris", "Berlin", "Madrid", "Rome"], "answer": "A"}
+{"id": "geo02", "category": "geography", "question": "Which is the largest country in the world by land area?", "choices": ["Canada", "Russia", "United States", "China"], "answer": "B"}
+{"id": "geo03", "category": "geography", "question": "Egypt is located primarily on which continent?", "choices": ["Asia", "Europe", "Africa", "South America"], "answer": "C"}
+{"id": "geo04", "category": "geography", "question": "What is the capital of Japan?", "choices": ["Beijing", "Seoul", "Bangkok", "Tokyo"], "answer": "D"}
+{"id": "geo05", "category": "geography", "question": "How many continents are there?", "choices": ["7", "5", "6", "8"], "answer": "A"}
+{"id": "geo06", "category": "geography", "question": "Which is the largest ocean on Earth?", "choices": ["Atlantic", "Pacific", "Indian", "Arctic"], "answer": "B"}
+{"id": "geo07", "category": "geography", "question": "The Eiffel Tower is located in which city?", "choices": ["London", "Rome", "Paris", "Berlin"], "answer": "C"}
+{"id": "geo08", "category": "geography", "question": "Which country is known as the Land of the Rising Sun?", "choices": ["China", "South Korea", "Vietnam", "Japan"], "answer": "D"}
+{"id": "geo09", "category": "geography", "question": "The Amazon rainforest is mainly located in which country?", "choices": ["Brazil", "Mexico", "Argentina", "Peru"], "answer": "A"}
+{"id": "geo10", "category": "geography", "question": "Mount Everest is part of which mountain range?", "choices": ["Andes", "Alps", "Himalayas", "Rockies"], "answer": "C"}
+{"id": "hist01", "category": "history", "question": "In what year did World War II end in Europe?", "choices": ["1942", "1945", "1948", "1950"], "answer": "B"}
+{"id": "hist02", "category": "history", "question": "Who was the first President of the United States?", "choices": ["Thomas Jefferson", "Abraham Lincoln", "John Adams", "George Washington"], "answer": "D"}
+{"id": "hist03", "category": "history", "question": "In what year did Christopher Columbus first reach the Americas?", "choices": ["1492", "1392", "1592", "1692"], "answer": "A"}
+{"id": "hist04", "category": "history", "question": "The Great Pyramid of Giza was built by which ancient civilization?", "choices": ["Romans", "Egyptians", "Greeks", "Mayans"], "answer": "B"}
+{"id": "hist05", "category": "history", "question": "In what year did the Berlin Wall fall?", "choices": ["1969", "1979", "1999", "1989"], "answer": "D"}
+{"id": "hist06", "category": "history", "question": "Who painted the Mona Lisa?", "choices": ["Michelangelo", "Vincent van Gogh", "Leonardo da Vinci", "Pablo Picasso"], "answer": "C"}
+{"id": "hist07", "category": "history", "question": "World War I began in what year?", "choices": ["1914", "1900", "1918", "1939"], "answer": "A"}
+{"id": "hist08", "category": "history", "question": "Who was the first human to walk on the Moon?", "choices": ["Yuri Gagarin", "Neil Armstrong", "Buzz Aldrin", "John Glenn"], "answer": "B"}
+{"id": "hist09", "category": "history", "question": "Julius Caesar was a famous leader of which empire?", "choices": ["Greek", "Persian", "Egyptian", "Roman"], "answer": "D"}
+{"id": "hist10", "category": "history", "question": "The American Civil War took place during which century?", "choices": ["17th", "18th", "19th", "20th"], "answer": "C"}
+{"id": "ari01", "category": "arithmetic", "question": "What is 7 multiplied by 8?", "choices": ["54", "55", "56", "63"], "answer": "C"}
+{"id": "ari02", "category": "arithmetic", "question": "What is 15 plus 27?", "choices": ["32", "42", "52", "62"], "answer": "B"}
+{"id": "ari03", "category": "arithmetic", "question": "What is 100 minus 37?", "choices": ["53", "73", "83", "63"], "answer": "D"}
+{"id": "ari04", "category": "arithmetic", "question": "What is half of 88?", "choices": ["44", "22", "34", "48"], "answer": "A"}
+{"id": "ari05", "category": "arithmetic", "question": "What is 9 multiplied by 12?", "choices": ["98", "118", "108", "128"], "answer": "C"}
+{"id": "ari06", "category": "arithmetic", "question": "What is the square root of 64?", "choices": ["6", "8", "7", "9"], "answer": "B"}
+{"id": "ari07", "category": "arithmetic", "question": "What is 3 squared?", "choices": ["9", "6", "12", "27"], "answer": "A"}
+{"id": "ari08", "category": "arithmetic", "question": "The sum of the angles in a triangle equals how many degrees?", "choices": ["90", "270", "360", "180"], "answer": "D"}
+{"id": "ari09", "category": "arithmetic", "question": "Which of these numbers is the largest?", "choices": ["0.5", "0.05", "0.55", "0.005"], "answer": "C"}
+{"id": "ari10", "category": "arithmetic", "question": "What is 1/4 expressed as a decimal?", "choices": ["0.25", "0.14", "0.4", "0.5"], "answer": "A"}
+{"id": "sci01", "category": "science", "question": "Which planet is closest to the Sun?", "choices": ["Venus", "Mercury", "Earth", "Mars"], "answer": "B"}
+{"id": "sci02", "category": "science", "question": "What does the chemical formula H2O represent?", "choices": ["Hydrogen peroxide", "Salt", "Carbon dioxide", "Water"], "answer": "D"}
+{"id": "sci03", "category": "science", "question": "What is the largest organ in the human body?", "choices": ["Skin", "Heart", "Liver", "Brain"], "answer": "A"}
+{"id": "sci04", "category": "science", "question": "What is Earth's only permanent natural satellite called?", "choices": ["The Sun", "The Moon", "Mars", "A comet"], "answer": "B"}
+{"id": "sci05", "category": "science", "question": "At sea level, water boils at what temperature in Celsius?", "choices": ["50", "75", "125", "100"], "answer": "D"}
+{"id": "sci06", "category": "science", "question": "Which gas do plants release during photosynthesis?", "choices": ["Nitrogen", "Carbon dioxide", "Oxygen", "Hydrogen"], "answer": "C"}
+{"id": "sci07", "category": "science", "question": "What is the chemical symbol for gold?", "choices": ["Au", "Go", "Gd", "Ag"], "answer": "A"}
+{"id": "sci08", "category": "science", "question": "Approximately how many bones are in the adult human body?", "choices": ["106", "206", "156", "306"], "answer": "B"}
+{"id": "sci09", "category": "science", "question": "Which of these animals is a mammal?", "choices": ["Snake", "Frog", "Eagle", "Whale"], "answer": "D"}
+{"id": "sci10", "category": "science", "question": "What is the dense central region of an atom called?", "choices": ["Electron", "Proton", "Nucleus", "Shell"], "answer": "C"}
+{"id": "lang01", "category": "language", "question": "Which of the following words is a verb?", "choices": ["happy", "run", "quickly", "blue"], "answer": "B"}
+{"id": "lang02", "category": "language", "question": "Which of the following words is a noun?", "choices": ["swim", "beautiful", "table", "sadly"], "answer": "C"}
+{"id": "lang03", "category": "language", "question": "What is the plural form of the word 'child'?", "choices": ["childs", "children", "childes", "childen"], "answer": "B"}
+{"id": "lang04", "category": "language", "question": "What is the past tense of the verb 'go'?", "choices": ["goed", "gone", "going", "went"], "answer": "D"}
+{"id": "lang05", "category": "language", "question": "Which of the following words is an adjective?", "choices": ["beautiful", "quickly", "sandwich", "swim"], "answer": "A"}
+{"id": "lang06", "category": "language", "question": "Which sentence is grammatically correct?", "choices": ["She don't like apples.", "She doesn't likes apples.", "She doesn't like apples.", "She not like apples."], "answer": "C"}
+{"id": "lang07", "category": "language", "question": "Which punctuation mark ends a question?", "choices": [".", "!", ",", "?"], "answer": "D"}
+{"id": "lang08", "category": "language", "question": "The word 'mice' is the plural form of which word?", "choices": ["mouse", "moose", "mice", "micer"], "answer": "A"}
+{"id": "lang09", "category": "language", "question": "Which of these words is spelled correctly?", "choices": ["recieve", "receeve", "receive", "reicieve"], "answer": "C"}
+{"id": "lang10", "category": "language", "question": "Which of the following words is a pronoun?", "choices": ["she", "run", "fast", "sing"], "answer": "A"}
+{"id": "vocab01", "category": "vocabulary", "question": "What does the word 'enormous' mean?", "choices": ["very large", "very small", "very fast", "very slow"], "answer": "A"}
+{"id": "vocab02", "category": "vocabulary", "question": "The word 'rapid' most nearly means:", "choices": ["slow", "quiet", "heavy", "fast"], "answer": "D"}
+{"id": "vocab03", "category": "vocabulary", "question": "What is the opposite of 'hot'?", "choices": ["warm", "mild", "cold", "dry"], "answer": "C"}
+{"id": "vocab04", "category": "vocabulary", "question": "What is the opposite of 'above'?", "choices": ["below", "under", "next to", "near"], "answer": "A"}
+{"id": "vocab05", "category": "vocabulary", "question": "The word 'begin' most nearly means:", "choices": ["stop", "start", "finish", "end"], "answer": "B"}
+{"id": "vocab06", "category": "vocabulary", "question": "What does the word 'tiny' mean?", "choices": ["very large", "very tall", "very wide", "very small"], "answer": "D"}
+{"id": "vocab07", "category": "vocabulary", "question": "What is the opposite of 'quiet'?", "choices": ["still", "calm", "loud", "soft"], "answer": "C"}
+{"id": "vocab08", "category": "vocabulary", "question": "The word 'difficult' most nearly means:", "choices": ["easy", "hard", "simple", "quick"], "answer": "B"}
+{"id": "vocab09", "category": "vocabulary", "question": "What does the word 'generous' mean?", "choices": ["selfish", "angry", "sad", "giving"], "answer": "D"}
+{"id": "vocab10", "category": "vocabulary", "question": "What is the opposite of 'beautiful'?", "choices": ["pretty", "ugly", "lovely", "nice"], "answer": "B"}
+{"id": "cs01", "category": "common-sense", "question": "If it is raining outside, what would be most useful to take with you?", "choices": ["an umbrella", "a fan", "a flashlight", "a hat"], "answer": "A"}
+{"id": "cs02", "category": "common-sense", "question": "What do people typically wear on their feet?", "choices": ["gloves", "hats", "scarves", "shoes"], "answer": "D"}
+{"id": "cs03", "category": "common-sense", "question": "A clock is used to measure:", "choices": ["time", "weight", "distance", "temperature"], "answer": "A"}
+{"id": "cs04", "category": "common-sense", "question": "To see in a dark room, which of these would be most useful?", "choices": ["a fan", "a flashlight", "a clock", "a book"], "answer": "B"}
+{"id": "cs05", "category": "common-sense", "question": "The sun typically rises in which direction?", "choices": ["north", "south", "east", "west"], "answer": "C"}
+{"id": "cs06", "category": "common-sense", "question": "A doctor primarily treats:", "choices": ["cars", "plants", "patients", "buildings"], "answer": "C"}
+{"id": "cs07", "category": "common-sense", "question": "To send a letter through the postal mail, you usually need:", "choices": ["a stamp", "a key", "a battery", "a screen"], "answer": "A"}
+{"id": "cs08", "category": "common-sense", "question": "Which season is typically coldest in the Northern Hemisphere?", "choices": ["spring", "summer", "fall", "winter"], "answer": "D"}
+{"id": "cs09", "category": "common-sense", "question": "If a glass falls onto a hard floor, what is most likely to happen?", "choices": ["it floats", "it grows", "it breaks", "it melts"], "answer": "C"}
+{"id": "cs10", "category": "common-sense", "question": "What do bees produce?", "choices": ["milk", "honey", "wool", "silk"], "answer": "B"}
+{"id": "logic01", "category": "logic", "question": "All cats are mammals. Felix is a cat. Therefore, Felix is a:", "choices": ["bird", "mammal", "fish", "reptile"], "answer": "B"}
+{"id": "logic02", "category": "logic", "question": "If A is greater than B, and B is greater than C, then A is:", "choices": ["less than C", "equal to C", "greater than C", "unrelated to C"], "answer": "C"}
+{"id": "logic03", "category": "logic", "question": "If today is Tuesday, what day is tomorrow?", "choices": ["Wednesday", "Sunday", "Monday", "Friday"], "answer": "A"}
+{"id": "logic04", "category": "logic", "question": "All dogs bark. Rex does not bark. Therefore, Rex is:", "choices": ["a cat", "a dog", "sleeping", "not a dog"], "answer": "D"}
+{"id": "logic05", "category": "logic", "question": "You have 10 apples and give away 3. How many do you have left?", "choices": ["3", "5", "13", "7"], "answer": "D"}
+{"id": "logic06", "category": "logic", "question": "If 2 birds are in a tree and 3 more arrive, how many birds are in the tree?", "choices": ["6", "5", "2", "3"], "answer": "B"}
+{"id": "logic07", "category": "logic", "question": "Anna is older than Ben. Ben is older than Carl. Who is youngest?", "choices": ["can't tell", "Anna", "Ben", "Carl"], "answer": "D"}
+{"id": "logic08", "category": "logic", "question": "A is taller than B, and B is taller than C. Who is the tallest?", "choices": ["A", "B", "C", "can't tell"], "answer": "A"}
+{"id": "logic09", "category": "logic", "question": "A square has how many sides?", "choices": ["3", "4", "5", "6"], "answer": "B"}
+{"id": "logic10", "category": "logic", "question": "Sarah ate breakfast at 7am, lunch at noon, and dinner at 6pm. What did she eat at noon?", "choices": ["breakfast", "dinner", "lunch", "snack"], "answer": "C"}
+{"id": "cat01", "category": "categorization", "question": "Three of these are fruits. Which one is not?", "choices": ["carrot", "apple", "banana", "orange"], "answer": "A"}
+{"id": "cat02", "category": "categorization", "question": "Which of these is a vegetable?", "choices": ["apple", "banana", "grape", "carrot"], "answer": "D"}
+{"id": "cat03", "category": "categorization", "question": "Which of these is a metal?", "choices": ["oxygen", "gold", "water", "plastic"], "answer": "B"}
+{"id": "cat04", "category": "categorization", "question": "Which of these is a liquid at room temperature?", "choices": ["ice", "water", "steam", "salt"], "answer": "B"}
+{"id": "cat05", "category": "categorization", "question": "Which of these is a planet?", "choices": ["the Moon", "the Sun", "a comet", "Mars"], "answer": "D"}
+{"id": "cat06", "category": "categorization", "question": "Which of these is not an animal?", "choices": ["tree", "dog", "fish", "bird"], "answer": "A"}
+{"id": "cat07", "category": "categorization", "question": "Which of these is not a color?", "choices": ["red", "blue", "soft", "green"], "answer": "C"}
+{"id": "cat08", "category": "categorization", "question": "Which of these is a fruit?", "choices": ["lettuce", "carrot", "apple", "potato"], "answer": "C"}
+{"id": "cat09", "category": "categorization", "question": "Which of these is a musical instrument?", "choices": ["piano", "hammer", "spoon", "chair"], "answer": "A"}
+{"id": "cat10", "category": "categorization", "question": "Which of these is not a body of water?", "choices": ["lake", "river", "mountain", "ocean"], "answer": "C"}
+{"id": "read01", "category": "reading", "question": "\"Sam went to the store and bought milk for $4.\" How much did Sam spend?", "choices": ["$1", "$2", "$4", "$8"], "answer": "C"}
+{"id": "read02", "category": "reading", "question": "\"Tim has 3 dogs. Each dog has 4 legs.\" How many dog legs are there in total?", "choices": ["12", "3", "7", "16"], "answer": "A"}
+{"id": "read03", "category": "reading", "question": "\"The library closes at 9pm. It is currently 8pm.\" How many hours until the library closes?", "choices": ["9", "1", "2", "3"], "answer": "B"}
+{"id": "read04", "category": "reading", "question": "\"It rained all day Monday.\" What was the weather on Monday?", "choices": ["sunny", "snowy", "windy", "rainy"], "answer": "D"}
+{"id": "read05", "category": "reading", "question": "\"Jane feels happy whenever she sees her sister.\" How does Jane feel when she sees her sister?", "choices": ["angry", "sad", "tired", "happy"], "answer": "D"}
+{"id": "read06", "category": "reading", "question": "\"If it snows, school is closed. It is snowing today.\" Is school open today?", "choices": ["yes", "maybe", "can't tell", "no"], "answer": "D"}
+{"id": "read07", "category": "reading", "question": "\"Maria has two cats: Luna and Mochi. Luna is older than Mochi.\" Which cat is younger?", "choices": ["Luna", "Mochi", "both the same age", "can't tell"], "answer": "B"}
+{"id": "read08", "category": "reading", "question": "\"The cat sat on the mat. The mat is red.\" What color is the mat?", "choices": ["blue", "green", "red", "yellow"], "answer": "C"}
+{"id": "read09", "category": "reading", "question": "\"John wakes up at 6am every weekday.\" Does John wake up at 6am on Wednesday?", "choices": ["yes", "no", "only sometimes", "can't tell"], "answer": "A"}
+{"id": "read10", "category": "reading", "question": "\"Every box in the shed contains tools. Box 7 is in the shed.\" What is in Box 7?", "choices": ["clothes", "tools", "food", "books"], "answer": "B"}
