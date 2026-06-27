@@ -1,0 +1,301 @@
+{"_meta": true, "name": "Featherweight v2", "description": "A 300-question multi-choice benchmark for the featherweight class of language models (sub-1B-parameter). Ten categories of thirty questions each: geography, history, arithmetic, science, language, vocabulary, common-sense, logic, categorization, reading. Answer positions balanced 75/75/75/75 across A/B/C/D. v2 is content-disjoint from v1 (no question is reused) and scales v1's per-category answer-position pattern by 3x so that v1 and v2 scores remain directly comparable. Released as the contamination-resistant successor to v1 per the v1 model card commitment.", "version": "2.0", "intended_use": "Comparing small language models on basic capabilities. A 200M-class model trained on a general corpus should score meaningfully above 25% chance with headroom for improvement. Use in place of v1 when there is any risk that a model under evaluation may have seen v1 in its training corpus. The 3x larger item count vs. v1 reduces per-question variance and gives more statistical power for per-category accuracy reporting.", "scoring": "1 point per correct answer. Report accuracy and per-category breakdown.", "license": "CC-BY-4.0", "disjoint_from": "Featherweight v1"}
+{"id": "geo11", "category": "geography", "question": "What is the capital of Italy?", "choices": ["Rome", "Milan", "Naples", "Venice"], "answer": "A"}
+{"id": "geo12", "category": "geography", "question": "Which river flows through London?", "choices": ["Seine", "Danube", "Thames", "Rhine"], "answer": "C"}
+{"id": "geo13", "category": "geography", "question": "Which is the smallest continent by land area?", "choices": ["Europe", "South America", "Australia", "Antarctica"], "answer": "C"}
+{"id": "geo14", "category": "geography", "question": "The Sahara Desert is mainly located on which continent?", "choices": ["Africa", "Asia", "Europe", "South America"], "answer": "A"}
+{"id": "geo15", "category": "geography", "question": "What is the capital of Australia?", "choices": ["Sydney", "Melbourne", "Canberra", "Brisbane"], "answer": "C"}
+{"id": "geo16", "category": "geography", "question": "The Statue of Liberty is located in which U.S. city?", "choices": ["New York City", "Boston", "Chicago", "Washington D.C."], "answer": "A"}
+{"id": "geo17", "category": "geography", "question": "The Great Wall is located in which country?", "choices": ["Japan", "China", "India", "Mongolia"], "answer": "B"}
+{"id": "geo18", "category": "geography", "question": "Which country shares the longest land border with the United States?", "choices": ["Mexico", "Russia", "Cuba", "Canada"], "answer": "D"}
+{"id": "geo19", "category": "geography", "question": "Mount Kilimanjaro is located in which country?", "choices": ["Kenya", "South Africa", "Egypt", "Tanzania"], "answer": "D"}
+{"id": "geo20", "category": "geography", "question": "The Andes mountain range runs along the western side of which continent?", "choices": ["Africa", "South America", "Australia", "Antarctica"], "answer": "B"}
+{"id": "hist11", "category": "history", "question": "Who wrote the play 'Romeo and Juliet'?", "choices": ["Charles Dickens", "William Shakespeare", "Mark Twain", "Jane Austen"], "answer": "B"}
+{"id": "hist12", "category": "history", "question": "What was the name of the first artificial satellite launched into space?", "choices": ["Apollo", "Voyager", "Hubble", "Sputnik"], "answer": "D"}
+{"id": "hist13", "category": "history", "question": "In what year did the French Revolution begin?", "choices": ["1789", "1689", "1889", "1769"], "answer": "A"}
+{"id": "hist14", "category": "history", "question": "Which ancient Greek philosopher was the teacher of Plato?", "choices": ["Aristotle", "Pythagoras", "Socrates", "Homer"], "answer": "C"}
+{"id": "hist15", "category": "history", "question": "In which country were the original ancient Olympic Games held?", "choices": ["Italy", "Greece", "Egypt", "Persia"], "answer": "B"}
+{"id": "hist16", "category": "history", "question": "What did the Wright Brothers famously invent?", "choices": ["The automobile", "The telephone", "The radio", "The airplane"], "answer": "D"}
+{"id": "hist17", "category": "history", "question": "Who was the British Prime Minister for most of World War II?", "choices": ["Margaret Thatcher", "Winston Churchill", "Tony Blair", "Neville Chamberlain"], "answer": "B"}
+{"id": "hist18", "category": "history", "question": "The Western Roman Empire collapsed in which century?", "choices": ["3rd century", "4th century", "6th century", "5th century"], "answer": "D"}
+{"id": "hist19", "category": "history", "question": "Cleopatra was the last active ruler of which ancient civilization?", "choices": ["Egypt", "Persia", "Rome", "Greece"], "answer": "A"}
+{"id": "hist20", "category": "history", "question": "Who painted 'The Starry Night'?", "choices": ["Pablo Picasso", "Claude Monet", "Vincent van Gogh", "Salvador Dali"], "answer": "C"}
+{"id": "ari11", "category": "arithmetic", "question": "What is 6 multiplied by 7?", "choices": ["42", "36", "48", "56"], "answer": "A"}
+{"id": "ari12", "category": "arithmetic", "question": "What is 25 plus 39?", "choices": ["54", "74", "64", "84"], "answer": "C"}
+{"id": "ari13", "category": "arithmetic", "question": "What is 81 minus 25?", "choices": ["46", "66", "76", "56"], "answer": "D"}
+{"id": "ari14", "category": "arithmetic", "question": "What is half of 50?", "choices": ["25", "20", "30", "100"], "answer": "A"}
+{"id": "ari15", "category": "arithmetic", "question": "What is 11 multiplied by 11?", "choices": ["111", "121", "131", "122"], "answer": "B"}
+{"id": "ari16", "category": "arithmetic", "question": "What is the square root of 81?", "choices": ["7", "8", "9", "11"], "answer": "C"}
+{"id": "ari17", "category": "arithmetic", "question": "What is 4 squared?", "choices": ["16", "8", "12", "24"], "answer": "A"}
+{"id": "ari18", "category": "arithmetic", "question": "The sum of the interior angles in a square equals how many degrees?", "choices": ["90", "180", "270", "360"], "answer": "D"}
+{"id": "ari19", "category": "arithmetic", "question": "Of these four numbers, which has the greatest value?", "choices": ["0.3", "0.31", "0.301", "0.13"], "answer": "B"}
+{"id": "ari20", "category": "arithmetic", "question": "What is 3/4 expressed as a decimal?", "choices": ["0.34", "0.5", "0.75", "0.25"], "answer": "C"}
+{"id": "sci11", "category": "science", "question": "Which is the hardest known naturally occurring substance?", "choices": ["Iron", "Diamond", "Quartz", "Gold"], "answer": "B"}
+{"id": "sci12", "category": "science", "question": "The speed of light in a vacuum is approximately:", "choices": ["3 kilometers per second", "3,000 kilometers per second", "30,000 kilometers per second", "300,000 kilometers per second"], "answer": "D"}
+{"id": "sci13", "category": "science", "question": "A young frog before it grows legs is called a:", "choices": ["Tadpole", "Caterpillar", "Nymph", "Pupa"], "answer": "A"}
+{"id": "sci14", "category": "science", "question": "By what process do plants make food from sunlight?", "choices": ["Respiration", "Photosynthesis", "Digestion", "Fermentation"], "answer": "B"}
+{"id": "sci15", "category": "science", "question": "How many planets are there in our solar system?", "choices": ["7", "9", "8", "10"], "answer": "C"}
+{"id": "sci16", "category": "science", "question": "What is the chemical symbol for oxygen?", "choices": ["Ox", "Og", "Oy", "O"], "answer": "D"}
+{"id": "sci17", "category": "science", "question": "Which organ pumps blood through the human body?", "choices": ["Heart", "Lungs", "Liver", "Stomach"], "answer": "A"}
+{"id": "sci18", "category": "science", "question": "Sound travels fastest through which of these media?", "choices": ["Air", "Steel", "Water", "A vacuum"], "answer": "B"}
+{"id": "sci19", "category": "science", "question": "Which gas do humans exhale in large amounts?", "choices": ["Hydrogen", "Nitrogen", "Carbon dioxide", "Oxygen"], "answer": "C"}
+{"id": "sci20", "category": "science", "question": "How many chambers does the human heart have?", "choices": ["1", "2", "3", "4"], "answer": "D"}
+{"id": "lang11", "category": "language", "question": "Identify the noun in this list:", "choices": ["dog", "quickly", "happy", "run"], "answer": "A"}
+{"id": "lang12", "category": "language", "question": "What is the past tense of the verb 'eat'?", "choices": ["eated", "eating", "ate", "eat"], "answer": "C"}
+{"id": "lang13", "category": "language", "question": "Which of the following words is an adverb?", "choices": ["slow", "tall", "quickly", "cat"], "answer": "C"}
+{"id": "lang14", "category": "language", "question": "What is the plural form of the word 'foot'?", "choices": ["feet", "foots", "footes", "feets"], "answer": "A"}
+{"id": "lang15", "category": "language", "question": "Which of these sentences uses correct grammar?", "choices": ["He don't have a pen.", "He doesn't has a pen.", "He not have a pen.", "He doesn't have a pen."], "answer": "D"}
+{"id": "lang16", "category": "language", "question": "Which punctuation mark ends an exclamation?", "choices": [".", "!", "?", ","], "answer": "B"}
+{"id": "lang17", "category": "language", "question": "Which of the following words is a preposition?", "choices": ["under", "swim", "blue", "they"], "answer": "A"}
+{"id": "lang18", "category": "language", "question": "Which word below is spelled correctly?", "choices": ["seperate", "seperete", "separete", "separate"], "answer": "D"}
+{"id": "lang19", "category": "language", "question": "What is the past tense of the verb 'run'?", "choices": ["runned", "ran", "running", "runs"], "answer": "B"}
+{"id": "lang20", "category": "language", "question": "What is the plural form of the word 'goose'?", "choices": ["gooses", "geeses", "geese", "gooseses"], "answer": "C"}
+{"id": "vocab11", "category": "vocabulary", "question": "What does the word 'ancient' mean?", "choices": ["very new", "very old", "very far", "very strong"], "answer": "B"}
+{"id": "vocab12", "category": "vocabulary", "question": "The word 'swift' most nearly means:", "choices": ["heavy", "quiet", "fast", "soft"], "answer": "C"}
+{"id": "vocab13", "category": "vocabulary", "question": "What is the opposite of 'happy'?", "choices": ["excited", "surprised", "sad", "angry"], "answer": "C"}
+{"id": "vocab14", "category": "vocabulary", "question": "What is the opposite of 'empty'?", "choices": ["full", "open", "small", "light"], "answer": "A"}
+{"id": "vocab15", "category": "vocabulary", "question": "The word 'wealthy' most nearly means:", "choices": ["poor", "rich", "tall", "friendly"], "answer": "B"}
+{"id": "vocab16", "category": "vocabulary", "question": "What does the word 'silent' mean?", "choices": ["loud", "busy", "dark", "quiet"], "answer": "D"}
+{"id": "vocab17", "category": "vocabulary", "question": "What is the opposite of 'fast'?", "choices": ["quick", "soon", "now", "slow"], "answer": "D"}
+{"id": "vocab18", "category": "vocabulary", "question": "The word 'brave' most nearly means:", "choices": ["afraid", "courageous", "tired", "shy"], "answer": "B"}
+{"id": "vocab19", "category": "vocabulary", "question": "What does the word 'furious' mean?", "choices": ["very angry", "very tired", "very confused", "very surprised"], "answer": "A"}
+{"id": "vocab20", "category": "vocabulary", "question": "What is the opposite of 'thick'?", "choices": ["tall", "wide", "heavy", "thin"], "answer": "D"}
+{"id": "cs11", "category": "common-sense", "question": "To open a locked door, you would most likely need:", "choices": ["a key", "a hammer", "a pencil", "a book"], "answer": "A"}
+{"id": "cs12", "category": "common-sense", "question": "Which of these is a unit used to measure weight?", "choices": ["liter", "meter", "kilogram", "second"], "answer": "C"}
+{"id": "cs13", "category": "common-sense", "question": "Which farm animal is best known for laying the eggs people commonly eat?", "choices": ["cow", "pig", "chicken", "dog"], "answer": "C"}
+{"id": "cs14", "category": "common-sense", "question": "In which season do leaves typically fall from many trees?", "choices": ["autumn", "winter", "spring", "summer"], "answer": "A"}
+{"id": "cs15", "category": "common-sense", "question": "What do people most commonly use to cut paper?", "choices": ["a spoon", "scissors", "a fork", "a cup"], "answer": "B"}
+{"id": "cs16", "category": "common-sense", "question": "The pages of a book are mostly made of:", "choices": ["metal", "glass", "plastic", "paper"], "answer": "D"}
+{"id": "cs17", "category": "common-sense", "question": "If you are very thirsty, which of these is most helpful to drink?", "choices": ["water", "sand", "flour", "salt"], "answer": "A"}
+{"id": "cs18", "category": "common-sense", "question": "A refrigerator is mainly used to:", "choices": ["cook food", "keep food cold", "wash food", "cut food"], "answer": "B"}
+{"id": "cs19", "category": "common-sense", "question": "To speak to someone who lives far away, you would most likely use:", "choices": ["a hammer", "a candle", "a phone", "a chair"], "answer": "C"}
+{"id": "cs20", "category": "common-sense", "question": "Which of these pieces of furniture is mainly used for sleeping?", "choices": ["a chair", "a stove", "a table", "a bed"], "answer": "D"}
+{"id": "logic11", "category": "logic", "question": "All birds have feathers. A robin is a bird. Therefore, a robin:", "choices": ["has feathers", "is a mammal", "has fur", "cannot fly"], "answer": "A"}
+{"id": "logic12", "category": "logic", "question": "You are taller than your brother. Your brother is taller than your sister. Compared to your sister, you are:", "choices": ["shorter", "taller", "the same height", "younger"], "answer": "B"}
+{"id": "logic13", "category": "logic", "question": "If yesterday was Friday, what day is today?", "choices": ["Sunday", "Saturday", "Thursday", "Monday"], "answer": "B"}
+{"id": "logic14", "category": "logic", "question": "All roses are flowers. This object is not a flower. Therefore, this object is:", "choices": ["a rose", "a flower", "a leaf", "not a rose"], "answer": "D"}
+{"id": "logic15", "category": "logic", "question": "You have 5 cookies and a friend gives you 4 more. How many do you have now?", "choices": ["1", "4", "5", "9"], "answer": "D"}
+{"id": "logic16", "category": "logic", "question": "There are 8 cars parked in a lot. 3 drive away. How many cars remain?", "choices": ["11", "5", "3", "8"], "answer": "B"}
+{"id": "logic17", "category": "logic", "question": "Mia is shorter than Noah. Noah is shorter than Owen. Who is the tallest?", "choices": ["Mia", "Noah", "Owen", "can't tell"], "answer": "C"}
+{"id": "logic18", "category": "logic", "question": "P is heavier than Q. Q is heavier than R. Who is the lightest?", "choices": ["P", "Q", "can't tell", "R"], "answer": "D"}
+{"id": "logic19", "category": "logic", "question": "A pentagon has how many sides?", "choices": ["5", "4", "6", "3"], "answer": "A"}
+{"id": "logic20", "category": "logic", "question": "Tom went to the gym on Monday, the library on Tuesday, and the store on Wednesday. Where did he go on Tuesday?", "choices": ["the gym", "the store", "the library", "home"], "answer": "C"}
+{"id": "cat11", "category": "categorization", "question": "Which of these is a bird?", "choices": ["shark", "turtle", "sparrow", "lizard"], "answer": "C"}
+{"id": "cat12", "category": "categorization", "question": "Which of these is not a vehicle?", "choices": ["mountain", "car", "bicycle", "boat"], "answer": "A"}
+{"id": "cat13", "category": "categorization", "question": "Which of these is a mammal?", "choices": ["shark", "eagle", "dog", "frog"], "answer": "C"}
+{"id": "cat14", "category": "categorization", "question": "Which of these is not a tool?", "choices": ["cloud", "hammer", "saw", "screwdriver"], "answer": "A"}
+{"id": "cat15", "category": "categorization", "question": "Which of these is a gas at room temperature?", "choices": ["ice", "honey", "oxygen", "iron"], "answer": "C"}
+{"id": "cat16", "category": "categorization", "question": "Which of these is not a sport?", "choices": ["basketball", "soccer", "tennis", "piano"], "answer": "D"}
+{"id": "cat17", "category": "categorization", "question": "Which of the following is a vegetable?", "choices": ["broccoli", "cherry", "peach", "plum"], "answer": "A"}
+{"id": "cat18", "category": "categorization", "question": "Which of these is a continent?", "choices": ["France", "Africa", "Egypt", "Nile"], "answer": "B"}
+{"id": "cat19", "category": "categorization", "question": "Which of these is not a season?", "choices": ["spring", "evening", "autumn", "summer"], "answer": "B"}
+{"id": "cat20", "category": "categorization", "question": "Which of these is not a type of weather?", "choices": ["rain", "snow", "fog", "river"], "answer": "D"}
+{"id": "read11", "category": "reading", "question": "\"Anna paid $7 for a sandwich and $3 for a drink.\" How much did Anna spend in total?", "choices": ["$3", "$10", "$7", "$4"], "answer": "B"}
+{"id": "read12", "category": "reading", "question": "\"Mark has 4 boxes. Each box holds 5 pens.\" How many pens are there in total?", "choices": ["4", "9", "5", "20"], "answer": "D"}
+{"id": "read13", "category": "reading", "question": "\"The movie starts at 8pm. It is now 5pm.\" How many hours until the movie starts?", "choices": ["5", "3", "8", "13"], "answer": "B"}
+{"id": "read14", "category": "reading", "question": "\"The sky was clear and sunny all afternoon.\" What was the weather that afternoon?", "choices": ["sunny", "rainy", "snowy", "cloudy"], "answer": "A"}
+{"id": "read15", "category": "reading", "question": "\"Whenever Tom hears thunder, he feels afraid.\" How does Tom feel when he hears thunder?", "choices": ["happy", "proud", "excited", "afraid"], "answer": "D"}
+{"id": "read16", "category": "reading", "question": "\"If the road is icy, the school buses do not run. The road is icy today.\" Are the school buses running today?", "choices": ["yes", "no", "maybe", "can't tell"], "answer": "B"}
+{"id": "read17", "category": "reading", "question": "\"Liam has two brothers, Owen and Pete. Owen is younger than Pete.\" Which brother is older?", "choices": ["Liam", "Owen", "Pete", "can't tell"], "answer": "C"}
+{"id": "read18", "category": "reading", "question": "\"The kite was high in the sky. The kite was yellow.\" What color was the kite?", "choices": ["red", "blue", "green", "yellow"], "answer": "D"}
+{"id": "read19", "category": "reading", "question": "\"Emma goes for a run every Sunday morning.\" Does Emma run on Sunday?", "choices": ["yes", "no", "only sometimes", "can't tell"], "answer": "A"}
+{"id": "read20", "category": "reading", "question": "\"Every fruit in the basket is ripe. The orange is in the basket.\" Is the orange ripe?", "choices": ["no", "can't tell", "yes", "only sometimes"], "answer": "C"}
+{"id": "geo21", "category": "geography", "question": "What is the capital of Spain?", "choices": ["Madrid", "Barcelona", "Seville", "Valencia"], "answer": "A"}
+{"id": "geo22", "category": "geography", "question": "What is the capital of Canada?", "choices": ["Ottawa", "Toronto", "Vancouver", "Montreal"], "answer": "A"}
+{"id": "geo23", "category": "geography", "question": "What is the capital of Russia?", "choices": ["St. Petersburg", "Kiev", "Moscow", "Minsk"], "answer": "C"}
+{"id": "geo24", "category": "geography", "question": "What is the capital of Egypt?", "choices": ["Alexandria", "Luxor", "Cairo", "Giza"], "answer": "C"}
+{"id": "geo25", "category": "geography", "question": "What is the capital of Germany?", "choices": ["Berlin", "Hamburg", "Munich", "Frankfurt"], "answer": "A"}
+{"id": "geo26", "category": "geography", "question": "Which country is most famous for tulips and windmills?", "choices": ["Belgium", "Netherlands", "Denmark", "Switzerland"], "answer": "B"}
+{"id": "geo27", "category": "geography", "question": "Vatican City is completely enclosed by which country?", "choices": ["Italy", "France", "Spain", "Greece"], "answer": "A"}
+{"id": "geo28", "category": "geography", "question": "The Suez Canal connects the Mediterranean Sea to which other sea?", "choices": ["Black Sea", "Caspian Sea", "Baltic Sea", "Red Sea"], "answer": "D"}
+{"id": "geo29", "category": "geography", "question": "The Taj Mahal is located in which country?", "choices": ["Pakistan", "Bangladesh", "India", "Nepal"], "answer": "C"}
+{"id": "geo30", "category": "geography", "question": "Mount Fuji is located in which country?", "choices": ["China", "Korea", "Japan", "Taiwan"], "answer": "C"}
+{"id": "geo31", "category": "geography", "question": "Niagara Falls lies on the border between the United States and which country?", "choices": ["Mexico", "Canada", "Greenland", "Cuba"], "answer": "B"}
+{"id": "geo32", "category": "geography", "question": "The Pyramids of Giza are located in which country?", "choices": ["Egypt", "Sudan", "Libya", "Saudi Arabia"], "answer": "A"}
+{"id": "geo33", "category": "geography", "question": "Which is the smallest ocean on Earth?", "choices": ["Atlantic", "Pacific", "Indian", "Arctic"], "answer": "D"}
+{"id": "geo34", "category": "geography", "question": "The Panama Canal is located in which country?", "choices": ["Mexico", "Colombia", "Panama", "Costa Rica"], "answer": "C"}
+{"id": "geo35", "category": "geography", "question": "The Great Barrier Reef lies off the coast of which country?", "choices": ["New Zealand", "Australia", "Indonesia", "Philippines"], "answer": "B"}
+{"id": "geo36", "category": "geography", "question": "Which is the smallest country in the world by area?", "choices": ["Vatican City", "Monaco", "San Marino", "Liechtenstein"], "answer": "A"}
+{"id": "geo37", "category": "geography", "question": "The Hawaiian Islands are a part of which country?", "choices": ["Japan", "France", "United Kingdom", "United States"], "answer": "D"}
+{"id": "geo38", "category": "geography", "question": "Argentina is located on which continent?", "choices": ["North America", "South America", "Africa", "Australia"], "answer": "B"}
+{"id": "geo39", "category": "geography", "question": "The Acropolis is a famous landmark in which city?", "choices": ["Rome", "Cairo", "Athens", "Istanbul"], "answer": "C"}
+{"id": "geo40", "category": "geography", "question": "The Dead Sea borders Israel and which other country?", "choices": ["Egypt", "Lebanon", "Syria", "Jordan"], "answer": "D"}
+{"id": "hist21", "category": "history", "question": "Who is widely credited as the inventor of the practical electric lightbulb?", "choices": ["Thomas Edison", "Nikola Tesla", "Benjamin Franklin", "Michael Faraday"], "answer": "A"}
+{"id": "hist22", "category": "history", "question": "Who developed the first widely used polio vaccine?", "choices": ["Louis Pasteur", "Jonas Salk", "Edward Jenner", "Robert Koch"], "answer": "B"}
+{"id": "hist23", "category": "history", "question": "In what year was the Magna Carta signed?", "choices": ["1215", "1015", "1415", "1815"], "answer": "A"}
+{"id": "hist24", "category": "history", "question": "In which country did the Renaissance begin?", "choices": ["France", "Italy", "England", "Germany"], "answer": "B"}
+{"id": "hist25", "category": "history", "question": "In what year did Apollo 11 land humans on the Moon?", "choices": ["1959", "1965", "1969", "1979"], "answer": "C"}
+{"id": "hist26", "category": "history", "question": "Who is the ancient Greek poet traditionally credited with composing the Iliad and the Odyssey?", "choices": ["Plato", "Sophocles", "Aristotle", "Homer"], "answer": "D"}
+{"id": "hist27", "category": "history", "question": "The Hindenburg, which famously caught fire in 1937, was what kind of vehicle?", "choices": ["A train", "An airship", "A submarine", "An ocean liner"], "answer": "B"}
+{"id": "hist28", "category": "history", "question": "The Cold War was primarily a rivalry between which two countries?", "choices": ["China and Japan", "The United States and the Soviet Union", "Britain and Germany", "France and Spain"], "answer": "B"}
+{"id": "hist29", "category": "history", "question": "What was the name of the famous ocean liner that sank after hitting an iceberg in 1912?", "choices": ["Lusitania", "Mayflower", "Endeavour", "Titanic"], "answer": "D"}
+{"id": "hist30", "category": "history", "question": "The Eiffel Tower was originally built for which event?", "choices": ["The 1900 Olympics", "A coronation", "The end of the French Revolution", "The 1889 World's Fair"], "answer": "D"}
+{"id": "hist31", "category": "history", "question": "World War I was triggered by the assassination of which figure?", "choices": ["Tsar Nicholas II", "Kaiser Wilhelm", "Archduke Franz Ferdinand", "King Edward VII"], "answer": "C"}
+{"id": "hist32", "category": "history", "question": "Joan of Arc was a national heroine of which country?", "choices": ["France", "Spain", "England", "Italy"], "answer": "A"}
+{"id": "hist33", "category": "history", "question": "The Hundred Years' War was fought primarily between France and which other country?", "choices": ["Spain", "Germany", "England", "Portugal"], "answer": "C"}
+{"id": "hist34", "category": "history", "question": "Who wrote the novel '1984'?", "choices": ["George Orwell", "Aldous Huxley", "Ray Bradbury", "Kurt Vonnegut"], "answer": "A"}
+{"id": "hist35", "category": "history", "question": "The Vikings originally came from which region?", "choices": ["The Balkans", "The Caucasus", "The Iberian Peninsula", "Scandinavia"], "answer": "D"}
+{"id": "hist36", "category": "history", "question": "Which Roman city was buried by the eruption of Mount Vesuvius in 79 CE?", "choices": ["Ostia", "Herculaneum only", "Pompeii", "Ravenna"], "answer": "C"}
+{"id": "hist37", "category": "history", "question": "Mahatma Gandhi led the independence movement of which country?", "choices": ["Pakistan", "Sri Lanka", "Bangladesh", "India"], "answer": "D"}
+{"id": "hist38", "category": "history", "question": "Machu Picchu is an ancient citadel built by which civilization?", "choices": ["The Aztecs", "The Incas", "The Maya", "The Olmecs"], "answer": "B"}
+{"id": "hist39", "category": "history", "question": "Who painted the ceiling of the Sistine Chapel?", "choices": ["Raphael", "Michelangelo", "Donatello", "Botticelli"], "answer": "B"}
+{"id": "hist40", "category": "history", "question": "Who was the famous Tudor queen of England, daughter of Henry VIII?", "choices": ["Mary, Queen of Scots", "Anne Boleyn", "Queen Victoria", "Elizabeth I"], "answer": "D"}
+{"id": "ari21", "category": "arithmetic", "question": "What is 8 multiplied by 9?", "choices": ["72", "63", "81", "64"], "answer": "A"}
+{"id": "ari22", "category": "arithmetic", "question": "What is 60 plus 45?", "choices": ["95", "115", "105", "125"], "answer": "C"}
+{"id": "ari23", "category": "arithmetic", "question": "What is 200 minus 80?", "choices": ["100", "110", "130", "120"], "answer": "D"}
+{"id": "ari24", "category": "arithmetic", "question": "What is 12 multiplied by 5?", "choices": ["60", "55", "65", "50"], "answer": "A"}
+{"id": "ari25", "category": "arithmetic", "question": "What is 6 multiplied by 6?", "choices": ["36", "30", "42", "26"], "answer": "A"}
+{"id": "ari26", "category": "arithmetic", "question": "What is 20 percent of 50?", "choices": ["5", "10", "15", "20"], "answer": "B"}
+{"id": "ari27", "category": "arithmetic", "question": "What is one half plus one quarter, as a fraction?", "choices": ["1/2", "2/4", "3/4", "1/4"], "answer": "C"}
+{"id": "ari28", "category": "arithmetic", "question": "What is 144 divided by 12?", "choices": ["12", "14", "10", "16"], "answer": "A"}
+{"id": "ari29", "category": "arithmetic", "question": "What is 5 cubed?", "choices": ["25", "100", "125", "75"], "answer": "C"}
+{"id": "ari30", "category": "arithmetic", "question": "The sum of the interior angles in a hexagon equals how many degrees?", "choices": ["360", "540", "600", "720"], "answer": "D"}
+{"id": "ari31", "category": "arithmetic", "question": "What is 15 multiplied by 3?", "choices": ["35", "55", "45", "30"], "answer": "C"}
+{"id": "ari32", "category": "arithmetic", "question": "What is 200 divided by 4?", "choices": ["40", "50", "60", "25"], "answer": "B"}
+{"id": "ari33", "category": "arithmetic", "question": "What is the square root of 100?", "choices": ["10", "12", "20", "100"], "answer": "A"}
+{"id": "ari34", "category": "arithmetic", "question": "Which is the next prime number after 7?", "choices": ["11", "9", "13", "8"], "answer": "A"}
+{"id": "ari35", "category": "arithmetic", "question": "How many minutes are in one hour?", "choices": ["30", "60", "100", "120"], "answer": "B"}
+{"id": "ari36", "category": "arithmetic", "question": "How many hours are in a single day?", "choices": ["12", "20", "24", "48"], "answer": "C"}
+{"id": "ari37", "category": "arithmetic", "question": "The sum of the interior angles in a pentagon equals how many degrees?", "choices": ["360", "450", "720", "540"], "answer": "D"}
+{"id": "ari38", "category": "arithmetic", "question": "What is 100 divided by 25?", "choices": ["2", "5", "4", "10"], "answer": "C"}
+{"id": "ari39", "category": "arithmetic", "question": "How many degrees are in a full circle?", "choices": ["180", "360", "90", "270"], "answer": "B"}
+{"id": "ari40", "category": "arithmetic", "question": "What is one half plus one half?", "choices": ["1/4", "1/2", "3/4", "1"], "answer": "D"}
+{"id": "sci21", "category": "science", "question": "Which planet is often called the Red Planet?", "choices": ["Mars", "Venus", "Jupiter", "Saturn"], "answer": "A"}
+{"id": "sci22", "category": "science", "question": "Which gas makes up the largest portion of Earth's atmosphere?", "choices": ["Oxygen", "Nitrogen", "Carbon dioxide", "Argon"], "answer": "B"}
+{"id": "sci23", "category": "science", "question": "Which scientist is most famous for proposing the theory of general relativity?", "choices": ["Isaac Newton", "Niels Bohr", "Charles Darwin", "Albert Einstein"], "answer": "D"}
+{"id": "sci24", "category": "science", "question": "Which organ in the human body produces the hormone insulin?", "choices": ["Liver", "Kidney", "Pancreas", "Spleen"], "answer": "C"}
+{"id": "sci25", "category": "science", "question": "What is the freezing point of water at sea level in degrees Celsius?", "choices": ["0", "32", "100", "-10"], "answer": "A"}
+{"id": "sci26", "category": "science", "question": "Which human blood type is considered the universal donor for red blood cells?", "choices": ["AB positive", "A positive", "B negative", "O negative"], "answer": "D"}
+{"id": "sci27", "category": "science", "question": "Approximately how many days does Earth take to complete one orbit around the Sun?", "choices": ["30", "100", "365", "1000"], "answer": "C"}
+{"id": "sci28", "category": "science", "question": "Which gas do plants absorb from the atmosphere during photosynthesis?", "choices": ["Hydrogen", "Carbon dioxide", "Nitrogen", "Helium"], "answer": "B"}
+{"id": "sci29", "category": "science", "question": "What is the chemical symbol for sodium?", "choices": ["Na", "So", "Sn", "Sd"], "answer": "A"}
+{"id": "sci30", "category": "science", "question": "Which planet in our solar system is most famous for its prominent system of rings?", "choices": ["Jupiter", "Saturn", "Uranus", "Neptune"], "answer": "B"}
+{"id": "sci31", "category": "science", "question": "Which subatomic particle carries a positive electrical charge?", "choices": ["Electron", "Proton", "Neutron", "Photon"], "answer": "B"}
+{"id": "sci32", "category": "science", "question": "Which is the largest mammal on Earth?", "choices": ["African elephant", "Giraffe", "Polar bear", "Blue whale"], "answer": "D"}
+{"id": "sci33", "category": "science", "question": "Light from the Sun takes roughly how long to reach Earth?", "choices": ["8 seconds", "8 minutes", "8 hours", "8 days"], "answer": "B"}
+{"id": "sci34", "category": "science", "question": "Mitochondria are often described as the [...] of the cell.", "choices": ["library", "factory floor", "brain", "powerhouse"], "answer": "D"}
+{"id": "sci35", "category": "science", "question": "What is the chemical formula for common table salt?", "choices": ["H2O", "CO2", "NaCl", "O2"], "answer": "C"}
+{"id": "sci36", "category": "science", "question": "Which human sense organ is mainly responsible for detecting sound?", "choices": ["Ear", "Eye", "Nose", "Tongue"], "answer": "A"}
+{"id": "sci37", "category": "science", "question": "Which is the largest planet in our solar system?", "choices": ["Earth", "Saturn", "Neptune", "Jupiter"], "answer": "D"}
+{"id": "sci38", "category": "science", "question": "What does the abbreviation 'DNA' stand for?", "choices": ["Dynamic nucleic acid", "Deoxyribonucleic acid", "Dual nitrogen activator", "Diatomic nucleus arrangement"], "answer": "B"}
+{"id": "sci39", "category": "science", "question": "Which element makes up most of the Sun's mass?", "choices": ["Oxygen", "Iron", "Helium", "Hydrogen"], "answer": "D"}
+{"id": "sci40", "category": "science", "question": "Approximately how long does Earth take to rotate once on its axis?", "choices": ["1 hour", "12 hours", "24 hours", "48 hours"], "answer": "C"}
+{"id": "lang21", "category": "language", "question": "Which of these is a verb?", "choices": ["jump", "tall", "happy", "loudly"], "answer": "A"}
+{"id": "lang22", "category": "language", "question": "The plural form of 'leaf' is:", "choices": ["leaves", "leafs", "leafes", "leavs"], "answer": "A"}
+{"id": "lang23", "category": "language", "question": "The past tense of 'see' is:", "choices": ["seed", "seeing", "saw", "seen"], "answer": "C"}
+{"id": "lang24", "category": "language", "question": "Which of these is an adjective?", "choices": ["sing", "quickly", "tall", "they"], "answer": "C"}
+{"id": "lang25", "category": "language", "question": "What is the plural form of the word 'tooth'?", "choices": ["teeth", "tooths", "toothes", "teeths"], "answer": "A"}
+{"id": "lang26", "category": "language", "question": "What is the past tense of the verb 'buy'?", "choices": ["buyed", "buy", "bought", "buying"], "answer": "C"}
+{"id": "lang27", "category": "language", "question": "The plural form of 'knife' is:", "choices": ["knifes", "knive", "knives", "knifees"], "answer": "C"}
+{"id": "lang28", "category": "language", "question": "Which of these is the correct spelling?", "choices": ["accomodation", "acommodation", "accommadation", "accommodation"], "answer": "D"}
+{"id": "lang29", "category": "language", "question": "Which of these is a conjunction?", "choices": ["table", "and", "loud", "happily"], "answer": "B"}
+{"id": "lang30", "category": "language", "question": "Which of these is a pronoun?", "choices": ["they", "drive", "sweet", "carefully"], "answer": "A"}
+{"id": "lang31", "category": "language", "question": "What is the past tense of the verb 'swim'?", "choices": ["swimmed", "swam", "swimming", "swims"], "answer": "B"}
+{"id": "lang32", "category": "language", "question": "Which sentence has correct subject-verb agreement?", "choices": ["The dogs barks all night.", "The dog bark all night.", "The dogs bark all night.", "The dog barking all night."], "answer": "C"}
+{"id": "lang33", "category": "language", "question": "What is the plural form of the word 'woman'?", "choices": ["women", "womans", "womens", "woman"], "answer": "A"}
+{"id": "lang34", "category": "language", "question": "Which is the correct contraction of 'they are'?", "choices": ["there", "their", "theyre", "they're"], "answer": "D"}
+{"id": "lang35", "category": "language", "question": "Which of these is a preposition?", "choices": ["sing", "above", "blue", "she"], "answer": "B"}
+{"id": "lang36", "category": "language", "question": "What is the past tense of the verb 'bring'?", "choices": ["bringed", "bringing", "brought", "brung"], "answer": "C"}
+{"id": "lang37", "category": "language", "question": "Identify the correctly spelled word:", "choices": ["necesary", "necessary", "neccesary", "necessery"], "answer": "B"}
+{"id": "lang38", "category": "language", "question": "Which of these sentences uses correct punctuation?", "choices": ["Where are you going?", "Where are you going.", "Where are you going,", "Where are you going!"], "answer": "A"}
+{"id": "lang39", "category": "language", "question": "What is the plural form of the word 'person'?", "choices": ["persons only", "personnes", "persones", "people"], "answer": "D"}
+{"id": "lang40", "category": "language", "question": "What is the past tense of the verb 'think'?", "choices": ["thinked", "thinking", "thinks", "thought"], "answer": "D"}
+{"id": "vocab21", "category": "vocabulary", "question": "What is the opposite of 'strong'?", "choices": ["weak", "tough", "tall", "fast"], "answer": "A"}
+{"id": "vocab22", "category": "vocabulary", "question": "The word 'timid' most nearly means:", "choices": ["loud", "bold", "shy", "tall"], "answer": "C"}
+{"id": "vocab23", "category": "vocabulary", "question": "What does the word 'huge' mean?", "choices": ["very small", "very heavy", "very fast", "very big"], "answer": "D"}
+{"id": "vocab24", "category": "vocabulary", "question": "What is the opposite of 'easy'?", "choices": ["soft", "difficult", "fast", "long"], "answer": "B"}
+{"id": "vocab25", "category": "vocabulary", "question": "The word 'ill' most nearly means:", "choices": ["happy", "sick", "loud", "bored"], "answer": "B"}
+{"id": "vocab26", "category": "vocabulary", "question": "What is the opposite of 'tall'?", "choices": ["short", "wide", "thin", "heavy"], "answer": "A"}
+{"id": "vocab27", "category": "vocabulary", "question": "The word 'smart' most nearly means:", "choices": ["kind", "fast", "tall", "intelligent"], "answer": "D"}
+{"id": "vocab28", "category": "vocabulary", "question": "What is the opposite of 'wet'?", "choices": ["warm", "dry", "cold", "soft"], "answer": "B"}
+{"id": "vocab29", "category": "vocabulary", "question": "The word 'gloomy' most nearly means:", "choices": ["bright", "loud", "sad", "calm"], "answer": "C"}
+{"id": "vocab30", "category": "vocabulary", "question": "What is the opposite of 'young'?", "choices": ["new", "fast", "tall", "old"], "answer": "D"}
+{"id": "vocab31", "category": "vocabulary", "question": "The word 'kind' most nearly means:", "choices": ["friendly", "loud", "fast", "tall"], "answer": "A"}
+{"id": "vocab32", "category": "vocabulary", "question": "What is the opposite of 'loud'?", "choices": ["bright", "heavy", "quiet", "tall"], "answer": "C"}
+{"id": "vocab33", "category": "vocabulary", "question": "The word 'calm' most nearly means:", "choices": ["loud", "peaceful", "fast", "angry"], "answer": "B"}
+{"id": "vocab34", "category": "vocabulary", "question": "What is the opposite of 'dirty'?", "choices": ["fresh", "soft", "warm", "clean"], "answer": "D"}
+{"id": "vocab35", "category": "vocabulary", "question": "The word 'honest' most nearly means:", "choices": ["loud", "truthful", "tall", "kind"], "answer": "B"}
+{"id": "vocab36", "category": "vocabulary", "question": "What is the opposite of 'rich'?", "choices": ["small", "happy", "kind", "poor"], "answer": "D"}
+{"id": "vocab37", "category": "vocabulary", "question": "The word 'joyful' most nearly means:", "choices": ["calm", "sleepy", "happy", "tired"], "answer": "C"}
+{"id": "vocab38", "category": "vocabulary", "question": "What is the opposite of 'near'?", "choices": ["far", "close", "high", "low"], "answer": "A"}
+{"id": "vocab39", "category": "vocabulary", "question": "The word 'exhausted' most nearly means:", "choices": ["alert", "tired", "hungry", "thirsty"], "answer": "B"}
+{"id": "vocab40", "category": "vocabulary", "question": "What is the opposite of 'begin'?", "choices": ["start", "open", "continue", "end"], "answer": "D"}
+{"id": "cs21", "category": "common-sense", "question": "To wash your hands properly, you mainly need:", "choices": ["water", "sand", "flour", "oil"], "answer": "A"}
+{"id": "cs22", "category": "common-sense", "question": "Which of these is most useful for starting a small campfire?", "choices": ["a glass cup", "a wet sponge", "matches", "a metal pipe"], "answer": "C"}
+{"id": "cs23", "category": "common-sense", "question": "Which of these farm animals is best known for producing milk that people commonly drink?", "choices": ["cow", "horse", "chicken", "duck"], "answer": "A"}
+{"id": "cs24", "category": "common-sense", "question": "When you feel hungry, what do you most commonly do?", "choices": ["sleep", "eat", "run", "shower"], "answer": "B"}
+{"id": "cs25", "category": "common-sense", "question": "Most birds use their wings primarily to:", "choices": ["fly", "swim", "dig", "climb"], "answer": "A"}
+{"id": "cs26", "category": "common-sense", "question": "To see stars and planets in detail from Earth, scientists most often use:", "choices": ["a microscope", "a stethoscope", "a telescope", "a thermometer"], "answer": "C"}
+{"id": "cs27", "category": "common-sense", "question": "Fish typically live in:", "choices": ["water", "trees", "underground burrows", "the air"], "answer": "A"}
+{"id": "cs28", "category": "common-sense", "question": "Which season usually comes immediately after spring?", "choices": ["winter", "autumn", "summer", "spring again"], "answer": "C"}
+{"id": "cs29", "category": "common-sense", "question": "What do bees mainly collect from flowers?", "choices": ["leaves", "nectar", "wood", "stones"], "answer": "B"}
+{"id": "cs30", "category": "common-sense", "question": "Which of these is most useful for digging a hole in the ground?", "choices": ["a fork", "a phone", "a pencil", "a shovel"], "answer": "D"}
+{"id": "cs31", "category": "common-sense", "question": "To boil water on a stove, you most directly need:", "choices": ["ice", "cold air", "heat", "a fan"], "answer": "C"}
+{"id": "cs32", "category": "common-sense", "question": "Which of these is typically the fastest way to travel a long distance on land?", "choices": ["a car", "walking", "a bicycle", "a skateboard"], "answer": "A"}
+{"id": "cs33", "category": "common-sense", "question": "Which of these is most useful for finding your direction outdoors?", "choices": ["a spoon", "a candle", "a book", "a compass"], "answer": "D"}
+{"id": "cs34", "category": "common-sense", "question": "To brush your teeth, you would most commonly use:", "choices": ["a broom", "a sponge", "a toothbrush", "a comb"], "answer": "C"}
+{"id": "cs35", "category": "common-sense", "question": "What do people most often use to dry themselves after a shower?", "choices": ["a hammer", "a candle", "a towel", "a fork"], "answer": "C"}
+{"id": "cs36", "category": "common-sense", "question": "Where would you most likely go to buy groceries?", "choices": ["a library", "a supermarket", "a museum", "a stadium"], "answer": "B"}
+{"id": "cs37", "category": "common-sense", "question": "Which of these would most help keep you dry in heavy rain?", "choices": ["a raincoat", "sunglasses", "sandals", "a fan"], "answer": "A"}
+{"id": "cs38", "category": "common-sense", "question": "Which word names the opposite of 'day'?", "choices": ["morning", "afternoon", "noon", "night"], "answer": "D"}
+{"id": "cs39", "category": "common-sense", "question": "What is a book mainly used for?", "choices": ["sitting on", "reading", "cooking with", "cleaning floors"], "answer": "B"}
+{"id": "cs40", "category": "common-sense", "question": "To quickly travel from the ground floor to the top of a tall building, you most commonly use:", "choices": ["a ladder", "a slide", "a treadmill", "an elevator"], "answer": "D"}
+{"id": "logic21", "category": "logic", "question": "All squares are rectangles. This shape is a square. Therefore, this shape is also a:", "choices": ["triangle", "rectangle", "circle", "pentagon"], "answer": "B"}
+{"id": "logic22", "category": "logic", "question": "All elephants are gray. Jumbo is an elephant. Therefore, Jumbo is:", "choices": ["gray", "small", "yellow", "a bird"], "answer": "A"}
+{"id": "logic23", "category": "logic", "question": "If today is Monday, what day was yesterday?", "choices": ["Tuesday", "Sunday", "Saturday", "Wednesday"], "answer": "B"}
+{"id": "logic24", "category": "logic", "question": "You have 12 marbles and lose 5 of them. How many marbles do you have left?", "choices": ["12", "5", "17", "7"], "answer": "D"}
+{"id": "logic25", "category": "logic", "question": "If 3 + X = 10, then X equals:", "choices": ["3", "10", "13", "7"], "answer": "D"}
+{"id": "logic26", "category": "logic", "question": "Tom is older than Anna. Anna is older than Beth. Who is the youngest?", "choices": ["Tom", "Anna", "they are the same age", "Beth"], "answer": "D"}
+{"id": "logic27", "category": "logic", "question": "How many corners does a circle have?", "choices": ["4", "1", "infinitely many", "0"], "answer": "D"}
+{"id": "logic28", "category": "logic", "question": "Two trains leave a station at noon. Train A travels faster than Train B. After one hour, which train is farther from the station?", "choices": ["Train A", "Train B", "both the same", "can't tell"], "answer": "A"}
+{"id": "logic29", "category": "logic", "question": "All birds have feathers. Bats are not birds. From this alone, can we conclude that bats have feathers?", "choices": ["yes", "no", "only sometimes", "only at night"], "answer": "B"}
+{"id": "logic30", "category": "logic", "question": "If today is Wednesday, what day of the week will it be three days from now?", "choices": ["Friday", "Sunday", "Saturday", "Monday"], "answer": "C"}
+{"id": "logic31", "category": "logic", "question": "Box X is heavier than Box Y. Box Y is heavier than Box Z. Which box is the heaviest?", "choices": ["Box X", "Box Y", "Box Z", "can't tell"], "answer": "A"}
+{"id": "logic32", "category": "logic", "question": "How many corners does a triangle have?", "choices": ["3", "4", "5", "0"], "answer": "A"}
+{"id": "logic33", "category": "logic", "question": "If A is less than B, and B is less than C, then A is:", "choices": ["greater than C", "equal to C", "less than C", "unrelated to C"], "answer": "C"}
+{"id": "logic34", "category": "logic", "question": "You start with $20 and spend $7. How much money do you have left?", "choices": ["$20", "$13", "$27", "$7"], "answer": "B"}
+{"id": "logic35", "category": "logic", "question": "A shelf holds 10 books. There are 5 such shelves. How many books are there in total?", "choices": ["15", "50", "5", "10"], "answer": "B"}
+{"id": "logic36", "category": "logic", "question": "Four friends sit in a row. Anna sits to the left of Ben, who sits to the left of Carl, who sits to the left of Dan. Who is on the far right?", "choices": ["Anna", "Ben", "Carl", "Dan"], "answer": "D"}
+{"id": "logic37", "category": "logic", "question": "If it is now 3pm, what time will it be four hours from now?", "choices": ["6pm", "7pm", "8pm", "11am"], "answer": "B"}
+{"id": "logic38", "category": "logic", "question": "All cats have whiskers. This animal has whiskers. From this alone, what can we conclude?", "choices": ["it is definitely a cat", "it is probably a cat", "we cannot conclude it is a cat", "it is not a cat"], "answer": "C"}
+{"id": "logic39", "category": "logic", "question": "Sam has 6 oranges and eats 2 of them. How many oranges does Sam have left?", "choices": ["8", "6", "4", "2"], "answer": "C"}
+{"id": "logic40", "category": "logic", "question": "A square has four equal sides. If one side measures 5 centimeters, what is the perimeter of the square?", "choices": ["10 cm", "15 cm", "25 cm", "20 cm"], "answer": "D"}
+{"id": "cat21", "category": "categorization", "question": "Which of these is a reptile?", "choices": ["snake", "frog", "salmon", "sparrow"], "answer": "A"}
+{"id": "cat22", "category": "categorization", "question": "Which of these is not a planet?", "choices": ["the Moon", "Mars", "Venus", "Jupiter"], "answer": "A"}
+{"id": "cat23", "category": "categorization", "question": "Which of these is a citrus fruit?", "choices": ["apple", "banana", "lemon", "strawberry"], "answer": "C"}
+{"id": "cat24", "category": "categorization", "question": "Which of these is a primary color?", "choices": ["red", "purple", "orange", "pink"], "answer": "A"}
+{"id": "cat25", "category": "categorization", "question": "Which of these is not a mammal?", "choices": ["dog", "elephant", "salmon", "cow"], "answer": "C"}
+{"id": "cat26", "category": "categorization", "question": "Which of these is a country?", "choices": ["Paris", "Europe", "Brazil", "Sahara"], "answer": "C"}
+{"id": "cat27", "category": "categorization", "question": "Which of these is a noble gas?", "choices": ["helium", "oxygen", "nitrogen", "chlorine"], "answer": "A"}
+{"id": "cat28", "category": "categorization", "question": "Which of these is not a vegetable?", "choices": ["carrot", "apple", "spinach", "broccoli"], "answer": "B"}
+{"id": "cat29", "category": "categorization", "question": "Which of these is a type of cloud?", "choices": ["maple", "granite", "cumulus", "basalt"], "answer": "C"}
+{"id": "cat30", "category": "categorization", "question": "Which of these is not a continent?", "choices": ["Asia", "Europe", "Africa", "Greenland"], "answer": "D"}
+{"id": "cat31", "category": "categorization", "question": "Which of these is a dairy product?", "choices": ["milk", "bread", "rice", "lettuce"], "answer": "A"}
+{"id": "cat32", "category": "categorization", "question": "Which of these is not a musical instrument?", "choices": ["violin", "hammer", "trumpet", "drum"], "answer": "B"}
+{"id": "cat33", "category": "categorization", "question": "Which of these is a type of tree?", "choices": ["salmon", "iron", "oak", "marble"], "answer": "C"}
+{"id": "cat34", "category": "categorization", "question": "Which of these is not a country?", "choices": ["Japan", "Asia", "Brazil", "Egypt"], "answer": "B"}
+{"id": "cat35", "category": "categorization", "question": "Which of these is a precious gemstone?", "choices": ["diamond", "iron", "granite", "limestone"], "answer": "A"}
+{"id": "cat36", "category": "categorization", "question": "Which of these is a mode of transportation?", "choices": ["a kettle", "a lamp", "a bus", "a sponge"], "answer": "C"}
+{"id": "cat37", "category": "categorization", "question": "Which of these is not a type of food?", "choices": ["bread", "rice", "apple", "brick"], "answer": "D"}
+{"id": "cat38", "category": "categorization", "question": "Which of these is an insect?", "choices": ["mouse", "ant", "lizard", "trout"], "answer": "B"}
+{"id": "cat39", "category": "categorization", "question": "Which of these is not a part of the human body?", "choices": ["arm", "leg", "ear", "chair"], "answer": "D"}
+{"id": "cat40", "category": "categorization", "question": "Which of these is a human profession?", "choices": ["river", "cloud", "boulder", "teacher"], "answer": "D"}
+{"id": "read21", "category": "reading", "question": "\"There are 5 birds in a tree. 2 of them fly away.\" How many birds remain in the tree?", "choices": ["5", "3", "7", "2"], "answer": "B"}
+{"id": "read22", "category": "reading", "question": "\"The bakery sells 4 loaves of bread for a total of $12.\" If each loaf costs the same, how much does one loaf cost?", "choices": ["$4", "$3", "$12", "$1"], "answer": "B"}
+{"id": "read23", "category": "reading", "question": "\"Mia walks for 30 minutes each morning. Today is a morning.\" How long will Mia walk today?", "choices": ["30 minutes", "60 minutes", "15 minutes", "we don't know"], "answer": "A"}
+{"id": "read24", "category": "reading", "question": "\"If it is raining, the picnic is cancelled. It is raining today.\" Is the picnic happening today?", "choices": ["yes", "no", "maybe", "can't tell"], "answer": "B"}
+{"id": "read25", "category": "reading", "question": "\"The store opens at 9am and closes at 9pm.\" How many hours is the store open each day?", "choices": ["10", "11", "12", "24"], "answer": "C"}
+{"id": "read26", "category": "reading", "question": "\"Anna planted 8 flowers in her garden. 3 are red and the rest are yellow.\" How many yellow flowers are in the garden?", "choices": ["8", "3", "2", "5"], "answer": "D"}
+{"id": "read27", "category": "reading", "question": "\"Jack feels excited whenever he visits the beach.\" How does Jack feel when he visits the beach?", "choices": ["bored", "tired", "angry", "excited"], "answer": "D"}
+{"id": "read28", "category": "reading", "question": "\"Every member of the team wore a blue uniform. Bob is a member of the team.\" What color uniform did Bob wear?", "choices": ["red", "green", "white", "blue"], "answer": "D"}
+{"id": "read29", "category": "reading", "question": "\"The cake takes 45 minutes to bake. It was put in the oven at 2:00pm.\" At what time will the cake be done?", "choices": ["3:00pm", "2:45pm", "2:30pm", "1:15pm"], "answer": "B"}
+{"id": "read30", "category": "reading", "question": "\"The library has 3 floors. Each floor has 100 books.\" How many books does the library hold in total?", "choices": ["100", "300", "30", "1000"], "answer": "B"}
+{"id": "read31", "category": "reading", "question": "\"Sara is taller than Kim. Kim is taller than Lee.\" Who is the shortest of the three?", "choices": ["Sara", "Kim", "they are the same height", "Lee"], "answer": "D"}
+{"id": "read32", "category": "reading", "question": "\"All birds in this cage are yellow. Tweety is in this cage.\" What color is Tweety?", "choices": ["yellow", "blue", "green", "can't tell"], "answer": "A"}
+{"id": "read33", "category": "reading", "question": "\"Peter walks to school on weekdays only.\" Does Peter walk to school on Saturday?", "choices": ["yes", "only sometimes", "can't tell", "no"], "answer": "D"}
+{"id": "read34", "category": "reading", "question": "\"If the temperature is below 0 degrees Celsius, the lake will freeze. The current temperature is -5 degrees Celsius.\" Will the lake freeze?", "choices": ["yes", "no", "only sometimes", "can't tell"], "answer": "A"}
+{"id": "read35", "category": "reading", "question": "\"Lily has $10. She buys a book for $7.\" How much money does Lily have left?", "choices": ["$7", "$10", "$3", "$17"], "answer": "C"}
+{"id": "read36", "category": "reading", "question": "\"Three friends share 12 candies equally.\" How many candies does each friend receive?", "choices": ["3", "5", "4", "6"], "answer": "C"}
+{"id": "read37", "category": "reading", "question": "\"Tom plays guitar every Tuesday and Thursday.\" Does Tom play guitar on Wednesday?", "choices": ["yes", "no", "only sometimes", "can't tell"], "answer": "B"}
+{"id": "read38", "category": "reading", "question": "\"Every student in this class is over 10 years old. Jamie is in this class.\" Is Jamie over 10 years old?", "choices": ["no", "only sometimes", "yes", "can't tell"], "answer": "C"}
+{"id": "read39", "category": "reading", "question": "\"Olivia's birthday is in March. Today is the 1st of May.\" Has Olivia's birthday already passed this year?", "choices": ["yes", "no", "only sometimes", "can't tell"], "answer": "A"}
+{"id": "read40", "category": "reading", "question": "\"Every house on Maple Street has a red door. House Number 7 is on Maple Street.\" What color is the door of House Number 7?", "choices": ["blue", "green", "white", "red"], "answer": "D"}
