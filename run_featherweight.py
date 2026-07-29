@@ -94,66 +94,60 @@ def normalize_answer(ans, num_choices: int) -> str:
     raise ValueError(f"invalid answer {ans!r} for {num_choices} choices")
 
 
-def _find_choice_position(text: str, choice_text: str):
-    if not choice_text or not text:
-        return None
-    choice_text = choice_text.strip()
-    if not choice_text:
-        return None
-    pattern = re.escape(choice_text)
-    if choice_text[0].isalnum():
-        pattern = r'\b' + pattern
-    if choice_text[-1].isalnum():
-        pattern = pattern + r'\b'
-    m = re.search(pattern, text, re.IGNORECASE)
-    return m.start() if m else None
+def extract_letter(text: str, num_choices: int):
+    """Extract a choice letter (A..max) from a model reply.
 
+    Accepted forms:
+      A
+      a
+      (A)
+      A)
+      A.
+      A:
+      Answer: A
+      Answer is A
+      The answer is A
 
-def extract_letter(text: str, num_choices: int, choices=None):
-    """Pull a letter (A..max) from a model reply. None if extraction fails.
-
-    Strategy (in order):
-      1. Parenthesized: "(A)"
-      2. "answer: A" or "answer is A"
-      3. Reply starts with "A)", "A.", "A,"
-      4. Choice-text match (e.g. "Paris" matches choice B if choices[1]=="Paris")
-      5. Any standalone letter A..max
-      6. First non-whitespace character
+    Returns the extracted uppercase letter or None.
     """
     if not text:
         return None
-    max_letter = chr(ord('A') + num_choices - 1)
-    pat = f'[A-{max_letter}]'
+
+    max_letter = chr(ord("A") + num_choices - 1)
+    pat = f"[A-{max_letter}]"
     flags = re.IGNORECASE
 
-    m = re.search(r'\((' + pat + r')\)', text, flags)
-    if m:
-        return m.group(1).upper()
-    m = re.search(r'answer\s*(?:is)?\s*[:\-]?\s*(' + pat + r')\b', text, flags)
-    if m:
-        return m.group(1).upper()
-    m = re.match(r'^\s*(' + pat + r')[\s.,):]', text, flags)
+    text = text.strip()
+
+    # Entire reply is just the letter.
+    m = re.fullmatch(rf"\(?({pat})\)?\.?", text, flags)
     if m:
         return m.group(1).upper()
 
-    if choices:
-        matches = []
-        for i, choice in enumerate(choices):
-            pos = _find_choice_position(text, str(choice))
-            if pos is not None:
-                matches.append((pos, chr(ord('A') + i)))
-        if matches:
-            matches.sort()
-            return matches[0][1]
-
-    m = re.search(r'\b(' + pat + r')\b', text, flags)
+    # "Answer: C", "Answer is C", "The answer is C"
+    m = re.search(
+        rf"\b(?:the\s+)?answer\s*(?:is)?\s*[:\-]?\s*({pat})\b",
+        text,
+        flags,
+    )
     if m:
         return m.group(1).upper()
-    stripped = text.strip()
-    if stripped:
-        first = stripped[0].upper()
-        if 'A' <= first <= max_letter:
-            return first
+
+    # Reply starts with "C)", "C.", "C:"
+    m = re.match(rf"^\s*({pat})[\s\.\,\):]", text, flags)
+    if m:
+        return m.group(1).upper()
+
+    # Parenthesized anywhere: "(C)"
+    m = re.search(rf"\(({pat})\)", text, flags)
+    if m:
+        return m.group(1).upper()
+
+    # Standalone letter anywhere.
+    m = re.search(rf"\b({pat})\b", text, flags)
+    if m:
+        return m.group(1).upper()
+
     return None
 
 
@@ -459,7 +453,7 @@ def run_one_model(name: str, backend, questions: list, prompt_style: str = "plai
         except Exception as e:
             reply = f"[backend error: {e}]"
 
-        predicted = extract_letter(reply, num_choices, q["choices"])
+        predicted = extract_letter(reply, num_choices)
         is_correct = (predicted is not None and predicted == expected)
 
         if is_correct:
