@@ -1,0 +1,301 @@
+{"_meta":true,"name":"ChatbotGym (checks)","test_format":"checks","version":"0.2","max_new_tokens":384,"description":"Deterministic, judge-free chatbot usability probes. 300 questions.","scoring":"1 point when all of an item's checks pass (default)."}
+{"id":"if1","category":"instruction_following","prompt":"Reply with only the word YES or only the word NO. Is water wet?","checks":[{"type":"contains_any","values":["yes","no"]},{"type":"max_words","value":2}]}
+{"id":"if2","category":"instruction_following","prompt":"In one word, name the largest planet in our solar system.","checks":[{"type":"contains_any","values":["jupiter"]},{"type":"max_words","value":2}]}
+{"id":"if3","category":"instruction_following","prompt":"Output the number 42 and nothing else.","checks":[{"type":"regex","pattern":"^\\s*42\\s*$"}]}
+{"id":"if4","category":"instruction_following","prompt":"What is 12 times 12? Reply with only the number.","checks":[{"type":"regex","pattern":"^\\D*144\\D*$"}]}
+{"id":"if5","category":"instruction_following","prompt":"Type the word 'hello' three times, separated by spaces.","checks":[{"type":"regex","pattern":"^(hello\\s*){3}$"}]}
+{"id":"if6","category":"instruction_following","prompt":"Say goodbye. Use only lowercase letters.","checks":[{"type":"regex","pattern":"^goodbye$"}]}
+{"id":"if7","category":"instruction_following","prompt":"What is the capital of France? Reply with only the city name.","checks":[{"type":"equals","value":"paris"}]}
+{"id":"if8","category":"instruction_following","prompt":"Is the sun a star? Answer with 'True' or 'False'.","checks":[{"type":"equals","value":"true"}]}
+{"id":"if9","category":"instruction_following","prompt":"Count from 1 to 3. Only the numbers, separated by commas.","checks":[{"type":"regex","pattern":"^1,\\s*2,\\s*3$"}]}
+{"id":"if10","category":"instruction_following","prompt":"What sound does a cat make? Reply with exactly one word.","checks":[{"type":"equals","value":"meow"}]}
+{"id":"if11","category":"instruction_following","prompt":"Output the number 100 and nothing else.","checks":[{"type":"regex","pattern":"^\\s*100\\s*$"}]}
+{"id":"if12","category":"instruction_following","prompt":"What is 5 plus 5? Reply with only the number.","checks":[{"type":"regex","pattern":"^\\D*10\\D*$"}]}
+{"id":"if13","category":"instruction_following","prompt":"Name the fifth planet from the sun. One word only.","checks":[{"type":"equals","value":"jupiter"}]}
+{"id":"if14","category":"instruction_following","prompt":"What is the chemical symbol for water? One word only.","checks":[{"type":"equals","value":"h2o"}]}
+{"id":"if15","category":"instruction_following","prompt":"What is 10 minus 7? Reply with only the number.","checks":[{"type":"regex","pattern":"^\\D*3\\D*$"}]}
+{"id":"if16","category":"instruction_following","prompt":"Is the earth flat? Answer YES or NO.","checks":[{"type":"contains_any","values":["no"]},{"type":"max_words","value":2}]}
+{"id":"if17","category":"instruction_following","prompt":"What color do you get when you mix blue and yellow? One word.","checks":[{"type":"equals","value":"green"}]}
+{"id":"if18","category":"instruction_following","prompt":"Type the letter 'A' three times with no spaces.","checks":[{"type":"regex","pattern":"^AAA$"}]}
+{"id":"if19","category":"instruction_following","prompt":"Reply with only the current year. (Assume 2024)","checks":[{"type":"regex","pattern":"^\\s*2024\\s*$"}]}
+{"id":"if20","category":"instruction_following","prompt":"Name the first month of the year. One word only.","checks":[{"type":"equals","value":"january"}]}
+{"id":"if21","category":"instruction_following","prompt":"What is 7 times 8? Reply with only the number.","checks":[{"type":"regex","pattern":"^\\D*56\\D*$"}]}
+{"id":"if22","category":"instruction_following","prompt":"What is the opposite of 'hot'? One word.","checks":[{"type":"equals","value":"cold"}]}
+{"id":"if23","category":"instruction_following","prompt":"How many days are in a week? Reply with only the number.","checks":[{"type":"regex","pattern":"^\\D*7\\D*$"}]}
+{"id":"if24","category":"instruction_following","prompt":"Name the largest ocean on Earth. One word.","checks":[{"type":"equals","value":"pacific"}]}
+{"id":"if25","category":"instruction_following","prompt":"Is 10 greater than 5? Reply YES or NO.","checks":[{"type":"contains_any","values":["yes"]},{"type":"max_words","value":2}]}
+{"id":"if26","category":"instruction_following","prompt":"What is 20 divided by 4? Reply with only the number.","checks":[{"type":"regex","pattern":"^\\D*5\\D*$"}]}
+{"id":"if27","category":"instruction_following","prompt":"Name the fastest land animal. One word.","checks":[{"type":"equals","value":"cheetah"}]}
+{"id":"if28","category":"instruction_following","prompt":"What is the main ingredient in bread? One word.","checks":[{"type":"equals","value":"flour"}]}
+{"id":"if29","category":"instruction_following","prompt":"How many sides does a triangle have? Only the number.","checks":[{"type":"regex","pattern":"^\\D*3\\D*$"}]}
+{"id":"if30","category":"instruction_following","prompt":"Type the word 'test' backwards. Only the word.","checks":[{"type":"equals","value":"tset"}]}
+{"id":"if31","category":"instruction_following","prompt":"What is 15 plus 15? Only the number.","checks":[{"type":"regex","pattern":"^\\D*30\\D*$"}]}
+{"id":"if32","category":"instruction_following","prompt":"Name the planet we live on. One word.","checks":[{"type":"equals","value":"earth"}]}
+{"id":"if33","category":"instruction_following","prompt":"Is ice cold? Answer YES or NO.","checks":[{"type":"contains_any","values":["yes"]},{"type":"max_words","value":2}]}
+{"id":"if34","category":"instruction_following","prompt":"What is 100 minus 1? Only the number.","checks":[{"type":"regex","pattern":"^\\D*99\\D*$"}]}
+{"id":"if35","category":"instruction_following","prompt":"Name the yellow center of an egg. One word.","checks":[{"type":"equals","value":"yolk"}]}
+{"id":"if36","category":"instruction_following","prompt":"What is 9 times 9? Only the number.","checks":[{"type":"regex","pattern":"^\\D*81\\D*$"}]}
+{"id":"if37","category":"instruction_following","prompt":"Type the word 'robot' in all capital letters.","checks":[{"type":"equals","value":"robot"}]}
+{"id":"if38","category":"instruction_following","prompt":"Name the bird that cannot fly and lives in Antarctica. One word.","checks":[{"type":"equals","value":"penguin"}]}
+{"id":"if39","category":"instruction_following","prompt":"What is 50 plus 50? Only the number.","checks":[{"type":"regex","pattern":"^\\D*100\\D*$"}]}
+{"id":"if40","category":"instruction_following","prompt":"Is fire hot? Answer YES or NO.","checks":[{"type":"contains_any","values":["yes"]},{"type":"max_words","value":2}]}
+{"id":"if41","category":"instruction_following","prompt":"What is 8 times 8? Only the number.","checks":[{"type":"regex","pattern":"^\\D*64\\D*$"}]}
+{"id":"if42","category":"instruction_following","prompt":"Name the longest river in the world. One word.","checks":[{"type":"equals","value":"nile"}]}
+{"id":"if43","category":"instruction_following","prompt":"How many minutes are in an hour? Only the number.","checks":[{"type":"regex","pattern":"^\\D*60\\D*$"}]}
+{"id":"if44","category":"instruction_following","prompt":"What is 144 divided by 12? Only the number.","checks":[{"type":"regex","pattern":"^\\D*12\\D*$"}]}
+{"id":"if45","category":"instruction_following","prompt":"Name the hardest natural substance on Earth. One word.","checks":[{"type":"equals","value":"diamond"}]}
+{"id":"if46","category":"instruction_following","prompt":"What is 3 cubed? Only the number.","checks":[{"type":"regex","pattern":"^\\D*27\\D*$"}]}
+{"id":"if47","category":"instruction_following","prompt":"Is a whale a fish? Answer YES or NO.","checks":[{"type":"contains_any","values":["no"]},{"type":"max_words","value":2}]}
+{"id":"if48","category":"instruction_following","prompt":"What is 1000 minus 1? Only the number.","checks":[{"type":"regex","pattern":"^\\D*999\\D*$"}]}
+{"id":"if49","category":"instruction_following","prompt":"Name the closest star to Earth. One word.","checks":[{"type":"equals","value":"sun"}]}
+{"id":"if50","category":"instruction_following","prompt":"What is 14 times 2? Only the number.","checks":[{"type":"regex","pattern":"^\\D*28\\D*$"}]}
+{"id":"if51","category":"instruction_following","prompt":"Output the number 0 and nothing else.","checks":[{"type":"regex","pattern":"^\\s*0\\s*$"}]}
+{"id":"if52","category":"instruction_following","prompt":"What is 11 times 11? Only the number.","checks":[{"type":"regex","pattern":"^\\D*121\\D*$"}]}
+{"id":"if53","category":"instruction_following","prompt":"Is snow white? Answer YES or NO.","checks":[{"type":"contains_any","values":["yes"]},{"type":"max_words","value":2}]}
+{"id":"if54","category":"instruction_following","prompt":"Name the green pigment in plants. One word.","checks":[{"type":"equals","value":"chlorophyll"}]}
+{"id":"if55","category":"instruction_following","prompt":"What is 25 plus 25? Only the number.","checks":[{"type":"regex","pattern":"^\\D*50\\D*$"}]}
+{"id":"if56","category":"instruction_following","prompt":"How many seconds are in a minute? Only the number.","checks":[{"type":"regex","pattern":"^\\D*60\\D*$"}]}
+{"id":"if57","category":"instruction_following","prompt":"Name the force that pulls things to Earth. One word.","checks":[{"type":"equals","value":"gravity"}]}
+{"id":"if58","category":"instruction_following","prompt":"What is 7 times 7? Only the number.","checks":[{"type":"regex","pattern":"^\\D*49\\D*$"}]}
+{"id":"if59","category":"instruction_following","prompt":"Is a spider an insect? Answer YES or NO.","checks":[{"type":"contains_any","values":["no"]},{"type":"max_words","value":2}]}
+{"id":"if60","category":"instruction_following","prompt":"What is 20 minus 20? Only the number.","checks":[{"type":"regex","pattern":"^\\s*0\\s*$"}]}
+{"id":"fmt1","category":"format_following","prompt":"Return a JSON object with key \"name\" set to \"Alex\" and key \"age\" set to 30. Output only the JSON, no prose.","checks":[{"type":"is_json"},{"type":"json_has_key","key":"name"},{"type":"json_has_key","key":"age"}]}
+{"id":"fmt2","category":"format_following","prompt":"List exactly three primary colors, one per line, and nothing else.","checks":[{"type":"line_count","equals":3},{"type":"max_words","value":6}]}
+{"id":"fmt3","category":"format_following","prompt":"List three fruits separated by commas on a single line, nothing else.","checks":[{"type":"line_count","equals":1},{"type":"regex","pattern":"^[^,\\n]+,[^,\\n]+,[^,\\n]+$"}]}
+{"id":"fmt4","category":"format_following","prompt":"Respond using only uppercase letters and spaces: greet the user.","checks":[{"type":"regex","pattern":"^[^a-z]*$"},{"type":"min_chars","value":3}]}
+{"id":"fmt5","category":"format_following","prompt":"Reply with exactly this and nothing else: The quick brown fox.","checks":[{"type":"equals","value":"the quick brown fox"}]}
+{"id":"fmt6","category":"format_following","prompt":"Answer in plain text with no markdown formatting: what is 2 + 2?","checks":[{"type":"contains","value":"4"},{"type":"not_contains","values":["*","#","`","- "]}]}
+{"id":"fmt7","category":"format_following","prompt":"Provide a JSON array of three numbers. Only the array.","checks":[{"type":"is_json"},{"type":"line_count","equals":1}]}
+{"id":"fmt8","category":"format_following","prompt":"Write exactly two lines. The first line should say 'Hello', the second 'World'.","checks":[{"type":"line_count","equals":2},{"type":"contains","value":"hello"},{"type":"contains","value":"world"}]}
+{"id":"fmt9","category":"format_following","prompt":"Output a JSON object with a single key 'status' set to 'success'.","checks":[{"type":"is_json"},{"type":"json_has_key","key":"status"}]}
+{"id":"fmt10","category":"format_following","prompt":"List exactly 5 numbers, one per line. No other text.","checks":[{"type":"line_count","equals":5}]}
+{"id":"fmt11","category":"format_following","prompt":"Respond with only lowercase letters. What is your name?","checks":[{"type":"regex","pattern":"^[^A-Z]*$"}]}
+{"id":"fmt12","category":"format_following","prompt":"Create a markdown heading that says 'Title'. Only the heading.","checks":[{"type":"starts_with","value":"# "},{"type":"max_words","value":2}]}
+{"id":"fmt13","category":"format_following","prompt":"Output exactly four dashes on a single line.","checks":[{"type":"equals","value":"----"}]}
+{"id":"fmt14","category":"format_following","prompt":"Reply with exactly: [END]","checks":[{"type":"equals","value":"[end]"}]}
+{"id":"fmt15","category":"format_following","prompt":"Return a JSON object with keys 'x' and 'y' set to 0.","checks":[{"type":"is_json"},{"type":"json_has_key","key":"x"},{"type":"json_has_key","key":"y"}]}
+{"id":"fmt16","category":"format_following","prompt":"Write exactly three lines of text, each containing exactly one word.","checks":[{"type":"line_count","equals":3},{"type":"max_words","value":3}]}
+{"id":"fmt17","category":"format_following","prompt":"List three animals separated by semicolons on a single line.","checks":[{"type":"regex","pattern":"^[^;\\n]+;[^;\\n]+;[^;\\n]+$"}]}
+{"id":"fmt18","category":"format_following","prompt":"Respond with a single HTML paragraph tag containing the word 'text'.","checks":[{"type":"regex","pattern":"^<p>text</p>$"}]}
+{"id":"fmt19","category":"format_following","prompt":"Output exactly this JSON string: {\"active\": true}","checks":[{"type":"is_json"},{"type":"json_has_key","key":"active"}]}
+{"id":"fmt20","category":"format_following","prompt":"Output exactly five asterisks on one line.","checks":[{"type":"equals","value":"*****"}]}
+{"id":"fmt21","category":"format_following","prompt":"Provide a comma-separated list of three colors. No spaces, only lowercase.","checks":[{"type":"regex","pattern":"^[a-z]+,[a-z]+,[a-z]+$"}]}
+{"id":"fmt22","category":"format_following","prompt":"Write a python comment. Exactly one line starting with #.","checks":[{"type":"starts_with","value":"#"},{"type":"line_count","equals":1}]}
+{"id":"fmt23","category":"format_following","prompt":"Output an HTML bold tag containing the word 'hello'.","checks":[{"type":"regex","pattern":"^<b>hello</b>$|^<strong>hello</strong>$"}]}
+{"id":"fmt24","category":"format_following","prompt":"Reply with exactly this string: true or false","checks":[{"type":"equals","value":"true or false"}]}
+{"id":"fmt25","category":"format_following","prompt":"Write exactly 2 sentences. Do not use any punctuation other than periods.","checks":[{"type":"regex","pattern":"^[^.]+\\.[^.]+\\.$$"},{"type":"not_contains","values":[",",";",":","!","?"]}]}
+{"id":"fmt26","category":"format_following","prompt":"Return a JSON array containing the strings 'a', 'b', and 'c'.","checks":[{"type":"is_json"}]}
+{"id":"fmt27","category":"format_following","prompt":"Output exactly this and nothing else: 1 2 3","checks":[{"type":"equals","value":"1 2 3"}]}
+{"id":"fmt28","category":"format_following","prompt":"Create a markdown unordered list with exactly one item that says 'item'.","checks":[{"type":"starts_with","value":"- item"},{"type":"max_words","value":2}]}
+{"id":"fmt29","category":"format_following","prompt":"Return a JSON object with a key 'data' set to an empty array.","checks":[{"type":"is_json"},{"type":"json_has_key","key":"data"}]}
+{"id":"fmt30","category":"format_following","prompt":"Output exactly ten characters. No more, no less.","checks":[{"type":"max_chars","value":10},{"type":"min_chars","value":10}]}
+{"id":"fmt31","category":"format_following","prompt":"Write exactly three lines, each starting with a number and a period.","checks":[{"type":"regex","pattern":"(^\\d+\\.\\s.*\\n){3}$"}]}
+{"id":"fmt32","category":"format_following","prompt":"Respond with only the following XML: <root></root>","checks":[{"type":"regex","pattern":"^<root>\\s*</root>$"}]}
+{"id":"fmt33","category":"format_following","prompt":"List four numbers separated by pipes (|). No spaces.","checks":[{"type":"regex","pattern":"^\\d+\\|\\d+\\|\\d+\\|\\d+$"}]}
+{"id":"fmt34","category":"format_following","prompt":"Reply with exactly this case-sensitive string: JavaScript","checks":[{"type":"equals","value":"JavaScript"}]}
+{"id":"fmt35","category":"format_following","prompt":"Write a string enclosed in double quotes. Nothing else.","checks":[{"type":"regex","pattern":"^\".*\"$"}]}
+{"id":"fmt36","category":"format_following","prompt":"Output exactly two paragraphs of text, separated by a blank line.","checks":[{"type":"regex","pattern":"^.*\\n\\n.*$"}]}
+{"id":"fmt37","category":"format_following","prompt":"Return a JSON object with keys 'id' and 'name'.","checks":[{"type":"is_json"},{"type":"json_has_key","key":"id"},{"type":"json_has_key","key":"name"}]}
+{"id":"fmt38","category":"format_following","prompt":"List exactly 10 words, separated by spaces, on one line.","checks":[{"type":"line_count","equals":1},{"type":"min_words","value":10},{"type":"max_words","value":10}]}
+{"id":"fmt39","category":"format_following","prompt":"Output exactly this: <br>","checks":[{"type":"equals","value":"<br>"}]}
+{"id":"fmt40","category":"format_following","prompt":"Write a single sentence ending with a question mark.","checks":[{"type":"ends_with","value":"?"},{"type":"max_words","value":20}]}
+{"id":"fmt41","category":"format_following","prompt":"Return a JSON object with a key 'user' containing another object with key 'id'.","checks":[{"type":"is_json"},{"type":"json_has_key","key":"user"}]}
+{"id":"fmt42","category":"format_following","prompt":"List exactly 5 fruits, one per line. No numbers or bullets.","checks":[{"type":"line_count","equals":5},{"type":"not_contains","values":["1.","2.","-","*"]}]}
+{"id":"fmt43","category":"format_following","prompt":"Output a single line containing only the word 'PASSED' in uppercase.","checks":[{"type":"equals","value":"passed"}]}
+{"id":"fmt44","category":"format_following","prompt":"Respond with a valid JSON array of 3 numbers.","checks":[{"type":"is_json"},{"type":"line_count","equals":1}]}
+{"id":"fmt45","category":"format_following","prompt":"Write exactly 4 lines, each containing exactly 2 words.","checks":[{"type":"line_count","equals":4},{"type":"max_words","value":8},{"type":"min_words","value":8}]}
+{"id":"fmt46","category":"format_following","prompt":"Output the following exactly: { \"key\": \"value\" }","checks":[{"type":"is_json"},{"type":"json_has_key","key":"key"}]}
+{"id":"fmt47","category":"format_following","prompt":"Write a markdown link to google.com with the text 'Search'.","checks":[{"type":"regex","pattern":"^\\[Search\\]\\(http(s)?:\\/\\/(www\\.)?google\\.com\\)$"}]}
+{"id":"fmt48","category":"format_following","prompt":"Respond with exactly this and nothing else: 100%","checks":[{"type":"equals","value":"100%"}]}
+{"id":"fmt49","category":"format_following","prompt":"Output a CSV string with 3 columns and 1 header row. No newline at the end.","checks":[{"type":"line_count","equals":1},{"type":"regex","pattern":"^[^,]+,[^,]+,[^,]+$"}]}
+{"id":"fmt50","category":"format_following","prompt":"Write exactly this string, preserving case: camelCase","checks":[{"type":"equals","value":"camelcase"}]}
+{"id":"fmt51","category":"format_following","prompt":"Create a JSON object with a key 'items' set to an array of strings.","checks":[{"type":"is_json"},{"type":"json_has_key","key":"items"}]}
+{"id":"fmt52","category":"format_following","prompt":"List exactly three numbers, separated by hyphens, on one line.","checks":[{"type":"regex","pattern":"^\\d+-\\d+-\\d+$"}]}
+{"id":"fmt53","category":"format_following","prompt":"Respond with only uppercase letters. What time is it?","checks":[{"type":"regex","pattern":"^[^a-z]*$"}]}
+{"id":"fmt54","category":"format_following","prompt":"Write exactly one sentence. Do not use the letter 'a'.","checks":[{"type":"regex","pattern":"^[^.!?]*[.!?]$"},{"type":"not_contains","values":["a","A"]}]}
+{"id":"fmt55","category":"format_following","prompt":"Output a JSON object with exactly two keys: 'type' and 'value'.","checks":[{"type":"is_json"},{"type":"json_has_key","key":"type"},{"type":"json_has_key","key":"value"}]}
+{"id":"fmt56","category":"format_following","prompt":"Write exactly three bullet points using markdown '*' format.","checks":[{"type":"line_count","equals":3},{"type":"regex","pattern":"(^\\*\\s.*\\n?){3}$"}]}
+{"id":"fmt57","category":"format_following","prompt":"Return an empty JSON object.","checks":[{"type":"equals","value":"{}"}]}
+{"id":"fmt58","category":"format_following","prompt":"Write a single line of text containing exactly 20 characters.","checks":[{"type":"max_chars","value":20},{"type":"min_chars","value":20}]}
+{"id":"fmt59","category":"format_following","prompt":"Output exactly this XML: <note></note>","checks":[{"type":"regex","pattern":"^<note>\\s*</note>$"}]}
+{"id":"fmt60","category":"format_following","prompt":"Respond with a JSON array containing exactly one number: 42","checks":[{"type":"is_json"},{"type":"contains","value":"42"}]}
+{"id":"con1","category":"conciseness","prompt":"Describe the ocean in 10 words or fewer.","checks":[{"type":"max_words","value":10},{"type":"min_words","value":3}]}
+{"id":"con2","category":"conciseness","prompt":"Write a reminder to drink water. It must be at most 100 characters.","checks":[{"type":"max_chars","value":100},{"type":"contains_any","values":["water"]}]}
+{"id":"con3","category":"conciseness","prompt":"Explain what a dog is in exactly 3 words.","checks":[{"type":"max_words","value":3},{"type":"min_words","value":3}]}
+{"id":"con4","category":"conciseness","prompt":"Write a 5-word greeting.","checks":[{"type":"max_words","value":5},{"type":"min_words","value":5}]}
+{"id":"con5","category":"conciseness","prompt":"Summarize the plot of Cinderella in 15 words or less.","checks":[{"type":"max_words","value":15},{"type":"min_words","value":5}]}
+{"id":"con6","category":"conciseness","prompt":"What is a computer? Answer in under 50 characters.","checks":[{"type":"max_chars","value":50},{"type":"min_chars","value":10}]}
+{"id":"con7","category":"conciseness","prompt":"Write a haiku about rain. (Exactly 3 lines).","checks":[{"type":"line_count","equals":3},{"type":"max_words","value":20}]}
+{"id":"con8","category":"conciseness","prompt":"Give me a one-sentence summary of World War 2.","checks":[{"type":"max_words","value":30},{"type":"min_words","value":10},{"type":"regex","pattern":"[.!?]$"}]}
+{"id":"con9","category":"conciseness","prompt":"Describe the color blue in exactly 2 words.","checks":[{"type":"max_words","value":2},{"type":"min_words","value":2}]}
+{"id":"con10","category":"conciseness","prompt":"Write a tweet about AI. Maximum 280 characters.","checks":[{"type":"max_chars","value":280},{"type":"min_chars","value":20}]}
+{"id":"con11","category":"conciseness","prompt":"Define gravity in 4 words.","checks":[{"type":"max_words","value":4},{"type":"min_words","value":4}]}
+{"id":"con12","category":"conciseness","prompt":"Write a 6-word story about a lost dog.","checks":[{"type":"max_words","value":6},{"type":"min_words","value":6}]}
+{"id":"con13","category":"conciseness","prompt":"Explain how to boil water in 8 words or fewer.","checks":[{"type":"max_words","value":8},{"type":"min_words","value":3}]}
+{"id":"con14","category":"conciseness","prompt":"Describe a sunset in exactly 7 words.","checks":[{"type":"max_words","value":7},{"type":"min_words","value":7}]}
+{"id":"con15","category":"conciseness","prompt":"Write a 10-character password.","checks":[{"type":"max_chars","value":10},{"type":"min_chars","value":10}]}
+{"id":"con16","category":"conciseness","prompt":"What is love? Answer in 5 words.","checks":[{"type":"max_words","value":5},{"type":"min_words","value":5}]}
+{"id":"con17","category":"conciseness","prompt":"Summarize the internet in 3 words.","checks":[{"type":"max_words","value":3},{"type":"min_words","value":3}]}
+{"id":"con18","category":"conciseness","prompt":"Write a very short poem about winter. Max 4 lines.","checks":[{"type":"line_count","equals":4},{"type":"max_words","value":20}]}
+{"id":"con19","category":"conciseness","prompt":"Describe an apple in exactly one word.","checks":[{"type":"max_words","value":1},{"type":"min_words","value":1}]}
+{"id":"con20","category":"conciseness","prompt":"Write a message to a friend in under 20 words.","checks":[{"type":"max_words","value":20},{"type":"min_words","value":5}]}
+{"id":"con21","category":"conciseness","prompt":"What is time? Explain in 12 words or less.","checks":[{"type":"max_words","value":12},{"type":"min_words","value":4}]}
+{"id":"con22","category":"conciseness","prompt":"Write a 3-line dialogue between two people.","checks":[{"type":"line_count","equals":3},{"type":"max_words","value":30}]}
+{"id":"con23","category":"conciseness","prompt":"Define biology in exactly 6 words.","checks":[{"type":"max_words","value":6},{"type":"min_words","value":6}]}
+{"id":"con24","category":"conciseness","prompt":"Describe the taste of salt in 4 words.","checks":[{"type":"max_words","value":4},{"type":"min_words","value":4}]}
+{"id":"con25","category":"conciseness","prompt":"Write a 15-word news headline about a local election.","checks":[{"type":"max_words","value":15},{"type":"min_words","value":5}]}
+{"id":"con26","category":"conciseness","prompt":"Explain why the sky is blue in 10 words or fewer.","checks":[{"type":"max_words","value":10},{"type":"min_words","value":4}]}
+{"id":"con27","category":"conciseness","prompt":"Write a 2-sentence horror story.","checks":[{"type":"regex","pattern":"^[^.!?]*[.!?][^.!?]*[.!?]$"},{"type":"max_words","value":30}]}
+{"id":"con28","category":"conciseness","prompt":"Define mathematics in exactly 5 words.","checks":[{"type":"max_words","value":5},{"type":"min_words","value":5}]}
+{"id":"con29","category":"conciseness","prompt":"Write a 40-character summary of your capabilities.","checks":[{"type":"max_chars","value":40},{"type":"min_chars","value":20}]}
+{"id":"con30","category":"conciseness","prompt":"Describe a tree in exactly 3 words.","checks":[{"type":"max_words","value":3},{"type":"min_words","value":3}]}
+{"id":"con31","category":"conciseness","prompt":"Write a 1-sentence summary of the movie Titanic.","checks":[{"type":"regex","pattern":"^[^.!?]*[.!?]$"},{"type":"max_words","value":25}]}
+{"id":"con32","category":"conciseness","prompt":"Explain happiness in 7 words.","checks":[{"type":"max_words","value":7},{"type":"min_words","value":7}]}
+{"id":"con33","category":"conciseness","prompt":"Write a 4-word motto for a space agency.","checks":[{"type":"max_words","value":4},{"type":"min_words","value":4}]}
+{"id":"con34","category":"conciseness","prompt":"Describe a library in under 15 words.","checks":[{"type":"max_words","value":15},{"type":"min_words","value":5}]}
+{"id":"con35","category":"conciseness","prompt":"Write a 50-word essay on the importance of sleep.","checks":[{"type":"max_words","value":50},{"type":"min_words","value":40}]}
+{"id":"con36","category":"conciseness","prompt":"Define friendship in exactly 4 words.","checks":[{"type":"max_words","value":4},{"type":"min_words","value":4}]}
+{"id":"con37","category":"conciseness","prompt":"Write a 3-word slogan for a coffee shop.","checks":[{"type":"max_words","value":3},{"type":"min_words","value":3}]}
+{"id":"con38","category":"conciseness","prompt":"Describe a volcano in 5 words.","checks":[{"type":"max_words","value":5},{"type":"min_words","value":5}]}
+{"id":"con39","category":"conciseness","prompt":"Write a short greeting in exactly 2 lines.","checks":[{"type":"line_count","equals":2},{"type":"max_words","value":10}]}
+{"id":"con40","category":"conciseness","prompt":"Summarize the concept of zero in 6 words.","checks":[{"type":"max_words","value":6},{"type":"min_words","value":6}]}
+{"id":"con41","category":"conciseness","prompt":"Write a 10-word description of a thunderstorm.","checks":[{"type":"max_words","value":10},{"type":"min_words","value":10}]}
+{"id":"con42","category":"conciseness","prompt":"Describe a cat in exactly 3 words.","checks":[{"type":"max_words","value":3},{"type":"min_words","value":3}]}
+{"id":"con43","category":"conciseness","prompt":"Write a 5-word philosophy of life.","checks":[{"type":"max_words","value":5},{"type":"min_words","value":5}]}
+{"id":"con44","category":"conciseness","prompt":"Explain what a map is in 4 words.","checks":[{"type":"max_words","value":4},{"type":"min_words","value":4}]}
+{"id":"con45","category":"conciseness","prompt":"Write a 20-word introduction for a fantasy novel.","checks":[{"type":"max_words","value":20},{"type":"min_words","value":10}]}
+{"id":"con46","category":"conciseness","prompt":"Describe a mirror in exactly 5 words.","checks":[{"type":"max_words","value":5},{"type":"min_words","value":5}]}
+{"id":"con47","category":"conciseness","prompt":"Write a 1-line joke about computers.","checks":[{"type":"line_count","equals":1},{"type":"max_words","value":20}]}
+{"id":"con48","category":"conciseness","prompt":"Define music in 6 words or less.","checks":[{"type":"max_words","value":6},{"type":"min_words","value":3}]}
+{"id":"con49","category":"conciseness","prompt":"Write a 3-word description of the moon.","checks":[{"type":"max_words","value":3},{"type":"min_words","value":3}]}
+{"id":"con50","category":"conciseness","prompt":"Describe a book in exactly 4 words.","checks":[{"type":"max_words","value":4},{"type":"min_words","value":4}]}
+{"id":"con51","category":"conciseness","prompt":"Write a 7-word summary of the industrial revolution.","checks":[{"type":"max_words","value":7},{"type":"min_words","value":7}]}
+{"id":"con52","category":"conciseness","prompt":"Explain what money is in 5 words.","checks":[{"type":"max_words","value":5},{"type":"min_words","value":5}]}
+{"id":"con53","category":"conciseness","prompt":"Write a 2-sentence summary of a sports game.","checks":[{"type":"regex","pattern":"^[^.!?]*[.!?][^.!?]*[.!?]$"},{"type":"max_words","value":30}]}
+{"id":"con54","category":"conciseness","prompt":"Describe a clock in exactly 3 words.","checks":[{"type":"max_words","value":3},{"type":"min_words","value":3}]}
+{"id":"con55","category":"conciseness","prompt":"Write a 6-word warning label for a hot beverage.","checks":[{"type":"max_words","value":6},{"type":"min_words","value":6}]}
+{"id":"con56","category":"conciseness","prompt":"Explain what a road is in 4 words.","checks":[{"type":"max_words","value":4},{"type":"min_words","value":4}]}
+{"id":"con57","category":"conciseness","prompt":"Write a 5-word description of the sun.","checks":[{"type":"max_words","value":5},{"type":"min_words","value":5}]}
+{"id":"con58","category":"conciseness","prompt":"Summarize the concept of freedom in 8 words.","checks":[{"type":"max_words","value":8},{"type":"min_words","value":8}]}
+{"id":"con59","category":"conciseness","prompt":"Describe a mountain in exactly 4 words.","checks":[{"type":"max_words","value":4},{"type":"min_words","value":4}]}
+{"id":"con60","category":"conciseness","prompt":"Write a 9-word news headline about a scientific discovery.","checks":[{"type":"max_words","value":9},{"type":"min_words","value":9}]}
+{"id":"neg1","category":"constraint_following","prompt":"Explain what a firewall does, without using the word 'firewall'.","checks":[{"type":"not_contains","values":["firewall"]},{"type":"min_words","value":8}]}
+{"id":"neg2","category":"constraint_following","prompt":"Begin your reply with the word 'Sure' and then greet the user in one short sentence.","checks":[{"type":"starts_with","value":"sure"},{"type":"min_words","value":3}]}
+{"id":"neg3","category":"constraint_following","prompt":"Write a paragraph about cats. Do not use the letter 'a'.","checks":[{"type":"not_contains","values":["a","A"]},{"type":"min_words","value":10}]}
+{"id":"neg4","category":"constraint_following","prompt":"Explain how to make a sandwich without using the word 'bread'.","checks":[{"type":"not_contains","values":["bread"]},{"type":"min_words","value":10}]}
+{"id":"neg5","category":"constraint_following","prompt":"Describe the sun without using the words 'hot' or 'yellow'.","checks":[{"type":"not_contains","values":["hot","yellow"]},{"type":"min_words","value":10}]}
+{"id":"neg6","category":"constraint_following","prompt":"Write a sentence that ends with the word 'done'.","checks":[{"type":"ends_with","value":"done"},{"type":"min_words","value":3}]}
+{"id":"neg7","category":"constraint_following","prompt":"Explain what water is without using the word 'water'.","checks":[{"type":"not_contains","values":["water"]},{"type":"min_words","value":10}]}
+{"id":"neg8","category":"constraint_following","prompt":"Describe a tree without using the words 'green', 'leaves', or 'brown'.","checks":[{"type":"not_contains","values":["green","leaves","brown"]},{"type":"min_words","value":10}]}
+{"id":"neg9","category":"constraint_following","prompt":"Write a 10-word sentence. Do not use the word 'the'.","checks":[{"type":"max_words","value":10},{"type":"min_words","value":10},{"type":"not_contains","values":["the"]}]}
+{"id":"neg10","category":"constraint_following","prompt":"Start your response with 'I think' and then state your favorite color.","checks":[{"type":"starts_with","value":"i think"},{"type":"min_words","value":4}]}
+{"id":"neg11","category":"constraint_following","prompt":"Explain what a car is without using the words 'car', 'vehicle', or 'drive'.","checks":[{"type":"not_contains","values":["car","vehicle","drive"]},{"type":"min_words","value":10}]}
+{"id":"neg12","category":"constraint_following","prompt":"Write a sentence about space that does not contain the letter 'e'.","checks":[{"type":"not_contains","values":["e","E"]},{"type":"min_words","value":5}]}
+{"id":"neg13","category":"constraint_following","prompt":"Describe a book without using the words 'book', 'read', or 'pages'.","checks":[{"type":"not_contains","values":["book","read","pages"]},{"type":"min_words","value":10}]}
+{"id":"neg14","category":"constraint_following","prompt":"Write a sentence ending with a question mark.","checks":[{"type":"ends_with","value":"?"},{"type":"min_words","value":3}]}
+{"id":"neg15","category":"constraint_following","prompt":"Explain what a computer is without using the word 'computer'.","checks":[{"type":"not_contains","values":["computer"]},{"type":"min_words","value":10}]}
+{"id":"neg16","category":"constraint_following","prompt":"Write a short story about a dog. Do not use the word 'dog'.","checks":[{"type":"not_contains","values":["dog"]},{"type":"min_words","value":20}]}
+{"id":"neg17","category":"constraint_following","prompt":"Describe the ocean without using the words 'blue', 'water', or 'wet'.","checks":[{"type":"not_contains","values":["blue","water","wet"]},{"type":"min_words","value":10}]}
+{"id":"neg18","category":"constraint_following","prompt":"Write a sentence that starts with 'Why' and ends with a question mark.","checks":[{"type":"starts_with","value":"why"},{"type":"ends_with","value":"?"}]}
+{"id":"neg19","category":"constraint_following","prompt":"Explain what time is without using the word 'time'.","checks":[{"type":"not_contains","values":["time"]},{"type":"min_words","value":10}]}
+{"id":"neg20","category":"constraint_following","prompt":"Write a paragraph about food. Do not use the words 'eat', 'food', or 'taste'.","checks":[{"type":"not_contains","values":["eat","food","taste"]},{"type":"min_words","value":10}]}
+{"id":"neg21","category":"constraint_following","prompt":"Describe a tree without using the word 'tree'.","checks":[{"type":"not_contains","values":["tree"]},{"type":"min_words","value":10}]}
+{"id":"neg22","category":"constraint_following","prompt":"Write a sentence about a cat that does not contain the letter 't'.","checks":[{"type":"not_contains","values":["t","T"]},{"type":"min_words","value":5}]}
+{"id":"neg23","category":"constraint_following","prompt":"Explain what air is without using the words 'air' or 'oxygen'.","checks":[{"type":"not_contains","values":["air","oxygen"]},{"type":"min_words","value":10}]}
+{"id":"neg24","category":"constraint_following","prompt":"Write a sentence ending with an exclamation mark.","checks":[{"type":"ends_with","value":"!"},{"type":"min_words","value":3}]}
+{"id":"neg25","category":"constraint_following","prompt":"Describe a house without using the words 'house', 'home', or 'roof'.","checks":[{"type":"not_contains","values":["house","home","roof"]},{"type":"min_words","value":10}]}
+{"id":"neg26","category":"constraint_following","prompt":"Write a short paragraph about sleep. Do not use the word 'sleep'.","checks":[{"type":"not_contains","values":["sleep"]},{"type":"min_words","value":15}]}
+{"id":"neg27","category":"constraint_following","prompt":"Explain what music is without using the words 'music', 'sound', or 'song'.","checks":[{"type":"not_contains","values":["music","sound","song"]},{"type":"min_words","value":10}]}
+{"id":"neg28","category":"constraint_following","prompt":"Write a sentence that starts with 'Hello' and ends with a period.","checks":[{"type":"starts_with","value":"hello"},{"type":"ends_with","value":"."}]}
+{"id":"neg29","category":"constraint_following","prompt":"Describe a mountain without using the words 'mountain', 'tall', or 'rock'.","checks":[{"type":"not_contains","values":["mountain","tall","rock"]},{"type":"min_words","value":10}]}
+{"id":"neg30","category":"constraint_following","prompt":"Write a paragraph about winter. Do not use the words 'cold', 'snow', or 'winter'.","checks":[{"type":"not_contains","values":["cold","snow","winter"]},{"type":"min_words","value":10}]}
+{"id":"neg31","category":"constraint_following","prompt":"Explain what light is without using the word 'light'.","checks":[{"type":"not_contains","values":["light"]},{"type":"min_words","value":10}]}
+{"id":"neg32","category":"constraint_following","prompt":"Write a sentence about a fish that does not contain the letter 's'.","checks":[{"type":"not_contains","values":["s","S"]},{"type":"min_words","value":5}]}
+{"id":"neg33","category":"constraint_following","prompt":"Describe a bird without using the words 'bird', 'fly', or 'wings'.","checks":[{"type":"not_contains","values":["bird","fly","wings"]},{"type":"min_words","value":10}]}
+{"id":"neg34","category":"constraint_following","prompt":"Write a sentence that starts with 'Yes' and is followed by a comma.","checks":[{"type":"starts_with","value":"yes,"},{"type":"min_words","value":3}]}
+{"id":"neg35","category":"constraint_following","prompt":"Explain what a mirror is without using the word 'mirror'.","checks":[{"type":"not_contains","values":["mirror"]},{"type":"min_words","value":10}]}
+{"id":"neg36","category":"constraint_following","prompt":"Write a short story about a robot. Do not use the word 'robot'.","checks":[{"type":"not_contains","values":["robot"]},{"type":"min_words","value":20}]}
+{"id":"neg37","category":"constraint_following","prompt":"Describe a cloud without using the words 'cloud', 'sky', or 'white'.","checks":[{"type":"not_contains","values":["cloud","sky","white"]},{"type":"min_words","value":10}]}
+{"id":"neg38","category":"constraint_following","prompt":"Write a sentence that starts with 'No' and ends with a period.","checks":[{"type":"starts_with","value":"no"},{"type":"ends_with","value":"."}]}
+{"id":"neg39","category":"constraint_following","prompt":"Explain what gravity is without using the word 'gravity'.","checks":[{"type":"not_contains","values":["gravity"]},{"type":"min_words","value":10}]}
+{"id":"neg40","category":"constraint_following","prompt":"Write a paragraph about summer. Do not use the words 'hot', 'sun', or 'summer'.","checks":[{"type":"not_contains","values":["hot","sun","summer"]},{"type":"min_words","value":10}]}
+{"id":"neg41","category":"constraint_following","prompt":"Explain what a clock is without using the word 'clock'.","checks":[{"type":"not_contains","values":["clock"]},{"type":"min_words","value":10}]}
+{"id":"neg42","category":"constraint_following","prompt":"Write a sentence about a snake that does not contain the letter 'e'.","checks":[{"type":"not_contains","values":["e","E"]},{"type":"min_words","value":5}]}
+{"id":"neg43","category":"constraint_following","prompt":"Describe a road without using the words 'road', 'car', or 'street'.","checks":[{"type":"not_contains","values":["road","car","street"]},{"type":"min_words","value":10}]}
+{"id":"neg44","category":"constraint_following","prompt":"Write a sentence that starts with 'I' and ends with a period.","checks":[{"type":"starts_with","value":"i "},{"type":"ends_with","value":"."}]}
+{"id":"neg45","category":"constraint_following","prompt":"Explain what a map is without using the word 'map'.","checks":[{"type":"not_contains","values":["map"]},{"type":"min_words","value":10}]}
+{"id":"neg46","category":"constraint_following","prompt":"Write a short story about a ghost. Do not use the word 'ghost'.","checks":[{"type":"not_contains","values":["ghost"]},{"type":"min_words","value":20}]}
+{"id":"neg47","category":"constraint_following","prompt":"Describe a river without using the words 'river', 'water', or 'stream'.","checks":[{"type":"not_contains","values":["river","water","stream"]},{"type":"min_words","value":10}]}
+{"id":"neg48","category":"constraint_following","prompt":"Write a sentence that starts with 'Please' and ends with a period.","checks":[{"type":"starts_with","value":"please"},{"type":"ends_with","value":"."}]}
+{"id":"neg49","category":"constraint_following","prompt":"Explain what a storm is without using the word 'storm'.","checks":[{"type":"not_contains","values":["storm"]},{"type":"min_words","value":10}]}
+{"id":"neg50","category":"constraint_following","prompt":"Write a paragraph about a city. Do not use the words 'city', 'buildings', or 'people'.","checks":[{"type":"not_contains","values":["city","buildings","people"]},{"type":"min_words","value":10}]}
+{"id":"neg51","category":"constraint_following","prompt":"Explain what a key is without using the word 'key'.","checks":[{"type":"not_contains","values":["key"]},{"type":"min_words","value":10}]}
+{"id":"neg52","category":"constraint_following","prompt":"Write a sentence about a star that does not contain the letter 'a'.","checks":[{"type":"not_contains","values":["a","A"]},{"type":"min_words","value":5}]}
+{"id":"neg53","category":"constraint_following","prompt":"Describe a pen without using the words 'pen', 'write', or 'ink'.","checks":[{"type":"not_contains","values":["pen","write","ink"]},{"type":"min_words","value":10}]}
+{"id":"neg54","category":"constraint_following","prompt":"Write a sentence that starts with 'The' and ends with a period.","checks":[{"type":"starts_with","value":"the"},{"type":"ends_with","value":"."}]}
+{"id":"neg55","category":"constraint_following","prompt":"Explain what a door is without using the word 'door'.","checks":[{"type":"not_contains","values":["door"]},{"type":"min_words","value":10}]}
+{"id":"neg56","category":"constraint_following","prompt":"Write a short story about a king. Do not use the word 'king'.","checks":[{"type":"not_contains","values":["king"]},{"type":"min_words","value":20}]}
+{"id":"neg57","category":"constraint_following","prompt":"Describe a phone without using the words 'phone', 'call', or 'mobile'.","checks":[{"type":"not_contains","values":["phone","call","mobile"]},{"type":"min_words","value":10}]}
+{"id":"neg58","category":"constraint_following","prompt":"Write a sentence that starts with 'Sorry' and ends with a period.","checks":[{"type":"starts_with","value":"sorry"},{"type":"ends_with","value":"."}]}
+{"id":"neg59","category":"constraint_following","prompt":"Explain what a wheel is without using the word 'wheel'.","checks":[{"type":"not_contains","values":["wheel"]},{"type":"min_words","value":10}]}
+{"id":"neg60","category":"constraint_following","prompt":"Write a paragraph about a forest. Do not use the words 'forest', 'trees', or 'green'.","checks":[{"type":"not_contains","values":["forest","trees","green"]},{"type":"min_words","value":10}]}
+{"id":"cor1","category":"correctness_format","prompt":"Is 17 a prime number? Answer with only the single word 'prime' or the two words 'not prime'.","checks":[{"type":"equals","value":"prime"}]}
+{"id":"cor2","category":"correctness_format","prompt":"Give three tips for better sleep as a bullet list. Each line must start with '- '. Only the list.","checks":[{"type":"line_count","equals":3},{"type":"regex","pattern":"(^- .*\\n?){3}$"}]}
+{"id":"cor3","category":"correctness_format","prompt":"What is the capital of Japan? Reply with exactly the city name, nothing else.","checks":[{"type":"equals","value":"tokyo"}]}
+{"id":"cor4","category":"correctness_format","prompt":"Is 9 an even number? Answer with only 'True' or 'False'.","checks":[{"type":"equals","value":"false"}]}
+{"id":"cor5","category":"correctness_format","prompt":"What is 5 times 6? Reply with only the number.","checks":[{"type":"regex","pattern":"^\\D*30\\D*$"}]}
+{"id":"cor6","category":"correctness_format","prompt":"Name the planet closest to the sun. One word only.","checks":[{"type":"equals","value":"mercury"}]}
+{"id":"cor7","category":"correctness_format","prompt":"Is 100 a prime number? Answer with 'prime' or 'not prime'.","checks":[{"type":"equals","value":"not prime"}]}
+{"id":"cor8","category":"correctness_format","prompt":"List exactly three even numbers separated by commas.","checks":[{"type":"regex","pattern":"^\\d+,\\s*\\d+,\\s*\\d+$"},{"type":"contains_any","values":["2","4","6","8","0"]}]}
+{"id":"cor9","category":"correctness_format","prompt":"What is the chemical symbol for gold? One word only.","checks":[{"type":"equals","value":"au"}]}
+{"id":"cor10","category":"correctness_format","prompt":"Is 2 an even number? Answer with only 'True' or 'False'.","checks":[{"type":"equals","value":"true"}]}
+{"id":"cor11","category":"correctness_format","prompt":"What is 15 minus 8? Reply with only the number.","checks":[{"type":"regex","pattern":"^\\D*7\\D*$"}]}
+{"id":"cor12","category":"correctness_format","prompt":"Name the largest mammal on Earth. One word only.","checks":[{"type":"equals","value":"blue whale"}]}
+{"id":"cor13","category":"correctness_format","prompt":"Is 29 a prime number? Answer with 'prime' or 'not prime'.","checks":[{"type":"equals","value":"prime"}]}
+{"id":"cor14","category":"correctness_format","prompt":"What is the capital of Italy? Reply with exactly the city name, nothing else.","checks":[{"type":"equals","value":"rome"}]}
+{"id":"cor15","category":"correctness_format","prompt":"What is 8 times 8? Reply with only the number.","checks":[{"type":"regex","pattern":"^\\D*64\\D*$"}]}
+{"id":"cor16","category":"correctness_format","prompt":"Name the gas plants absorb from the atmosphere. One word only.","checks":[{"type":"equals","value":"carbon dioxide"}]}
+{"id":"cor17","category":"correctness_format","prompt":"Is 4 a prime number? Answer with 'prime' or 'not prime'.","checks":[{"type":"equals","value":"not prime"}]}
+{"id":"cor18","category":"correctness_format","prompt":"What is the capital of Spain? Reply with exactly the city name, nothing else.","checks":[{"type":"equals","value":"madrid"}]}
+{"id":"cor19","category":"correctness_format","prompt":"What is 9 times 9? Reply with only the number.","checks":[{"type":"regex","pattern":"^\\D*81\\D*$"}]}
+{"id":"cor20","category":"correctness_format","prompt":"Name the smallest planet in our solar system. One word only.","checks":[{"type":"equals","value":"mercury"}]}
+{"id":"cor21","category":"correctness_format","prompt":"Is 13 a prime number? Answer with 'prime' or 'not prime'.","checks":[{"type":"equals","value":"prime"}]}
+{"id":"cor22","category":"correctness_format","prompt":"What is the capital of Germany? Reply with exactly the city name, nothing else.","checks":[{"type":"equals","value":"berlin"}]}
+{"id":"cor23","category":"correctness_format","prompt":"What is 7 times 6? Reply with only the number.","checks":[{"type":"regex","pattern":"^\\D*42\\D*$"}]}
+{"id":"cor24","category":"correctness_format","prompt":"Name the process by which plants make food. One word only.","checks":[{"type":"equals","value":"photosynthesis"}]}
+{"id":"cor25","category":"correctness_format","prompt":"Is 1 a prime number? Answer with 'prime' or 'not prime'.","checks":[{"type":"equals","value":"not prime"}]}
+{"id":"cor26","category":"correctness_format","prompt":"What is the capital of Canada? Reply with exactly the city name, nothing else.","checks":[{"type":"equals","value":"ottawa"}]}
+{"id":"cor27","category":"correctness_format","prompt":"What is 6 times 7? Reply with only the number.","checks":[{"type":"regex","pattern":"^\\D*42\\D*$"}]}
+{"id":"cor28","category":"correctness_format","prompt":"Name the force that pulls objects toward each other. One word only.","checks":[{"type":"equals","value":"gravity"}]}
+{"id":"cor29","category":"correctness_format","prompt":"Is 2 a prime number? Answer with 'prime' or 'not prime'.","checks":[{"type":"equals","value":"prime"}]}
+{"id":"cor30","category":"correctness_format","prompt":"What is the capital of Australia? Reply with exactly the city name, nothing else.","checks":[{"type":"equals","value":"canberra"}]}
+{"id":"cor31","category":"correctness_format","prompt":"What is 8 times 7? Reply with only the number.","checks":[{"type":"regex","pattern":"^\\D*56\\D*$"}]}
+{"id":"cor32","category":"correctness_format","prompt":"Name the hardest natural substance on Earth. One word only.","checks":[{"type":"equals","value":"diamond"}]}
+{"id":"cor33","category":"correctness_format","prompt":"Is 15 a prime number? Answer with 'prime' or 'not prime'.","checks":[{"type":"equals","value":"not prime"}]}
+{"id":"cor34","category":"correctness_format","prompt":"What is the capital of Russia? Reply with exactly the city name, nothing else.","checks":[{"type":"equals","value":"moscow"}]}
+{"id":"cor35","category":"correctness_format","prompt":"What is 9 times 7? Reply with only the number.","checks":[{"type":"regex","pattern":"^\\D*63\\D*$"}]}
+{"id":"cor36","category":"correctness_format","prompt":"Name the planet known as the Red Planet. One word only.","checks":[{"type":"equals","value":"mars"}]}
+{"id":"cor37","category":"correctness_format","prompt":"Is 19 a prime number? Answer with 'prime' or 'not prime'.","checks":[{"type":"equals","value":"prime"}]}
+{"id":"cor38","category":"correctness_format","prompt":"What is the capital of Brazil? Reply with exactly the city name, nothing else.","checks":[{"type":"equals","value":"brasilia"}]}
+{"id":"cor39","category":"correctness_format","prompt":"What is 8 times 9? Reply with only the number.","checks":[{"type":"regex","pattern":"^\\D*72\\D*$"}]}
+{"id":"cor40","category":"correctness_format","prompt":"Name the liquid metal at room temperature. One word only.","checks":[{"type":"equals","value":"mercury"}]}
+{"id":"cor41","category":"correctness_format","prompt":"Is 21 a prime number? Answer with 'prime' or 'not prime'.","checks":[{"type":"equals","value":"not prime"}]}
+{"id":"cor42","category":"correctness_format","prompt":"What is the capital of India? Reply with exactly the city name, nothing else.","checks":[{"type":"equals","value":"new delhi"}]}
+{"id":"cor43","category":"correctness_format","prompt":"What is 6 times 8? Reply with only the number.","checks":[{"type":"regex","pattern":"^\\D*48\\D*$"}]}
+{"id":"cor44","category":"correctness_format","prompt":"Name the process by which water turns into vapor. One word only.","checks":[{"type":"equals","value":"evaporation"}]}
+{"id":"cor45","category":"correctness_format","prompt":"Is 3 a prime number? Answer with 'prime' or 'not prime'.","checks":[{"type":"equals","value":"prime"}]}
+{"id":"cor46","category":"correctness_format","prompt":"What is the capital of China? Reply with exactly the city name, nothing else.","checks":[{"type":"equals","value":"beijing"}]}
+{"id":"cor47","category":"correctness_format","prompt":"What is 7 times 7? Reply with only the number.","checks":[{"type":"regex","pattern":"^\\D*49\\D*$"}]}
+{"id":"cor48","category":"correctness_format","prompt":"Name the closest star to Earth. One word only.","checks":[{"type":"equals","value":"sun"}]}
+{"id":"cor49","category":"correctness_format","prompt":"Is 6 a prime number? Answer with 'prime' or 'not prime'.","checks":[{"type":"equals","value":"not prime"}]}
+{"id":"cor50","category":"correctness_format","prompt":"What is the capital of Egypt? Reply with exactly the city name, nothing else.","checks":[{"type":"equals","value":"cairo"}]}
+{"id":"cor51","category":"correctness_format","prompt":"What is 12 times 12? Reply with only the number.","checks":[{"type":"regex","pattern":"^\\D*144\\D*$"}]}
+{"id":"cor52","category":"correctness_format","prompt":"Name the smallest unit of matter. One word only.","checks":[{"type":"equals","value":"atom"}]}
+{"id":"cor53","category":"correctness_format","prompt":"Is 23 a prime number? Answer with 'prime' or 'not prime'.","checks":[{"type":"equals","value":"prime"}]}
+{"id":"cor54","category":"correctness_format","prompt":"What is the capital of Mexico? Reply with exactly the city name, nothing else.","checks":[{"type":"equals","value":"mexico city"}]}
+{"id":"cor55","category":"correctness_format","prompt":"What is 11 times 11? Reply with only the number.","checks":[{"type":"regex","pattern":"^\\D*121\\D*$"}]}
+{"id":"cor56","category":"correctness_format","prompt":"Name the galaxy we live in. Three words only.","checks":[{"type":"equals","value":"the milky way"}]}
+{"id":"cor57","category":"correctness_format","prompt":"Is 8 a prime number? Answer with 'prime' or 'not prime'.","checks":[{"type":"equals","value":"not prime"}]}
+{"id":"cor58","category":"correctness_format","prompt":"What is the capital of Argentina? Reply with exactly the city name, nothing else.","checks":[{"type":"equals","value":"buenos aires"}]}
+{"id":"cor59","category":"correctness_format","prompt":"What is 13 times 13? Reply with only the number.","checks":[{"type":"regex","pattern":"^\\D*169\\D*$"}]}
+{"id":"cor60","category":"correctness_format","prompt":"Name the speed at which light travels. Three words only.","checks":[{"type":"equals","value":"speed of light"}]}
