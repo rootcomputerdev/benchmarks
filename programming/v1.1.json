@@ -1,0 +1,2527 @@
+{
+  "evaluators": {
+    "internal:multiple-choice": "mcq"
+  },
+  "questions": [
+    {
+      "type": "mcq",
+      "id": "prog-easy-01",
+      "question": "Which keyword is used to declare a variable in JavaScript?",
+      "options": {
+        "choices": {
+          "a": "var",
+          "b": "int",
+          "c": "define",
+          "d": "let"
+        },
+        "answer": "a"
+      }
+    },
+    {
+      "type": "mcq",
+      "id": "prog-easy-02",
+      "question": "What does the '==' operator do in most C-like languages?",
+      "options": {
+        "choices": {
+          "a": "Assigns a value",
+          "b": "Compares equality",
+          "c": "Logical NOT",
+          "d": "Bitwise AND"
+        },
+        "answer": "b"
+      }
+    },
+    {
+      "type": "mcq",
+      "id": "prog-easy-03",
+      "question": "Which of these is a loop construct in Python?",
+      "options": {
+        "choices": {
+          "a": "repeat...until",
+          "b": "for",
+          "c": "goto",
+          "d": "switch"
+        },
+        "answer": "b"
+      }
+    },
+    {
+      "type": "mcq",
+      "id": "prog-easy-04",
+      "question": "What will be printed by: print(2 + 3 * 4) in most languages?",
+      "options": {
+        "choices": {
+          "a": "20",
+          "b": "14",
+          "c": "24",
+          "d": "12"
+        },
+        "answer": "b"
+      }
+    },
+    {
+      "type": "mcq",
+      "id": "prog-easy-05",
+      "question": "Which symbol starts a single-line comment in JavaScript?",
+      "options": {
+        "choices": {
+          "a": "/",
+          "b": "//",
+          "c": "#",
+          "d": "<!--"
+        },
+        "answer": "b"
+      }
+    },
+    {
+      "type": "mcq",
+      "id": "prog-easy-06",
+      "question": "In HTML, which tag defines a paragraph?",
+      "options": {
+        "choices": {
+          "a": "<div>",
+          "b": "<p>",
+          "c": "<span>",
+          "d": "<section>"
+        },
+        "answer": "b"
+      }
+    },
+    {
+      "type": "mcq",
+      "id": "prog-easy-07",
+      "question": "What is the correct file extension for a Python script?",
+      "options": {
+        "choices": {
+          "a": ".py",
+          "b": " .python",
+          "c": " .pt",
+          "d": " .pyt"
+        },
+        "answer": "a"
+      }
+    },
+    {
+      "type": "mcq",
+      "id": "prog-easy-08",
+      "question": "Which of these data types stores true/false values?",
+      "options": {
+        "choices": {
+          "a": "int",
+          "b": "char",
+          "c": "bool",
+          "d": "float"
+        },
+        "answer": "c"
+      }
+    },
+    {
+      "type": "mcq",
+      "id": "prog-easy-09",
+      "question": "What does the keyword return do inside a function?",
+      "options": {
+        "choices": {
+          "a": "Ends the program",
+          "b": "Exits the loop",
+          "c": "Sends a value back to the caller",
+          "d": "Declares a variable"
+        },
+        "answer": "c"
+      }
+    },
+    {
+      "type": "mcq",
+      "id": "prog-easy-10",
+      "question": "Which operator is used for string concatenation in JavaScript?",
+      "options": {
+        "choices": {
+          "a": "+",
+          "b": "&",
+          "c": "||",
+          "d": "++"
+        },
+        "answer": "a"
+      }
+    },
+    {
+      "type": "mcq",
+      "id": "prog-easy-11",
+      "question": "What will len([1,2,3]) return in Python?",
+      "options": {
+        "choices": {
+          "a": "3",
+          "b": "2",
+          "c": "0",
+          "d": "Error"
+        },
+        "answer": "a"
+      }
+    },
+    {
+      "type": "mcq",
+      "id": "prog-easy-12",
+      "question": "Which of the following is a mutable sequence type in Python?",
+      "options": {
+        "choices": {
+          "a": "tuple",
+          "b": "list",
+          "c": "str",
+          "d": "frozenset"
+        },
+        "answer": "b"
+      }
+    },
+    {
+      "type": "mcq",
+      "id": "prog-easy-13",
+      "question": "In CSS, which property changes text colour?",
+      "options": {
+        "choices": {
+          "a": "font-color",
+          "b": "color",
+          "c": "text-color",
+          "d": "foreground"
+        },
+        "answer": "b"
+      }
+    },
+    {
+      "type": "mcq",
+      "id": "prog-easy-14",
+      "question": "What does && mean in C-like languages?",
+      "options": {
+        "choices": {
+          "a": "Bitwise AND",
+          "b": "Logical OR",
+          "c": "Logical AND",
+          "d": "Assignment"
+        },
+        "answer": "c"
+      }
+    },
+    {
+      "type": "mcq",
+      "id": "prog-easy-15",
+      "question": "Which HTML attribute specifies an image source?",
+      "options": {
+        "choices": {
+          "a": "src",
+          "b": "href",
+          "c": "link",
+          "d": "path"
+        },
+        "answer": "a"
+      }
+    },
+    {
+      "type": "mcq",
+      "id": "prog-easy-16",
+      "question": "What is the output of console.log(typeof null) in JavaScript?",
+      "options": {
+        "choices": {
+          "a": "object",
+          "b": "null",
+          "c": "undefined",
+          "d": "boolean"
+        },
+        "answer": "a"
+      }
+    },
+    {
+      "type": "mcq",
+      "id": "prog-easy-17",
+      "question": "Which keyword creates a new object instance in Java?",
+      "options": {
+        "choices": {
+          "a": "new",
+          "b": "create",
+          "c": "instanceof",
+          "d": "make"
+        },
+        "answer": "a"
+      }
+    },
+    {
+      "type": "mcq",
+      "id": "prog-easy-18",
+      "question": "In SQL, which clause is used to filter rows?",
+      "options": {
+        "choices": {
+          "a": "SELECT",
+          "b": "WHERE",
+          "c": "FROM",
+          "d": "GROUP BY"
+        },
+        "answer": "b"
+      }
+    },
+    {
+      "type": "mcq",
+      "id": "prog-easy-19",
+      "question": "What does the # symbol start in a Python file?",
+      "options": {
+        "choices": {
+          "a": "Comment",
+          "b": "Macro",
+          "c": "Preprocessor directive",
+          "d": "Label"
+        },
+        "answer": "a"
+      }
+    },
+    {
+      "type": "mcq",
+      "id": "prog-easy-20",
+      "question": "Which of these is NOT a primitive type in Java?",
+      "options": {
+        "choices": {
+          "a": "int",
+          "b": "String",
+          "c": "boolean",
+          "d": "char"
+        },
+        "answer": "b"
+      }
+    },
+    {
+      "type": "mcq",
+      "id": "prog-easy-21",
+      "question": "What does the break statement do inside a loop?",
+      "options": {
+        "choices": {
+          "a": "Skips current iteration",
+          "b": "Exits the loop immediately",
+          "c": "Restarts the loop",
+          "d": "Continues to next iteration"
+        },
+        "answer": "b"
+      }
+    },
+    {
+      "type": "mcq",
+      "id": "prog-easy-22",
+      "question": "In CSS, which unit is relative to the parent element`s font size?",
+      "options": {
+        "choices": {
+          "a": "px",
+          "b": "pt",
+          "c": "em",
+          "d": "vh"
+        },
+        "answer": "c"
+      }
+    },
+    {
+      "type": "mcq",
+      "id": "prog-easy-23",
+      "question": "Which of these is a logical operator in Python?",
+      "options": {
+        "choices": {
+          "a": "&",
+          "b": "&&",
+          "c": "and",
+          "d": "||"
+        },
+        "answer": "c"
+      }
+    },
+    {
+      "type": "mcq",
+      "id": "prog-easy-24",
+      "question": "What keyword is used to handle exceptions in Java?",
+      "options": {
+        "choices": {
+          "a": "catch",
+          "b": "try",
+          "c": "throw",
+          "d": "finally"
+        },
+        "answer": "a"
+      }
+    },
+    {
+      "type": "mcq",
+      "id": "prog-easy-25",
+      "question": "Which HTML tag defines a table row?",
+      "options": {
+        "choices": {
+          "a": "<td>",
+          "b": "<tr>",
+          "c": "<th>",
+          "d": "<table>"
+        },
+        "answer": "b"
+      }
+    },
+    {
+      "type": "mcq",
+      "id": "prog-easy-26",
+      "question": "What is the result of 5 % 2 in most languages?",
+      "options": {
+        "choices": {
+          "a": "1",
+          "b": "0",
+          "c": "2",
+          "d": "3"
+        },
+        "answer": "a"
+      }
+    },
+    {
+      "type": "mcq",
+      "id": "prog-easy-27",
+      "question": "Which language uses indentation to define code blocks?",
+      "options": {
+        "choices": {
+          "a": "C",
+          "b": "Java",
+          "c": "Python",
+          "d": "Ruby"
+        },
+        "answer": "c"
+      }
+    },
+    {
+      "type": "mcq",
+      "id": "prog-easy-28",
+      "question": "In Git, which command creates a new branch?",
+      "options": {
+        "choices": {
+          "a": "git checkout -b",
+          "b": "git merge",
+          "c": "git pull",
+          "d": "git clone"
+        },
+        "answer": "a"
+      }
+    },
+    {
+      "type": "mcq",
+      "id": "prog-easy-29",
+      "question": "Which operator is used to access members of an object in JavaScript?",
+      "options": {
+        "choices": {
+          "a": "::",
+          "b": "->",
+          "c": ".",
+          "d": "#"
+        },
+        "answer": "c"
+      }
+    },
+    {
+      "type": "mcq",
+      "id": "prog-easy-30",
+      "question": "What does HTML stand for?",
+      "options": {
+        "choices": {
+          "a": "Hyperlink Text Markup Language",
+          "b": "Hypertext Transfer Markup Language",
+          "c": "Hypertext Markup Language",
+          "d": "Home Tool Markup Language"
+        },
+        "answer": "c"
+      }
+    },
+    {
+      "type": "mcq",
+      "id": "prog-easy-31",
+      "question": "Which of these is a looping construct in C?",
+      "options": {
+        "choices": {
+          "a": "for",
+          "b": "repeat",
+          "c": "loop",
+          "d": "iterate"
+        },
+        "answer": "a"
+      }
+    },
+    {
+      "type": "mcq",
+      "id": "prog-easy-32",
+      "question": "What is the correct way to write an array literal in JavaScript?",
+      "options": {
+        "choices": {
+          "a": "[1,2,3]",
+          "b": "{1,2,3}",
+          "c": "(1,2,3)",
+          "d": "<1,2,3>"
+        },
+        "answer": "a"
+      }
+    },
+    {
+      "type": "mcq",
+      "id": "prog-easy-33",
+      "question": "In Python, which keyword defines a function?",
+      "options": {
+        "choices": {
+          "a": "def",
+          "b": "function",
+          "c": "fun",
+          "d": "lambda"
+        },
+        "answer": "a"
+      }
+    },
+    {
+      "type": "mcq",
+      "id": "prog-easy-34",
+      "question": "What does the === operator check in JavaScript?",
+      "options": {
+        "choices": {
+          "a": "Equality with type coercion",
+          "b": "Strict equality without type conversion",
+          "c": "Assignment",
+          "d": "Inequality"
+        },
+        "answer": "b"
+      }
+    },
+    {
+      "type": "mcq",
+      "id": "prog-easy-35",
+      "question": "Which tag is used for an ordered list in HTML?",
+      "options": {
+        "choices": {
+          "a": "<ul>",
+          "b": "<ol>",
+          "c": "<li>",
+          "d": "<list>"
+        },
+        "answer": "b"
+      }
+    },
+    {
+      "type": "mcq",
+      "id": "prog-easy-36",
+      "question": "What does git status show?",
+      "options": {
+        "choices": {
+          "a": "Current branch name only",
+          "b": "List of remote branches",
+          "c": "Changes staged, unstaged and untracked files",
+          "d": "Commit history"
+        },
+        "answer": "c"
+      }
+    },
+    {
+      "type": "mcq",
+      "id": "prog-easy-37",
+      "question": "Which of these is a valid variable name in Java?",
+      "options": {
+        "choices": {
+          "a": "2value",
+          "b": "_temp",
+          "c": "class",
+          "d": "while"
+        },
+        "answer": "b"
+      }
+    },
+    {
+      "type": "mcq",
+      "id": "prog-easy-38",
+      "question": "In CSS, which property controls the space between lines of text?",
+      "options": {
+        "choices": {
+          "a": "line-height",
+          "b": "letter-spacing",
+          "c": "margin",
+          "d": "padding"
+        },
+        "answer": "a"
+      }
+    },
+    {
+      "type": "mcq",
+      "id": "prog-easy-39",
+      "question": "Which symbol is used for a single-line comment in Python?",
+      "options": {
+        "choices": {
+          "a": "//",
+          "b": "/ */",
+          "c": "#",
+          "d": "<!--"
+        },
+        "answer": "c"
+      }
+    },
+    {
+      "type": "mcq",
+      "id": "prog-easy-40",
+      "question": "What does SELECT * FROM users; do?",
+      "options": {
+        "choices": {
+          "a": "Deletes all rows",
+          "b": "Creates a new table",
+          "c": "Selects all columns from the users table",
+          "d": "Updates user records"
+        },
+        "answer": "c"
+      }
+    },
+    {
+      "type": "mcq",
+      "id": "prog-easy-41",
+      "question": "In Java, which keyword is used to inherit a class?",
+      "options": {
+        "choices": {
+          "a": "extends",
+          "b": "implements",
+          "c": "inherits",
+          "d": "uses"
+        },
+        "answer": "a"
+      }
+    },
+    {
+      "type": "mcq",
+      "id": "prog-easy-42",
+      "question": "Which of the following is NOT a loop in Python?",
+      "options": {
+        "choices": {
+          "a": "while",
+          "b": "for",
+          "c": "do…while",
+          "d": "else (attached to loops)"
+        },
+        "answer": "c"
+      }
+    },
+    {
+      "type": "mcq",
+      "id": "prog-easy-43",
+      "question": "What does null represent in many languages?",
+      "options": {
+        "choices": {
+          "a": "Zero value",
+          "b": "Empty string",
+          "c": "No object/reference",
+          "d": "True boolean"
+        },
+        "answer": "c"
+      }
+    },
+    {
+      "type": "mcq",
+      "id": "prog-easy-44",
+      "question": "In HTML, which element is used for the largest heading?",
+      "options": {
+        "choices": {
+          "a": "<h6>",
+          "b": "<header>",
+          "c": "<title>",
+          "d": "<h1>"
+        },
+        "answer": "d"
+      }
+    },
+    {
+      "type": "mcq",
+      "id": "prog-easy-45",
+      "question": "Which operator increments a variable by one in C?",
+      "options": {
+        "choices": {
+          "a": "++",
+          "b": "**",
+          "c": "@@",
+          "d": "~~"
+        },
+        "answer": "a"
+      }
+    },
+    {
+      "type": "mcq",
+      "id": "prog-easy-46",
+      "question": "What does the len function return for a string in Python?",
+      "options": {
+        "choices": {
+          "a": "Number of characters",
+          "b": "String length in bytes",
+          "c": "ASCII code sum",
+          "d": "Memory address"
+        },
+        "answer": "a"
+      }
+    },
+    {
+      "type": "mcq",
+      "id": "prog-easy-47",
+      "question": "Which of these is a correct way to import the math module in Python?",
+      "options": {
+        "choices": {
+          "a": "import math;",
+          "b": "using math;",
+          "c": "include <math>;",
+          "d": "require('math');"
+        },
+        "answer": "a"
+      }
+    },
+    {
+      "type": "mcq",
+      "id": "prog-easy-48",
+      "question": "In JavaScript, which method adds an element to the end of an array?",
+      "options": {
+        "choices": {
+          "a": "push()",
+          "b": "append()",
+          "c": "add()",
+          "d": "insert()"
+        },
+        "answer": "a"
+      }
+    },
+    {
+      "type": "mcq",
+      "id": "prog-easy-49",
+      "question": "What does <!DOCTYPE html> declare?",
+      "options": {
+        "choices": {
+          "a": "The document`s title",
+          "b": "The HTML version being used",
+          "c": "Character encoding",
+          "d": "Link to CSS file"
+        },
+        "answer": "b"
+      }
+    },
+    {
+      "type": "mcq",
+      "id": "prog-easy-50",
+      "question": "Which of these is a relational database system?",
+      "options": {
+        "choices": {
+          "a": "MongoDB",
+          "b": "MySQL",
+          "c": "Redis",
+          "d": "Cassandra"
+        },
+        "answer": "b"
+      }
+    },
+    {
+      "type": "mcq",
+      "id": "prog-medium-01",
+      "question": "What does the static keyword mean for a variable inside a C function?",
+      "options": {
+        "choices": {
+          "a": "Variable persists across calls",
+          "b": "Variable is thread-local",
+          "c": "Variable is constant",
+          "d": "Variable is global"
+        },
+        "answer": "a"
+      }
+    },
+    {
+      "type": "mcq",
+      "id": "prog-medium-02",
+      "question": "In Java, which collection allows duplicate elements and maintains insertion order?",
+      "options": {
+        "choices": {
+          "a": "HashSet",
+          "b": "TreeMap",
+          "c": "ArrayList",
+          "d": "LinkedHashSet"
+        },
+        "answer": "c"
+      }
+    },
+    {
+      "type": "mcq",
+      "id": "prog-medium-03",
+      "question": "What is the time complexity of binary search on a sorted array?",
+      "options": {
+        "choices": {
+          "a": "O(n)",
+          "b": "O(log n)",
+          "c": "O(n log n)",
+          "d": "O(1)"
+        },
+        "answer": "b"
+      }
+    },
+    {
+      "type": "mcq",
+      "id": "prog-medium-04",
+      "question": "Which statement about pointers in C is true?",
+      "options": {
+        "choices": {
+          "a": "Pointers can point to functions",
+          "b": "Pointers store memory addresses",
+          "c": "Pointers are automatically garbage collected",
+          "d": "Pointers cannot be dereferenced"
+        },
+        "answer": "b"
+      }
+    },
+    {
+      "type": "mcq",
+      "id": "prog-medium-05",
+      "question": "What does the await keyword do in an async function (JavaScript)?",
+      "options": {
+        "choices": {
+          "a": "Pauses execution until the Promise resolves",
+          "b": "Creates a new thread",
+          "c": "Catches errors automatically",
+          "d": "Stops the event loop"
+        },
+        "answer": "a"
+      }
+    },
+    {
+      "type": "mcq",
+      "id": "prog-medium-06",
+      "question": "Which of the following is a tail-recursive function?",
+      "options": {
+        "choices": {
+          "a": "Factorial implemented with multiplication after recursive call",
+          "b": "Fibonacci using two recursive calls",
+          "c": "Sum of list where recursion occurs after processing head",
+          "d": "Recursive binary search that returns result directly"
+        },
+        "answer": "d"
+      }
+    },
+    {
+      "type": "mcq",
+      "id": "prog-medium-07",
+      "question": "In Python, what is the output of list(map(lambda x: x*2, [1,2,3]))?",
+      "options": {
+        "choices": {
+          "a": "[2,4,6]",
+          "b": "[1,2,3]",
+          "c": "(2,4,6)",
+          "d": "Error"
+        },
+        "answer": "a"
+      }
+    },
+    {
+      "type": "mcq",
+      "id": "prog-medium-08",
+      "question": "Which SQL clause is used to group rows that have the same values?",
+      "options": {
+        "choices": {
+          "a": "GROUP BY",
+          "b": "ORDER BY",
+          "c": "HAVING",
+          "d": "WHERE"
+        },
+        "answer": "a"
+      }
+    },
+    {
+      "type": "mcq",
+      "id": "prog-medium-09",
+      "question": "What does const mean for an object variable in JavaScript?",
+      "options": {
+        "choices": {
+          "a": "The reference cannot be changed, but object properties can",
+          "b": "The entire object is immutable",
+          "c": "Variable can never be reassigned nor mutated",
+          "d": "Object is frozen at runtime"
+        },
+        "answer": "a"
+      }
+    },
+    {
+      "type": "mcq",
+      "id": "prog-medium-10",
+      "question": "Which design pattern ensures a class has only one instance?",
+      "options": {
+        "choices": {
+          "a": "Factory",
+          "b": "Observer",
+          "c": "Singleton",
+          "d": "Strategy"
+        },
+        "answer": "c"
+      }
+    },
+    {
+      "type": "mcq",
+      "id": "prog-medium-11",
+      "question": "What is the purpose of a virtual destructor in C++?",
+      "options": {
+        "choices": {
+          "a": "Allows base-class pointer to delete derived object safely",
+          "b": "Makes class abstract",
+          "c": "Prevents copying of objects",
+          "d": "Enforces static binding"
+        },
+        "answer": "a"
+      }
+    },
+    {
+      "type": "mcq",
+      "id": "prog-medium-12",
+      "question": "In Java, which keyword is used to prevent a method from being overridden?",
+      "options": {
+        "choices": {
+          "a": "final",
+          "b": "static",
+          "c": "private",
+          "d": "sealed"
+        },
+        "answer": "a"
+      }
+    },
+    {
+      "type": "mcq",
+      "id": "prog-medium-13",
+      "question": "Which of the following is true about garbage collection in Java?",
+      "options": {
+        "choices": {
+          "a": "It runs deterministically after each allocation",
+          "b": "It can be triggered manually with System.gc() (no guarantee)",
+          "c": "It only collects objects on the heap",
+          "d": "It deallocates stack memory"
+        },
+        "answer": "b"
+      }
+    },
+    {
+      "type": "mcq",
+      "id": "prog-medium-14",
+      "question": "What does the yield keyword do in Python?",
+      "options": {
+        "choices": {
+          "a": "Returns a value and exits function",
+          "b": "Creates a generator that produces values lazily",
+          "c": "Raises an exception",
+          "d": "Defines a coroutine"
+        },
+        "answer": "b"
+      }
+    },
+    {
+      "type": "mcq",
+      "id": "prog-medium-15",
+      "question": "Which HTTP status code indicates that authentication is required?",
+      "options": {
+        "choices": {
+          "a": "200",
+          "b": "301",
+          "c": "401",
+          "d": "403"
+        },
+        "answer": "c"
+      }
+    },
+    {
+      "type": "mcq",
+      "id": "prog-medium-16",
+      "question": "In C++, which container provides O(1) average time for insert, delete and find?",
+      "options": {
+        "choices": {
+          "a": "vector",
+          "b": "list",
+          "c": "unordered_map",
+          "d": "map"
+        },
+        "answer": "c"
+      }
+    },
+    {
+      "type": "mcq",
+      "id": "prog-medium-17",
+      "question": "What is the output of console.log(typeof NaN) in JavaScript?",
+      "options": {
+        "choices": {
+          "a": "number",
+          "b": "NaN",
+          "c": "undefined",
+          "d": "object"
+        },
+        "answer": "a"
+      }
+    },
+    {
+      "type": "mcq",
+      "id": "prog-medium-18",
+      "question": "Which sorting algorithm has best-case time complexity O(n) and worst-case O(n²)?",
+      "options": {
+        "choices": {
+          "a": "Merge sort",
+          "b": "Quick sort",
+          "c": "Insertion sort",
+          "d": "Heap sort"
+        },
+        "answer": "c"
+      }
+    },
+    {
+      "type": "mcq",
+      "id": "prog-medium-19",
+      "question": "What is a closure in JavaScript?",
+      "options": {
+        "choices": {
+          "a": "A function with its own this value",
+          "b": "An object that stores private data",
+          "c": "A function together with the lexical environment it was created in",
+          "d": "A loop that never ends"
+        },
+        "answer": "c"
+      }
+    },
+    {
+      "type": "mcq",
+      "id": "prog-medium-20",
+      "question": "In SQL, which keyword removes duplicate rows from a result set?",
+      "options": {
+        "choices": {
+          "a": "DISTINCT",
+          "b": "UNIQUE",
+          "c": "REMOVE DUPLICATES",
+          "d": "NO DUPLICATE"
+        },
+        "answer": "a"
+      }
+    },
+    {
+      "type": "mcq",
+      "id": "prog-medium-21",
+      "question": "What does the volatile qualifier indicate in C?",
+      "options": {
+        "choices": {
+          "a": "Variable may be modified by hardware or another thread",
+          "b": "Variable cannot be changed after initialization",
+          "c": "Variable is stored in read-only memory",
+          "d": "Variable is automatically synchronized"
+        },
+        "answer": "a"
+      }
+    },
+    {
+      "type": "mcq",
+      "id": "prog-medium-22",
+      "question": "Which of the following is a correct way to create a new thread in Java?",
+      "options": {
+        "choices": {
+          "a": "Thread t = new Thread(); t.start();",
+          "b": "new Thread().run();",
+          "c": "Thread.run(new Runnable(){...});",
+          "d": "start new Thread;"
+        },
+        "answer": "a"
+      }
+    },
+    {
+      "type": "mcq",
+      "id": "prog-medium-23",
+      "question": "In Python, what does the expression **kwargs collect?",
+      "options": {
+        "choices": {
+          "a": "Positional arguments",
+          "b": "Keyword arguments as a dictionary",
+          "c": "All arguments in a list",
+          "d": "Variable name references"
+        },
+        "answer": "b"
+      }
+    },
+    {
+      "type": "mcq",
+      "id": "prog-medium-24",
+      "question": "What is the purpose of the Makefile?",
+      "options": {
+        "choices": {
+          "a": "Define UI layout",
+          "b": "Specify database schema",
+          "c": "Automate compilation and build steps",
+          "d": "Configure network routing"
+        },
+        "answer": "c"
+      }
+    },
+    {
+      "type": "mcq",
+      "id": "prog-medium-25",
+      "question": "Which data structure uses LIFO (last-in, first-out) ordering?",
+      "options": {
+        "choices": {
+          "a": "Queue",
+          "b": "Stack",
+          "c": "Tree",
+          "d": "Graph"
+        },
+        "answer": "b"
+      }
+    },
+    {
+      "type": "mcq",
+      "id": "prog-medium-26",
+      "question": "What does the synchronized keyword ensure in Java?",
+      "options": {
+        "choices": {
+          "a": "Method runs on a separate process",
+          "b": "Only one thread can execute the block at a time",
+          "c": "Variable is immutable",
+          "d": "Automatic garbage collection"
+        },
+        "answer": "b"
+      }
+    },
+    {
+      "type": "mcq",
+      "id": "prog-medium-27",
+      "question": "In C, which function allocates memory that persists until freed?",
+      "options": {
+        "choices": {
+          "a": "malloc()",
+          "b": "alloca()",
+          "c": "new()",
+          "d": "stackalloc()"
+        },
+        "answer": "a"
+      }
+    },
+    {
+      "type": "mcq",
+      "id": "prog-medium-28",
+      "question": "Which of these is a pure functional language?",
+      "options": {
+        "choices": {
+          "a": "Haskell",
+          "b": "Python",
+          "c": "JavaScript",
+          "d": "C++"
+        },
+        "answer": "a"
+      }
+    },
+    {
+      "type": "mcq",
+      "id": "prog-medium-29",
+      "question": "What does the term `big-O notation` describe?",
+      "options": {
+        "choices": {
+          "a": "Exact runtime in seconds",
+          "b": "Memory usage pattern",
+          "c": "Upper bound on algorithm growth rate",
+          "d": "Number of lines of code"
+        },
+        "answer": "c"
+      }
+    },
+    {
+      "type": "mcq",
+      "id": "prog-medium-30",
+      "question": "Which of the following is a characteristic of RESTful APIs?",
+      "options": {
+        "choices": {
+          "a": "Stateful communication",
+          "b": "Use of SOAP envelope",
+          "c": "Statelessness and resource-based URLs",
+          "d": "Fixed XML schema"
+        },
+        "answer": "c"
+      }
+    },
+    {
+      "type": "mcq",
+      "id": "prog-medium-31",
+      "question": "In Java, what does the transient modifier do to a field during serialization?",
+      "options": {
+        "choices": {
+          "a": "Encrypts it",
+          "b": "Excludes it from being serialized",
+          "c": "Makes it static",
+          "d": "Marks it as volatile"
+        },
+        "answer": "b"
+      }
+    },
+    {
+      "type": "mcq",
+      "id": "prog-medium-32",
+      "question": "What is the purpose of a mutex?",
+      "options": {
+        "choices": {
+          "a": "Allocate memory",
+          "b": "Synchronize access to shared resources",
+          "c": "Compress data streams",
+          "d": "Generate random numbers"
+        },
+        "answer": "b"
+      }
+    },
+    {
+      "type": "mcq",
+      "id": "prog-medium-33",
+      "question": "Which SQL command adds a new column to an existing table?",
+      "options": {
+        "choices": {
+          "a": "INSERT COLUMN",
+          "b": "ALTER TABLE … ADD COLUMN",
+          "c": "MODIFY TABLE",
+          "d": "UPDATE TABLE"
+        },
+        "answer": "b"
+      }
+    },
+    {
+      "type": "mcq",
+      "id": "prog-medium-34",
+      "question": "What does git rebase do compared to git merge?",
+      "options": {
+        "choices": {
+          "a": "Creates a new branch",
+          "b": "Rewrites commit history by moving commits onto another base",
+          "c": "Deletes the current branch",
+          "d": "Clones a remote repository"
+        },
+        "answer": "b"
+      }
+    },
+    {
+      "type": "mcq",
+      "id": "prog-medium-35",
+      "question": "In C++, which keyword enables move semantics for a class?",
+      "options": {
+        "choices": {
+          "a": "copy",
+          "b": "move",
+          "c": "forward",
+          "d": "rvalue"
+        },
+        "answer": "b"
+      }
+    },
+    {
+      "type": "mcq",
+      "id": "prog-medium-36",
+      "question": "What does the @Override annotation indicate in Java?",
+      "options": {
+        "choices": {
+          "a": "Method is abstract",
+          "b": "Method hides a static method",
+          "c": "Method overrides a superclass method",
+          "d": "Method is deprecated"
+        },
+        "answer": "c"
+      }
+    },
+    {
+      "type": "mcq",
+      "id": "prog-medium-37",
+      "question": "Which of these is a non-blocking I/O model?",
+      "options": {
+        "choices": {
+          "a": "select/poll",
+          "b": "async/await (event loop)",
+          "c": "thread per connection",
+          "d": "synchronous read"
+        },
+        "answer": "b"
+      }
+    },
+    {
+      "type": "mcq",
+      "id": "prog-medium-38",
+      "question": "In Python, which built-in type is ordered and immutable?",
+      "options": {
+        "choices": {
+          "a": "list",
+          "b": "tuple",
+          "c": "set",
+          "d": "dict"
+        },
+        "answer": "b"
+      }
+    },
+    {
+      "type": "mcq",
+      "id": "prog-medium-39",
+      "question": "What does the constexpr specifier enforce in C++?",
+      "options": {
+        "choices": {
+          "a": "Runtime constant expression",
+          "b": "Compile-time constant expression",
+          "c": "Constant pointer value",
+          "d": "Constant reference semantics"
+        },
+        "answer": "b"
+      }
+    },
+    {
+      "type": "mcq",
+      "id": "prog-medium-40",
+      "question": "Which protocol is primarily used for sending email from a client to a server?",
+      "options": {
+        "choices": {
+          "a": "SMTP",
+          "b": "IMAP",
+          "c": "POP3",
+          "d": "FTP"
+        },
+        "answer": "a"
+      }
+    },
+    {
+      "type": "mcq",
+      "id": "prog-medium-41",
+      "question": "In JavaScript, what will [1,2,3].map(String).join('-') produce?",
+      "options": {
+        "choices": {
+          "a": "1-2-3",
+          "b": "123",
+          "c": "1,2,3",
+          "d": "Error"
+        },
+        "answer": "a"
+      }
+    },
+    {
+      "type": "mcq",
+      "id": "prog-medium-42",
+      "question": "What is a `race condition`?",
+      "options": {
+        "choices": {
+          "a": "When two threads access the same variable without synchronization leading to unpredictable results",
+          "b": "A deadlock scenario",
+          "c": "A compilation error due to missing headers",
+          "d": "A performance bottleneck caused by CPU cache"
+        },
+        "answer": "a"
+      }
+    },
+    {
+      "type": "mcq",
+      "id": "prog-medium-43",
+      "question": "Which of the following is true about IPv6 compared to IPv4?",
+      "options": {
+        "choices": {
+          "a": "IPv6 addresses are 32 bits long",
+          "b": "IPv6 removes need for NAT",
+          "c": "IPv6 uses dotted-decimal notation",
+          "d": "IPv6 cannot coexist with IPv4"
+        },
+        "answer": "b"
+      }
+    },
+    {
+      "type": "mcq",
+      "id": "prog-medium-44",
+      "question": "What does the enum keyword define in C?",
+      "options": {
+        "choices": {
+          "a": "A structure type",
+          "b": "A set of named integer constants",
+          "c": "A function prototype",
+          "d": "A pointer type"
+        },
+        "answer": "b"
+      }
+    },
+    {
+      "type": "mcq",
+      "id": "prog-medium-45",
+      "question": "Which of these is a characteristic of a monolithic kernel?",
+      "options": {
+        "choices": {
+          "a": "Device drivers run in user space",
+          "b": "All services execute in kernel space",
+          "c": "Kernel modules are loaded at runtime as separate processes",
+          "d": "It uses micro-services architecture"
+        },
+        "answer": "b"
+      }
+    },
+    {
+      "type": "mcq",
+      "id": "prog-medium-46",
+      "question": "In Java, which collection guarantees that its elements are sorted according to their natural order?",
+      "options": {
+        "choices": {
+          "a": "ArrayList",
+          "b": "HashSet",
+          "c": "TreeSet",
+          "d": "LinkedList"
+        },
+        "answer": "c"
+      }
+    },
+    {
+      "type": "mcq",
+      "id": "prog-medium-47",
+      "question": "What does the term `callback hell` refer to?",
+      "options": {
+        "choices": {
+          "a": "Deeply nested anonymous functions leading to unread code",
+          "b": "A security vulnerability in callbacks",
+          "c": "An infinite recursion bug",
+          "d": "Excessive use of global variables"
+        },
+        "answer": "a"
+      }
+    },
+    {
+      "type": "mcq",
+      "id": "prog-medium-48",
+      "question": "Which language feature allows a function to accept an arbitrary number of arguments in C?",
+      "options": {
+        "choices": {
+          "a": "varargs (...)",
+          "b": "generics",
+          "c": "templates",
+          "d": "lambda expressions"
+        },
+        "answer": "a"
+      }
+    },
+    {
+      "type": "mcq",
+      "id": "prog-medium-49",
+      "question": "In Git, what does git cherry-pick <commit> do?",
+      "options": {
+        "choices": {
+          "a": "Deletes the commit from history",
+          "b": "Applies changes introduced by the given commit onto current HEAD",
+          "c": "Creates a new branch at that commit",
+          "d": "Shows diff of the commit"
+        },
+        "answer": "b"
+      }
+    },
+    {
+      "type": "mcq",
+      "id": "prog-medium-50",
+      "question": "What is the purpose of the finally block in exception handling?",
+      "options": {
+        "choices": {
+          "a": "Execute code only when an exception occurs",
+          "b": "Guarantee execution regardless of whether an exception was thrown",
+          "c": "Suppress all exceptions",
+          "d": "Define a new exception type"
+        },
+        "answer": "b"
+      }
+    },
+    {
+      "type": "mcq",
+      "id": "prog-hard-01",
+      "question": "In C++, what is the effect of the `Rule of Five`?",
+      "options": {
+        "choices": {
+          "a": "You must define copy ctor, move ctor, copy assign, move assign, and destructor for proper resource management",
+          "b": "Only five virtual functions are allowed per class",
+          "c": "It limits inheritance depth to five levels",
+          "d": "Requires exactly five data members"
+        },
+        "answer": "a"
+      }
+    },
+    {
+      "type": "mcq",
+      "id": "prog-hard-02",
+      "question": "Which of the following best describes a memory leak in a language with manual allocation?",
+      "options": {
+        "choices": {
+          "a": "Dereferencing a null pointer",
+          "b": "Failing to free heap memory that is no longer reachable",
+          "c": "Overwriting stack variables",
+          "d": "Using uninitialized memory"
+        },
+        "answer": "b"
+      }
+    },
+    {
+      "type": "mcq",
+      "id": "prog-hard-03",
+      "question": "What is the difference between `pre-increment` and `post-increment` operators in C?",
+      "options": {
+        "choices": {
+          "a": "Pre-increment returns original value, post-increment returns incremented value",
+          "b": "Both have identical behavior",
+          "c": "Pre-increment increments then yields value; post-increment yields original then increments",
+          "d": "Only pre-increment works on pointers"
+        },
+        "answer": "c"
+      }
+    },
+    {
+      "type": "mcq",
+      "id": "prog-hard-04",
+      "question": "In Java, what is the effect of calling Thread.sleep(0)?",
+      "options": {
+        "choices": {
+          "a": "Terminates the thread immediately",
+          "b": "Yields execution to other threads of same priority",
+          "c": "Pauses thread for an undefined long period",
+          "d": "Throws IllegalArgumentException"
+        },
+        "answer": "b"
+      }
+    },
+    {
+      "type": "mcq",
+      "id": "prog-hard-05",
+      "question": "Which of these is a correct statement about tail-call optimization?",
+      "options": {
+        "choices": {
+          "a": "All modern compilers implement it automatically",
+          "b": "It transforms recursive calls into iteration to avoid stack growth",
+          "c": "Only works for functions with no parameters",
+          "d": "Requires explicit pragma in C++"
+        },
+        "answer": "b"
+      }
+    },
+    {
+      "type": "mcq",
+      "id": "prog-hard-06",
+      "question": "What does the term `false sharing` refer to in multi-threaded programs?",
+      "options": {
+        "choices": {
+          "a": "Two threads accessing same variable causing race condition",
+          "b": "Cache lines being invalidated because unrelated variables share a line",
+          "c": "Deadlock due to lock ordering",
+          "d": "Incorrect use of atomic operations"
+        },
+        "answer": "b"
+      }
+    },
+    {
+      "type": "mcq",
+      "id": "prog-hard-07",
+      "question": "In Rust, what does the unsafe keyword allow?",
+      "options": {
+        "choices": {
+          "a": "Automatic memory management",
+          "b": "Bypassing borrow checker rules for raw pointers and FFI",
+          "c": "Garbage collection",
+          "d": "Dynamic typing"
+        },
+        "answer": "b"
+      }
+    },
+    {
+      "type": "mcq",
+      "id": "prog-hard-08",
+      "question": "Which of the following is true about lock-free data structures?",
+      "options": {
+        "choices": {
+          "a": "They never block, but may still starve threads",
+          "b": "They guarantee progress for all threads at all times",
+          "c": "They use mutexes internally",
+          "d": "They are only usable in single-core environments"
+        },
+        "answer": "a"
+      }
+    },
+    {
+      "type": "mcq",
+      "id": "prog-hard-09",
+      "question": "What is a `quine` program?",
+      "options": {
+        "choices": {
+          "a": "Program that prints its own source code",
+          "b": "Program that runs infinitely without I/O",
+          "c": "Compiler that compiles itself",
+          "d": "Algorithm with O(1) space complexity"
+        },
+        "answer": "a"
+      }
+    },
+    {
+      "type": "mcq",
+      "id": "prog-hard-10",
+      "question": "In C++, what does the `= delete` specifier do for a member function?",
+      "options": {
+        "choices": {
+          "a": "Marks it as deprecated",
+          "b": "Prevents its use by deleting at compile time",
+          "c": "Makes it virtual",
+          "d": "Calls destructor automatically"
+        },
+        "answer": "b"
+      }
+    },
+    {
+      "type": "mcq",
+      "id": "prog-hard-11",
+      "question": "Which of these is an advantage of using a functional programming style?",
+      "options": {
+        "choices": {
+          "a": "Mutable global state for easy sharing",
+          "b": "Easier reasoning due to referential transparency",
+          "c": "Automatic multithreading without locks",
+          "d": "Direct hardware access"
+        },
+        "answer": "b"
+      }
+    },
+    {
+      "type": "mcq",
+      "id": "prog-hard-12",
+      "question": "What does the term `memory fence` (or barrier) ensure?",
+      "options": {
+        "choices": {
+          "a": "That a thread acquires a lock before proceeding",
+          "b": "Ordering of memory operations across CPU cores",
+          "c": "Prevention of buffer overflows",
+          "d": "Automatic garbage collection"
+        },
+        "answer": "b"
+      }
+    },
+    {
+      "type": "mcq",
+      "id": "prog-hard-13",
+      "question": "In Java, which class provides a lock that can be acquired in a non-blocking way?",
+      "options": {
+        "choices": {
+          "a": "ReentrantLock",
+          "b": "Semaphore",
+          "c": "CountDownLatch",
+          "d": "AtomicReference"
+        },
+        "answer": "a"
+      }
+    },
+    {
+      "type": "mcq",
+      "id": "prog-hard-14",
+      "question": "What is the primary difference between `eager` and `lazy` evaluation?",
+      "options": {
+        "choices": {
+          "a": "Eager evaluates expressions when they are bound; lazy delays until needed",
+          "b": "Lazy evaluation always uses less memory",
+          "c": "Eager works only with compiled languages",
+          "d": "Lazy forces immediate garbage collection"
+        },
+        "answer": "a"
+      }
+    },
+    {
+      "type": "mcq",
+      "id": "prog-hard-15",
+      "question": "Which algorithmic problem is NP-complete?",
+      "options": {
+        "choices": {
+          "a": "Finding the shortest path in a graph (Dijkstra)",
+          "b": "Sorting an array",
+          "c": "Traveling Salesperson Problem",
+          "d": "Binary search"
+        },
+        "answer": "c"
+      }
+    },
+    {
+      "type": "mcq",
+      "id": "prog-hard-16",
+      "question": "What does `link-time optimization` (LTO) allow a compiler to do?",
+      "options": {
+        "choices": {
+          "a": "Optimize across multiple translation units for better performance",
+          "b": "Compress the final executable size",
+          "c": "Detect runtime bugs automatically",
+          "d": "Enable dynamic linking at run time"
+        },
+        "answer": "a"
+      }
+    },
+    {
+      "type": "mcq",
+      "id": "prog-hard-17",
+      "question": "In C, what is undefined behavior when converting a pointer to an integer type that cannot represent it?",
+      "options": {
+        "choices": {
+          "a": "Implementation-defined conversion",
+          "b": "Well-defined truncation",
+          "c": "Undefined behavior",
+          "d": "Signed overflow"
+        },
+        "answer": "c"
+      }
+    },
+    {
+      "type": "mcq",
+      "id": "prog-hard-18",
+      "question": "Which of the following best describes a `hazard pointer`?",
+      "options": {
+        "choices": {
+          "a": "A lock used in database systems",
+          "b": "A technique for safe memory reclamation in lock-free data structures",
+          "c": "An error handling macro in C++",
+          "d": "A pointer that may be null"
+        },
+        "answer": "b"
+      }
+    },
+    {
+      "type": "mcq",
+      "id": "prog-hard-19",
+      "question": "What is the effect of the #pragma once directive in a header file?",
+      "options": {
+        "choices": {
+          "a": "Ensures the file is included only once per compilation unit",
+          "b": "Marks the file as thread-safe",
+          "c": "Enables aggressive optimization for that file",
+          "d": "Disables all warnings within the file"
+        },
+        "answer": "a"
+      }
+    },
+    {
+      "type": "mcq",
+      "id": "prog-hard-20",
+      "question": "Which of these patterns helps avoid `tight coupling` between classes?",
+      "options": {
+        "choices": {
+          "a": "Singleton",
+          "b": "Facade",
+          "c": "Mediator",
+          "d": "Monolithic"
+        },
+        "answer": "c"
+      }
+    },
+    {
+      "type": "mcq",
+      "id": "prog-hard-21",
+      "question": "In JavaScript, what does the term `hoisting` refer to?",
+      "options": {
+        "choices": {
+          "a": "Moving all functions to a separate file automatically",
+          "b": "Lifting variable and function declarations to the top of their scope before execution",
+          "c": "Optimizing loops at runtime",
+          "d": "Garbage collecting unused objects"
+        },
+        "answer": "b"
+      }
+    },
+    {
+      "type": "mcq",
+      "id": "prog-hard-22",
+      "question": "Which of the following statements about coroutines is correct?",
+      "options": {
+        "choices": {
+          "a": "Coroutines are always executed on separate OS threads",
+          "b": "They allow cooperative multitasking within a single thread",
+          "c": "They replace the need for any asynchronous I/O",
+          "d": "They cannot yield values"
+        },
+        "answer": "b"
+      }
+    },
+    {
+      "type": "mcq",
+      "id": "prog-hard-23",
+      "question": "What does the `volatile sig_atomic_t` type guarantee in C signal handlers?",
+      "options": {
+        "choices": {
+          "a": "Atomicity across threads",
+          "b": "Safe access to variables modified asynchronously by signals",
+          "c": "Memory alignment for SIMD instructions",
+          "d": "Automatic synchronization with mutexes"
+        },
+        "answer": "b"
+      }
+    },
+    {
+      "type": "mcq",
+      "id": "prog-hard-24",
+      "question": "In a relational database, what does the term `normalization` aim to reduce?",
+      "options": {
+        "choices": {
+          "a": "Query execution time",
+          "b": "Redundancy and update anomalies",
+          "c": "Number of tables",
+          "d": "Index size"
+        },
+        "answer": "b"
+      }
+    },
+    {
+      "type": "mcq",
+      "id": "prog-hard-25",
+      "question": "Which CPU instruction set extension is primarily used for vectorized floating-point operations?",
+      "options": {
+        "choices": {
+          "a": "SSE/AVX",
+          "b": "MMX",
+          "c": "x87",
+          "d": "ISA"
+        },
+        "answer": "a"
+      }
+    },
+    {
+      "type": "mcq",
+      "id": "prog-hard-26",
+      "question": "What is a `type erasure` technique in Java generics?",
+      "options": {
+        "choices": {
+          "a": "Removing generic type information at compile time so that bytecode contains only raw types",
+          "b": "Hiding the implementation of an interface",
+          "c": "Encrypting class names for security",
+          "d": "Converting primitive types to objects"
+        },
+        "answer": "a"
+      }
+    },
+    {
+      "type": "mcq",
+      "id": "prog-hard-27",
+      "question": "Which of the following is a property of a well-formed XML document?",
+      "options": {
+        "choices": {
+          "a": "All tags must be uppercase",
+          "b": "Elements must be properly nested",
+          "c": "Attributes cannot contain spaces",
+          "d": "Comments are mandatory"
+        },
+        "answer": "b"
+      }
+    },
+    {
+      "type": "mcq",
+      "id": "prog-hard-28",
+      "question": "What does the `Amdahl`s Law` describe?",
+      "options": {
+        "choices": {
+          "a": "Maximum speedup of a program using multiple processors based on the parallelizable portion",
+          "b": "Relationship between cache size and latency",
+          "c": "Limits of dynamic typing in scripting languages",
+          "d": "Optimal block size for I/O"
+        },
+        "answer": "a"
+      }
+    },
+    {
+      "type": "mcq",
+      "id": "prog-hard-29",
+      "question": "In C++, which feature allows functions to be selected at compile time based on type traits?",
+      "options": {
+        "choices": {
+          "a": "Function overloading",
+          "b": "Template specialization",
+          "c": "Dynamic dispatch",
+          "d": "Operator overloading"
+        },
+        "answer": "b"
+      }
+    },
+    {
+      "type": "mcq",
+      "id": "prog-hard-30",
+      "question": "Which of the following is true about `copy-on-write` (COW) semantics?",
+      "options": {
+        "choices": {
+          "a": "Data is duplicated immediately upon assignment",
+          "b": "Copy occurs only when a write operation modifies shared data",
+          "c": "It requires manual memory management",
+          "d": "It cannot be used with immutable objects"
+        },
+        "answer": "b"
+      }
+    },
+    {
+      "type": "mcq",
+      "id": "prog-hard-31",
+      "question": "What does the `pipelining` technique improve in CPU design?",
+      "options": {
+        "choices": {
+          "a": "Instruction throughput by overlapping stages of multiple instructions",
+          "b": "Clock speed stability",
+          "c": "Memory bandwidth",
+          "d": "Cache hit ratio"
+        },
+        "answer": "a"
+      }
+    },
+    {
+      "type": "mcq",
+      "id": "prog-hard-32",
+      "question": "Which language construct enables polymorphism without inheritance?",
+      "options": {
+        "choices": {
+          "a": "Interfaces",
+          "b": "Function pointers",
+          "c": "Templates (C++)",
+          "d": "Abstract classes"
+        },
+        "answer": "c"
+      }
+    },
+    {
+      "type": "mcq",
+      "id": "prog-hard-33",
+      "question": "In Go, what does the defer statement do?",
+      "options": {
+        "choices": {
+          "a": "Runs a function after the surrounding function returns",
+          "b": "Schedules a goroutine for later execution",
+          "c": "Marks a variable as immutable",
+          "d": "Creates a channel buffer"
+        },
+        "answer": "a"
+      }
+    },
+    {
+      "type": "mcq",
+      "id": "prog-hard-34",
+      "question": "What is the main security risk of using eval() on untrusted input in JavaScript?",
+      "options": {
+        "choices": {
+          "a": "Memory leak",
+          "b": "Denial-of-service attack",
+          "c": "Arbitrary code execution",
+          "d": "Race condition"
+        },
+        "answer": "c"
+      }
+    },
+    {
+      "type": "mcq",
+      "id": "prog-hard-35",
+      "question": "Which of these describes a `deadlock`?",
+      "options": {
+        "choices": {
+          "a": "Two threads waiting indefinitely for each other's locks",
+          "b": "A thread that never yields the CPU",
+          "c": "Infinite recursion without base case",
+          "d": "Memory overflow causing crash"
+        },
+        "answer": "a"
+      }
+    },
+    {
+      "type": "mcq",
+      "id": "prog-hard-36",
+      "question": "In C#, what is the purpose of the async modifier on a method?",
+      "options": {
+        "choices": {
+          "a": "Enables the method to be called from multiple threads simultaneously",
+          "b": "Marks the method as containing awaitable asynchronous operations and allows it to return a Task",
+          "c": "Compiles the method into native machine code",
+          "d": "Prevents exceptions from being thrown"
+        },
+        "answer": "b"
+      }
+    },
+    {
+      "type": "mcq",
+      "id": "prog-hard-37",
+      "question": "What does `SSA` stand for in compiler theory?",
+      "options": {
+        "choices": {
+          "a": "Static Single Assignment",
+          "b": "Simple Syntax Analyzer",
+          "c": "Standard Security Architecture",
+          "d": "Sequential State Automaton"
+        },
+        "answer": "a"
+      }
+    },
+    {
+      "type": "mcq",
+      "id": "prog-hard-38",
+      "question": "Which of the following is a valid way to prevent buffer overflow in C?",
+      "options": {
+        "choices": {
+          "a": "Using gets() for input",
+          "b": "Disabling stack canaries",
+          "c": "Enforcing bounds checking with functions like strncpy and careful size calculations",
+          "d": "Relying on compiler optimizations alone"
+        },
+        "answer": "c"
+      }
+    },
+    {
+      "type": "mcq",
+      "id": "prog-hard-39",
+      "question": "In the context of distributed systems, what is `CAP theorem` about?",
+      "options": {
+        "choices": {
+          "a": "Consistency, Availability, Partition tolerance trade-offs",
+          "b": "Compression, Authentication, Performance",
+          "c": "Concurrency, Atomicity, Persistence",
+          "d": "Cache, API, Protocol"
+        },
+        "answer": "a"
+      }
+    },
+    {
+      "type": "mcq",
+      "id": "prog-hard-40",
+      "question": "Which of the following best describes a `reference counting` garbage collector?",
+      "options": {
+        "choices": {
+          "a": "Periodically pauses program to trace reachable objects",
+          "b": "Counts references to each object and frees when count reaches zero",
+          "c": "Uses mark-and-sweep algorithm only",
+          "d": "Relies on hardware memory protection"
+        },
+        "answer": "b"
+      }
+    },
+    {
+      "type": "mcq",
+      "id": "prog-hard-41",
+      "question": "What is the effect of `pointer aliasing` on compiler optimizations?",
+      "options": {
+        "choices": {
+          "a": "Allows more aggressive vectorization",
+          "b": "Prevents certain reordering because two pointers may refer to same location",
+          "c": "Enables automatic parallelism",
+          "d": "Has no impact"
+        },
+        "answer": "b"
+      }
+    },
+    {
+      "type": "mcq",
+      "id": "prog-hard-42",
+      "question": "In C++, what does the `constexpr if` statement enable?",
+      "options": {
+        "choices": {
+          "a": "Runtime conditional compilation",
+          "b": "Compile-time branching based on constant expressions",
+          "c": "Conditional exception handling",
+          "d": "Automatic memory deallocation"
+        },
+        "answer": "b"
+      }
+    },
+    {
+      "type": "mcq",
+      "id": "prog-hard-43",
+      "question": "Which of these is a correct description of `speculative execution`?",
+      "options": {
+        "choices": {
+          "a": "Executing instructions out of order after they are guaranteed to be needed",
+          "b": "Running code before its inputs are known, rolling back if prediction fails",
+          "c": "Compiling source code ahead of time",
+          "d": "Encrypting data before transmission"
+        },
+        "answer": "b"
+      }
+    },
+    {
+      "type": "mcq",
+      "id": "prog-hard-44",
+      "question": "What does the term `monad` refer to in functional programming?",
+      "options": {
+        "choices": {
+          "a": "A design pattern for object creation",
+          "b": "A type class that encapsulates computation with context (e.g., maybe, IO)",
+          "c": "A loop construct for parallelism",
+          "d": "An immutable data structure"
+        },
+        "answer": "b"
+      }
+    },
+    {
+      "type": "mcq",
+      "id": "prog-hard-45",
+      "question": "In Java, which annotation indicates that a method should be run after each test method in JUnit 5?",
+      "options": {
+        "choices": {
+          "a": "@BeforeAll",
+          "b": "@AfterEach",
+          "c": "@Test",
+          "d": "@Setup"
+        },
+        "answer": "b"
+      }
+    },
+    {
+      "type": "mcq",
+      "id": "prog-hard-46",
+      "question": "What is the main advantage of using a `ring buffer` for producer-consumer queues?",
+      "options": {
+        "choices": {
+          "a": "Dynamic resizing without copying",
+          "b": "Lock-free access with fixed memory footprint",
+          "c": "Automatic garbage collection of old items",
+          "d": "Supports multiple producers and consumers without synchronization"
+        },
+        "answer": "b"
+      }
+    },
+    {
+      "type": "mcq",
+      "id": "prog-hard-47",
+      "question": "Which language feature allows zero-cost abstraction according to the C++ standard?",
+      "options": {
+        "choices": {
+          "a": "Virtual functions",
+          "b": "Templates",
+          "c": "Exceptions",
+          "d": "Runtime type information"
+        },
+        "answer": "b"
+      }
+    },
+    {
+      "type": "mcq",
+      "id": "prog-hard-48",
+      "question": "What does `type inference` mean in languages like Haskell or Scala?",
+      "options": {
+        "choices": {
+          "a": "The compiler automatically deduces variable types from context",
+          "b": "Types are determined at runtime",
+          "c": "Programmers must explicitly annotate every variable",
+          "d": "Types are ignored during compilation"
+        },
+        "answer": "a"
+      }
+    },
+    {
+      "type": "mcq",
+      "id": "prog-hard-49",
+      "question": "In operating systems, what is the purpose of a `page fault`?",
+      "options": {
+        "choices": {
+          "a": "Interrupt generated when a process accesses memory not currently mapped to physical RAM",
+          "b": "Signal sent to terminate a process due to illegal instruction",
+          "c": "Error raised by compiler for syntax errors",
+          "d": "Failure of disk I/O operation"
+        },
+        "answer": "a"
+      }
+    },
+    {
+      "type": "mcq",
+      "id": "prog-hard-50",
+      "question": "Which of the following best describes `eventual consistency` in distributed databases?",
+      "options": {
+        "choices": {
+          "a": "All reads see the most recent write immediately",
+          "b": "Data will become consistent if no new updates are made, but reads may be stale temporarily",
+          "c": "Transactions are executed atomically across all nodes",
+          "d": "The system never allows conflicts"
+        },
+        "answer": "b"
+      }
+    },
+    {
+      "type": "mcq",
+      "id": "prog-extreme-01",
+      "question": "In the formal semantics of programming languages, what does a `big-step (natural) semantics` define?",
+      "options": {
+        "choices": {
+          "a": "How individual machine instructions are executed",
+          "b": "A relation between program configurations before and after execution of whole constructs",
+          "c": "Low-level register allocation strategies",
+          "d": "Just-in-time compilation phases"
+        },
+        "answer": "b"
+      }
+    },
+    {
+      "type": "mcq",
+      "id": "prog-extreme-02",
+      "question": "Which theorem proves that type inference for the Hindley-Milner system is decidable?",
+      "options": {
+        "choices": {
+          "a": "Curry-Howard correspondence",
+          "b": "Principal Type Scheme Theorem",
+          "c": "Gödel`s completeness theorem",
+          "d": "Church-Rosser theorem"
+        },
+        "answer": "b"
+      }
+    },
+    {
+      "type": "mcq",
+      "id": "prog-extreme-03",
+      "question": "What does the term `linear type system` enforce at compile time?",
+      "options": {
+        "choices": {
+          "a": "All variables are immutable",
+          "b": "Resources must be used exactly once, preventing aliasing and leaks",
+          "c": "Functions cannot have side effects",
+          "d": "Types can be subtyped infinitely"
+        },
+        "answer": "b"
+      }
+    },
+    {
+      "type": "mcq",
+      "id": "prog-extreme-04",
+      "question": "In the context of lambda calculus, what is `beta-reduction`?",
+      "options": {
+        "choices": {
+          "a": "Renaming bound variables to avoid capture",
+          "b": "Substituting a function`s argument for its parameter in an application",
+          "c": "Eliminating dead code after compilation",
+          "d": "Transforming recursive calls into loops"
+        },
+        "answer": "b"
+      }
+    },
+    {
+      "type": "mcq",
+      "id": "prog-extreme-05",
+      "question": "Which optimization technique is based on the `polyhedral model`?",
+      "options": {
+        "choices": {
+          "a": "Loop tiling and interchange using affine transformations",
+          "b": "Dead code elimination via data-flow analysis",
+          "c": "Instruction scheduling for superscalar pipelines",
+          "d": "Register allocation via graph coloring"
+        },
+        "answer": "a"
+      }
+    },
+    {
+      "type": "mcq",
+      "id": "prog-extreme-06",
+      "question": "What is a `proof-carrying code` (PCC) concept?",
+      "options": {
+        "choices": {
+          "a": "Embedding formal proofs that the code adheres to a safety policy, verified before execution",
+          "b": "Compiling code into provably correct assembly by a trusted compiler",
+          "c": "Running code inside a sandbox with runtime verification",
+          "d": "Using unit tests as proof of correctness"
+        },
+        "answer": "a"
+      }
+    },
+    {
+      "type": "mcq",
+      "id": "prog-extreme-07",
+      "question": "Which language feature enables `gradual typing`?",
+      "options": {
+        "choices": {
+          "a": "Compile-time reflection",
+          "b": "Optional type annotations that are checked at runtime if present",
+          "c": "Mandatory static typing for all variables",
+          "d": "Dynamic code generation"
+        },
+        "answer": "b"
+      }
+    },
+    {
+      "type": "mcq",
+      "id": "prog-extreme-08",
+      "question": "In category theory applied to programming, what does a `functor` represent?",
+      "options": {
+        "choices": {
+          "a": "A mapping between categories preserving structure, often used to model container types with map operation",
+          "b": "A function that returns another function",
+          "c": "An object that can be iterated over",
+          "d": "A type constructor without methods"
+        },
+        "answer": "a"
+      }
+    },
+    {
+      "type": "mcq",
+      "id": "prog-extreme-09",
+      "question": "What does the `Baker`s transformation` describe in the context of functional language compilers?",
+      "options": {
+        "choices": {
+          "a": "How lazy evaluation can be transformed into strict evaluation by graph reduction",
+          "b": "A method for optimizing tail recursion",
+          "c": "The process of converting high-level code to SSA form",
+          "d": "Memory layout for heap objects"
+        },
+        "answer": "a"
+      }
+    },
+    {
+      "type": "mcq",
+      "id": "prog-extreme-10",
+      "question": "Which model checking technique is used to verify temporal properties expressed in LTL?",
+      "options": {
+        "choices": {
+          "a": "Symbolic BDD-based model checking",
+          "b": "Explicit state enumeration with breadth-first search",
+          "c": "Abstract interpretation",
+          "d": "Dynamic taint analysis"
+        },
+        "answer": "a"
+      }
+    },
+    {
+      "type": "mcq",
+      "id": "prog-extreme-11",
+      "question": "In the Rust language, what does the `borrow checker` enforce?",
+      "options": {
+        "choices": {
+          "a": "That all pointers are null-checked at runtime",
+          "b": "Compile-time guarantees about references: no data races and no dangling refs",
+          "c": "Automatic garbage collection of unused values",
+          "d": "Dynamic type safety"
+        },
+        "answer": "b"
+      }
+    },
+    {
+      "type": "mcq",
+      "id": "prog-extreme-12",
+      "question": "Which cryptographic primitive is essential for implementing secure multiparty computation?",
+      "options": {
+        "choices": {
+          "a": "Hash functions",
+          "b": "Zero-knowledge proofs",
+          "c": "Homomorphic encryption",
+          "d": "Digital signatures"
+        },
+        "answer": "c"
+      }
+    },
+    {
+      "type": "mcq",
+      "id": "prog-extreme-13",
+      "question": "What is the main idea behind `region-based memory management`?",
+      "options": {
+        "choices": {
+          "a": "Dividing the heap into regions with lifetimes, freeing whole region at once",
+          "b": "Using reference counting per object",
+          "c": "Allocating all objects on the stack",
+          "d": "Employing a generational garbage collector"
+        },
+        "answer": "a"
+      }
+    },
+    {
+      "type": "mcq",
+      "id": "prog-extreme-14",
+      "question": "Which formalism is used to describe concurrent processes in CSP and Go?",
+      "options": {
+        "choices": {
+          "a": "Petri nets",
+          "b": "Finite automata",
+          "c": "π-calculus",
+          "d": "Regular expressions"
+        },
+        "answer": "c"
+      }
+    },
+    {
+      "type": "mcq",
+      "id": "prog-extreme-15",
+      "question": "What does the `Kleene star` denote in regular expression theory?",
+      "options": {
+        "choices": {
+          "a": "Zero or more repetitions of a pattern",
+          "b": "One or more repetitions of a pattern",
+          "c": "Optional occurrence (zero or one)",
+          "d": "Exact count of repetitions"
+        },
+        "answer": "a"
+      }
+    },
+    {
+      "type": "mcq",
+      "id": "prog-extreme-16",
+      "question": "In compiler construction, what is the purpose of `lexical scoping`?",
+      "options": {
+        "choices": {
+          "a": "Ensuring variables are visible only within the block they are declared, based on source code structure",
+          "b": "Restricting access to hardware registers",
+          "c": "Optimizing register allocation across functions",
+          "d": "Allowing dynamic variable creation at runtime"
+        },
+        "answer": "a"
+      }
+    },
+    {
+      "type": "mcq",
+      "id": "prog-extreme-17",
+      "question": "Which theorem states that any computable function can be expressed in the lambda calculus?",
+      "options": {
+        "choices": {
+          "a": "Church-Turing thesis",
+          "b": "Gödel`s completeness theorem",
+          "c": "Rice`s theorem",
+          "d": "Kleene`s recursion theorem"
+        },
+        "answer": "a"
+      }
+    },
+    {
+      "type": "mcq",
+      "id": "prog-extreme-18",
+      "question": "What does `SSA form` stand for and why is it useful?",
+      "options": {
+        "choices": {
+          "a": "Static Single Assignment; each variable assigned exactly once, simplifying data-flow analysis",
+          "b": "Simple Symbolic Arithmetic; for constant folding",
+          "c": "Secure System Architecture; for OS security",
+          "d": "Single Step Automation; for debugging"
+        },
+        "answer": "a"
+      }
+    },
+    {
+      "type": "mcq",
+      "id": "prog-extreme-19",
+      "question": "In the context of GPU programming, what is a `warp`?",
+      "options": {
+        "choices": {
+          "a": "A group of threads that execute the same instruction simultaneously on SIMD units",
+          "b": "A memory transaction unit",
+          "c": "An error-handling routine",
+          "d": "A shader compilation stage"
+        },
+        "answer": "a"
+      }
+    },
+    {
+      "type": "mcq",
+      "id": "prog-extreme-20",
+      "question": "Which type system feature allows expressing that a function never returns normally?",
+      "options": {
+        "choices": {
+          "a": "Void return type",
+          "b": "Never type (!)",
+          "c": "Nullability annotation",
+          "d": "Exception specification"
+        },
+        "answer": "b"
+      }
+    },
+    {
+      "type": "mcq",
+      "id": "prog-extreme-21",
+      "question": "What is the primary benefit of using `copy-elision` in C++?",
+      "options": {
+        "choices": {
+          "a": "Guarantees deep copy semantics",
+          "b": "Eliminates unnecessary temporary object copies, improving performance",
+          "c": "Enforces thread safety automatically",
+          "d": "Provides compile-time reflection"
+        },
+        "answer": "b"
+      }
+    },
+    {
+      "type": "mcq",
+      "id": "prog-extreme-22",
+      "question": "Which of the following is a property of `linear temporal logic` (LTL)?",
+      "options": {
+        "choices": {
+          "a": "Allows quantification over infinite domains",
+          "b": "Specifies properties about sequences of states over time using operators like X, G, F, U",
+          "c": "Provides type inference for higher-rank types",
+          "d": "Describes memory layout of data structures"
+        },
+        "answer": "b"
+      }
+    },
+    {
+      "type": "mcq",
+      "id": "prog-extreme-23",
+      "question": "In the context of formal verification, what does a `model extractor` do?",
+      "options": {
+        "choices": {
+          "a": "Generates abstract models from source code for analysis",
+          "b": "Extracts binary executables from source repositories",
+          "c": "Compiles high-level languages to assembly",
+          "d": "Runs unit tests automatically"
+        },
+        "answer": "a"
+      }
+    },
+    {
+      "type": "mcq",
+      "id": "prog-extreme-24",
+      "question": "Which algorithm is used by the Rust compiler to detect use-after-free bugs at compile time?",
+      "options": {
+        "choices": {
+          "a": "Borrow checker`s lifetime analysis",
+          "b": "Mark-and-sweep GC",
+          "c": "Thread sanitizer",
+          "d": "AddressSanitizer"
+        },
+        "answer": "a"
+      }
+    },
+    {
+      "type": "mcq",
+      "id": "prog-extreme-25",
+      "question": "What does `branch prediction accuracy` impact most directly in modern CPUs?",
+      "options": {
+        "choices": {
+          "a": "Cache coherence protocol",
+          "b": "Instruction throughput and pipeline stalls",
+          "c": "Disk I/O latency",
+          "d": "Floating-point precision"
+        },
+        "answer": "b"
+      }
+    },
+    {
+      "type": "mcq",
+      "id": "prog-extreme-26",
+      "question": "Which type of polymorphism is achieved via parametric abstraction (generics)?",
+      "options": {
+        "choices": {
+          "a": "Ad hoc polymorphism",
+          "b": "Subtype polymorphism",
+          "c": "Parametric polymorphism",
+          "d": "Inclusion polymorphism"
+        },
+        "answer": "c"
+      }
+    },
+    {
+      "type": "mcq",
+      "id": "prog-extreme-27",
+      "question": "What does the `Y combinator` enable in a language without named recursion?",
+      "options": {
+        "choices": {
+          "a": "Lazy evaluation of infinite streams",
+          "b": "Encoding recursion using higher-order functions",
+          "c": "Automatic parallelism",
+          "d": "Compile-time macro expansion"
+        },
+        "answer": "b"
+      }
+    },
+    {
+      "type": "mcq",
+      "id": "prog-extreme-28",
+      "question": "In the Java Memory Model, which guarantee does `happens-before` provide?",
+      "options": {
+        "choices": {
+          "a": "That writes before the relation become visible to reads after it in all threads",
+          "b": "That methods are executed in order of source code",
+          "c": "That objects are garbage collected deterministically",
+          "d": "That exceptions are propagated immediately"
+        },
+        "answer": "a"
+      }
+    },
+    {
+      "type": "mcq",
+      "id": "prog-extreme-29",
+      "question": "Which language concept does `continuation-passing style` (CPS) transform into?",
+      "options": {
+        "choices": {
+          "a": "Explicit control flow via continuation functions, making control structures first-class",
+          "b": "Automatic memory management",
+          "c": "Static typing of dynamic languages",
+          "d": "Inlining of small functions"
+        },
+        "answer": "a"
+      }
+    },
+    {
+      "type": "mcq",
+      "id": "prog-extreme-30",
+      "question": "What is the main advantage of a `generational garbage collector`?",
+      "options": {
+        "choices": {
+          "a": "It separates objects by age, collecting young objects more frequently because most die young, reducing pause times",
+          "b": "It guarantees O(1) allocation time",
+          "c": "It eliminates need for write barriers",
+          "d": "It works without any runtime overhead"
+        },
+        "answer": "a"
+      }
+    }
+  ]
+}

@@ -1,0 +1,1106 @@
+{
+  "evaluators": {
+    "internal:multiple-choice": "mcq"
+  },
+  "questions": [
+    {
+      "type": "mcq",
+      "id": "geo01",
+      "question": "What is the capital of France?",
+      "options": {
+        "choices": { "a": "Paris", "b": "Berlin", "c": "Madrid", "d": "Rome" },
+        "answer": "a"
+      }
+    },
+    {
+      "type": "mcq",
+      "id": "geo02",
+      "question": "Which is the largest country in the world by land area?",
+      "options": {
+        "choices": {
+          "a": "Canada",
+          "b": "Russia",
+          "c": "United States",
+          "d": "China"
+        },
+        "answer": "b"
+      }
+    },
+    {
+      "type": "mcq",
+      "id": "geo03",
+      "question": "Egypt is located primarily on which continent?",
+      "options": {
+        "choices": {
+          "a": "Asia",
+          "b": "Europe",
+          "c": "Africa",
+          "d": "South America"
+        },
+        "answer": "c"
+      }
+    },
+    {
+      "type": "mcq",
+      "id": "geo04",
+      "question": "What is the capital of Japan?",
+      "options": {
+        "choices": {
+          "a": "Beijing",
+          "b": "Seoul",
+          "c": "Bangkok",
+          "d": "Tokyo"
+        },
+        "answer": "d"
+      }
+    },
+    {
+      "type": "mcq",
+      "id": "geo05",
+      "question": "How many continents are there?",
+      "options": {
+        "choices": { "a": "7", "b": "5", "c": "6", "d": "8" },
+        "answer": "a"
+      }
+    },
+    {
+      "type": "mcq",
+      "id": "geo06",
+      "question": "Which is the largest ocean on Earth?",
+      "options": {
+        "choices": {
+          "a": "Atlantic",
+          "b": "Pacific",
+          "c": "Indian",
+          "d": "Arctic"
+        },
+        "answer": "b"
+      }
+    },
+    {
+      "type": "mcq",
+      "id": "geo07",
+      "question": "The Eiffel Tower is located in which city?",
+      "options": {
+        "choices": { "a": "London", "b": "Rome", "c": "Paris", "d": "Berlin" },
+        "answer": "c"
+      }
+    },
+    {
+      "type": "mcq",
+      "id": "geo08",
+      "question": "Which country is known as the Land of the Rising Sun?",
+      "options": {
+        "choices": {
+          "a": "China",
+          "b": "South Korea",
+          "c": "Vietnam",
+          "d": "Japan"
+        },
+        "answer": "d"
+      }
+    },
+    {
+      "type": "mcq",
+      "id": "geo09",
+      "question": "The Amazon rainforest is mainly located in which country?",
+      "options": {
+        "choices": {
+          "a": "Brazil",
+          "b": "Mexico",
+          "c": "Argentina",
+          "d": "Peru"
+        },
+        "answer": "a"
+      }
+    },
+    {
+      "type": "mcq",
+      "id": "geo10",
+      "question": "Mount Everest is part of which mountain range?",
+      "options": {
+        "choices": {
+          "a": "Andes",
+          "b": "Alps",
+          "c": "Himalayas",
+          "d": "Rockies"
+        },
+        "answer": "c"
+      }
+    },
+
+    {
+      "type": "mcq",
+      "id": "hist01",
+      "question": "In what year did World War II end in Europe?",
+      "options": {
+        "choices": { "a": "1942", "b": "1945", "c": "1948", "d": "1950" },
+        "answer": "b"
+      }
+    },
+    {
+      "type": "mcq",
+      "id": "hist02",
+      "question": "Who was the first President of the United States?",
+      "options": {
+        "choices": {
+          "a": "Thomas Jefferson",
+          "b": "Abraham Lincoln",
+          "c": "John Adams",
+          "d": "George Washington"
+        },
+        "answer": "d"
+      }
+    },
+    {
+      "type": "mcq",
+      "id": "hist03",
+      "question": "In what year did Christopher Columbus first reach the Americas?",
+      "options": {
+        "choices": { "a": "1492", "b": "1392", "c": "1592", "d": "1692" },
+        "answer": "a"
+      }
+    },
+    {
+      "type": "mcq",
+      "id": "hist04",
+      "question": "The Great Pyramid of Giza was built by which ancient civilization?",
+      "options": {
+        "choices": {
+          "a": "Romans",
+          "b": "Egyptians",
+          "c": "Greeks",
+          "d": "Mayans"
+        },
+        "answer": "b"
+      }
+    },
+    {
+      "type": "mcq",
+      "id": "hist05",
+      "question": "In what year did the Berlin Wall fall?",
+      "options": {
+        "choices": { "a": "1969", "b": "1979", "c": "1999", "d": "1989" },
+        "answer": "d"
+      }
+    },
+    {
+      "type": "mcq",
+      "id": "hist06",
+      "question": "Who painted the Mona Lisa?",
+      "options": {
+        "choices": {
+          "a": "Michelangelo",
+          "b": "Vincent van Gogh",
+          "c": "Leonardo da Vinci",
+          "d": "Pablo Picasso"
+        },
+        "answer": "c"
+      }
+    },
+    {
+      "type": "mcq",
+      "id": "hist07",
+      "question": "World War I began in what year?",
+      "options": {
+        "choices": { "a": "1914", "b": "1900", "c": "1918", "d": "1939" },
+        "answer": "a"
+      }
+    },
+    {
+      "type": "mcq",
+      "id": "hist08",
+      "question": "Who was the first human to walk on the Moon?",
+      "options": {
+        "choices": {
+          "a": "Yuri Gagarin",
+          "b": "Neil Armstrong",
+          "c": "Buzz Aldrin",
+          "d": "John Glenn"
+        },
+        "answer": "b"
+      }
+    },
+    {
+      "type": "mcq",
+      "id": "hist09",
+      "question": "Julius Caesar was a famous leader of which empire?",
+      "options": {
+        "choices": {
+          "a": "Greek",
+          "b": "Persian",
+          "c": "Egyptian",
+          "d": "Roman"
+        },
+        "answer": "d"
+      }
+    },
+    {
+      "type": "mcq",
+      "id": "hist10",
+      "question": "The American Civil War took place during which century?",
+      "options": {
+        "choices": { "a": "17th", "b": "18th", "c": "19th", "d": "20th" },
+        "answer": "c"
+      }
+    },
+
+    {
+      "type": "mcq",
+      "id": "ari01",
+      "question": "What is 7 multiplied by 8?",
+      "options": {
+        "choices": { "a": "54", "b": "55", "c": "56", "d": "63" },
+        "answer": "c"
+      }
+    },
+    {
+      "type": "mcq",
+      "id": "ari02",
+      "question": "What is 15 plus 27?",
+      "options": {
+        "choices": { "a": "32", "b": "42", "c": "52", "d": "62" },
+        "answer": "b"
+      }
+    },
+    {
+      "type": "mcq",
+      "id": "ari03",
+      "question": "What is 100 minus 37?",
+      "options": {
+        "choices": { "a": "53", "b": "73", "c": "83", "d": "63" },
+        "answer": "d"
+      }
+    },
+    {
+      "type": "mcq",
+      "id": "ari04",
+      "question": "What is half of 88?",
+      "options": {
+        "choices": { "a": "44", "b": "22", "c": "34", "d": "48" },
+        "answer": "a"
+      }
+    },
+    {
+      "type": "mcq",
+      "id": "ari05",
+      "question": "What is 9 multiplied by 12?",
+      "options": {
+        "choices": { "a": "98", "b": "118", "c": "108", "d": "128" },
+        "answer": "c"
+      }
+    },
+    {
+      "type": "mcq",
+      "id": "ari06",
+      "question": "What is the square root of 64?",
+      "options": {
+        "choices": { "a": "6", "b": "8", "c": "7", "d": "9" },
+        "answer": "b"
+      }
+    },
+    {
+      "type": "mcq",
+      "id": "ari07",
+      "question": "What is 3 squared?",
+      "options": {
+        "choices": { "a": "9", "b": "6", "c": "12", "d": "27" },
+        "answer": "a"
+      }
+    },
+    {
+      "type": "mcq",
+      "id": "ari08",
+      "question": "The sum of the angles in a triangle equals how many degrees?",
+      "options": {
+        "choices": { "a": "90", "b": "270", "c": "360", "d": "180" },
+        "answer": "d"
+      }
+    },
+    {
+      "type": "mcq",
+      "id": "ari09",
+      "question": "Which of these numbers is the largest?",
+      "options": {
+        "choices": { "a": "0.5", "b": "0.05", "c": "0.55", "d": "0.005" },
+        "answer": "c"
+      }
+    },
+    {
+      "type": "mcq",
+      "id": "ari10",
+      "question": "What is 1/4 expressed as a decimal?",
+      "options": {
+        "choices": { "a": "0.25", "b": "0.14", "c": "0.4", "d": "0.5" },
+        "answer": "a"
+      }
+    },
+
+    {
+      "type": "mcq",
+      "id": "sci01",
+      "question": "Which planet is closest to the Sun?",
+      "options": {
+        "choices": { "a": "Venus", "b": "Mercury", "c": "Earth", "d": "Mars" },
+        "answer": "b"
+      }
+    },
+    {
+      "type": "mcq",
+      "id": "sci02",
+      "question": "What does the chemical formula H2O represent?",
+      "options": {
+        "choices": {
+          "a": "Hydrogen peroxide",
+          "b": "Salt",
+          "c": "Carbon dioxide",
+          "d": "Water"
+        },
+        "answer": "d"
+      }
+    },
+    {
+      "type": "mcq",
+      "id": "sci03",
+      "question": "What is the largest organ in the human body?",
+      "options": {
+        "choices": { "a": "Skin", "b": "Heart", "c": "Liver", "d": "Brain" },
+        "answer": "a"
+      }
+    },
+    {
+      "type": "mcq",
+      "id": "sci04",
+      "question": "What is Earth's only permanent natural satellite called?",
+      "options": {
+        "choices": {
+          "a": "The Sun",
+          "b": "The Moon",
+          "c": "Mars",
+          "d": "A comet"
+        },
+        "answer": "b"
+      }
+    },
+    {
+      "type": "mcq",
+      "id": "sci05",
+      "question": "At sea level, water boils at what temperature in Celsius?",
+      "options": {
+        "choices": { "a": "50", "b": "75", "c": "125", "d": "100" },
+        "answer": "d"
+      }
+    },
+    {
+      "type": "mcq",
+      "id": "sci06",
+      "question": "Which gas do plants release during photosynthesis?",
+      "options": {
+        "choices": {
+          "a": "Nitrogen",
+          "b": "Carbon dioxide",
+          "c": "Oxygen",
+          "d": "Hydrogen"
+        },
+        "answer": "c"
+      }
+    },
+    {
+      "type": "mcq",
+      "id": "sci07",
+      "question": "What is the chemical symbol for gold?",
+      "options": {
+        "choices": { "a": "Au", "b": "Go", "c": "Gd", "d": "Ag" },
+        "answer": "a"
+      }
+    },
+    {
+      "type": "mcq",
+      "id": "sci08",
+      "question": "Approximately how many bones are in the adult human body?",
+      "options": {
+        "choices": { "a": "106", "b": "206", "c": "156", "d": "306" },
+        "answer": "b"
+      }
+    },
+    {
+      "type": "mcq",
+      "id": "sci09",
+      "question": "Which of these animals is a mammal?",
+      "options": {
+        "choices": { "a": "Snake", "b": "Frog", "c": "Eagle", "d": "Whale" },
+        "answer": "d"
+      }
+    },
+    {
+      "type": "mcq",
+      "id": "sci10",
+      "question": "What is the dense central region of an atom called?",
+      "options": {
+        "choices": {
+          "a": "Electron",
+          "b": "Proton",
+          "c": "Nucleus",
+          "d": "Shell"
+        },
+        "answer": "c"
+      }
+    },
+
+    {
+      "type": "mcq",
+      "id": "lang01",
+      "question": "Which of the following words is a verb?",
+      "options": {
+        "choices": { "a": "happy", "b": "run", "c": "quickly", "d": "blue" },
+        "answer": "b"
+      }
+    },
+    {
+      "type": "mcq",
+      "id": "lang02",
+      "question": "Which of the following words is a noun?",
+      "options": {
+        "choices": {
+          "a": "swim",
+          "b": "beautiful",
+          "c": "table",
+          "d": "sadly"
+        },
+        "answer": "c"
+      }
+    },
+    {
+      "type": "mcq",
+      "id": "lang03",
+      "question": "What is the plural form of the word 'child'?",
+      "options": {
+        "choices": {
+          "a": "childs",
+          "b": "children",
+          "c": "childes",
+          "d": "childen"
+        },
+        "answer": "b"
+      }
+    },
+    {
+      "type": "mcq",
+      "id": "lang04",
+      "question": "What is the past tense of the verb 'go'?",
+      "options": {
+        "choices": { "a": "goed", "b": "gone", "c": "going", "d": "went" },
+        "answer": "d"
+      }
+    },
+    {
+      "type": "mcq",
+      "id": "lang05",
+      "question": "Which of the following words is an adjective?",
+      "options": {
+        "choices": {
+          "a": "beautiful",
+          "b": "quickly",
+          "c": "sandwich",
+          "d": "swim"
+        },
+        "answer": "a"
+      }
+    },
+    {
+      "type": "mcq",
+      "id": "lang06",
+      "question": "Which sentence is grammatically correct?",
+      "options": {
+        "choices": {
+          "a": "She don't like apples.",
+          "b": "She doesn't likes apples.",
+          "c": "She doesn't like apples.",
+          "d": "She not like apples."
+        },
+        "answer": "c"
+      }
+    },
+    {
+      "type": "mcq",
+      "id": "lang07",
+      "question": "Which punctuation mark ends a question?",
+      "options": {
+        "choices": { "a": ".", "b": "!", "c": ",", "d": "?" },
+        "answer": "d"
+      }
+    },
+    {
+      "type": "mcq",
+      "id": "lang08",
+      "question": "The word 'mice' is the plural form of which word?",
+      "options": {
+        "choices": { "a": "mouse", "b": "moose", "c": "mice", "d": "micer" },
+        "answer": "a"
+      }
+    },
+    {
+      "type": "mcq",
+      "id": "lang09",
+      "question": "Which of these words is spelled correctly?",
+      "options": {
+        "choices": {
+          "a": "recieve",
+          "b": "receeve",
+          "c": "receive",
+          "d": "reicieve"
+        },
+        "answer": "c"
+      }
+    },
+    {
+      "type": "mcq",
+      "id": "lang10",
+      "question": "Which of the following words is a pronoun?",
+      "options": {
+        "choices": { "a": "she", "b": "run", "c": "fast", "d": "sing" },
+        "answer": "a"
+      }
+    },
+
+    {
+      "type": "mcq",
+      "id": "vocab01",
+      "question": "What does the word 'enormous' mean?",
+      "options": {
+        "choices": {
+          "a": "very large",
+          "b": "very small",
+          "c": "very fast",
+          "d": "very slow"
+        },
+        "answer": "a"
+      }
+    },
+    {
+      "type": "mcq",
+      "id": "vocab02",
+      "question": "The word 'rapid' most nearly means:",
+      "options": {
+        "choices": { "a": "slow", "b": "quiet", "c": "heavy", "d": "fast" },
+        "answer": "d"
+      }
+    },
+    {
+      "type": "mcq",
+      "id": "vocab03",
+      "question": "What is the opposite of 'hot'?",
+      "options": {
+        "choices": { "a": "warm", "b": "mild", "c": "cold", "d": "dry" },
+        "answer": "c"
+      }
+    },
+    {
+      "type": "mcq",
+      "id": "vocab04",
+      "question": "What is the opposite of 'above'?",
+      "options": {
+        "choices": { "a": "below", "b": "under", "c": "next to", "d": "near" },
+        "answer": "a"
+      }
+    },
+    {
+      "type": "mcq",
+      "id": "vocab05",
+      "question": "The word 'begin' most nearly means:",
+      "options": {
+        "choices": { "a": "stop", "b": "start", "c": "finish", "d": "end" },
+        "answer": "b"
+      }
+    },
+    {
+      "type": "mcq",
+      "id": "vocab06",
+      "question": "What does the word 'tiny' mean?",
+      "options": {
+        "choices": {
+          "a": "very large",
+          "b": "very tall",
+          "c": "very wide",
+          "d": "very small"
+        },
+        "answer": "d"
+      }
+    },
+    {
+      "type": "mcq",
+      "id": "vocab07",
+      "question": "What is the opposite of 'quiet'?",
+      "options": {
+        "choices": { "a": "still", "b": "calm", "c": "loud", "d": "soft" },
+        "answer": "c"
+      }
+    },
+    {
+      "type": "mcq",
+      "id": "vocab08",
+      "question": "The word 'difficult' most nearly means:",
+      "options": {
+        "choices": { "a": "easy", "b": "hard", "c": "simple", "d": "quick" },
+        "answer": "b"
+      }
+    },
+    {
+      "type": "mcq",
+      "id": "vocab09",
+      "question": "What does the word 'generous' mean?",
+      "options": {
+        "choices": { "a": "selfish", "b": "angry", "c": "sad", "d": "giving" },
+        "answer": "d"
+      }
+    },
+    {
+      "type": "mcq",
+      "id": "vocab10",
+      "question": "What is the opposite of 'beautiful'?",
+      "options": {
+        "choices": { "a": "pretty", "b": "ugly", "c": "lovely", "d": "nice" },
+        "answer": "b"
+      }
+    },
+
+    {
+      "type": "mcq",
+      "id": "cs01",
+      "question": "If it is raining outside, what would be most useful to take with you?",
+      "options": {
+        "choices": {
+          "a": "an umbrella",
+          "b": "a fan",
+          "c": "a flashlight",
+          "d": "a hat"
+        },
+        "answer": "a"
+      }
+    },
+    {
+      "type": "mcq",
+      "id": "cs02",
+      "question": "What do people typically wear on their feet?",
+      "options": {
+        "choices": { "a": "gloves", "b": "hats", "c": "scarves", "d": "shoes" },
+        "answer": "d"
+      }
+    },
+    {
+      "type": "mcq",
+      "id": "cs03",
+      "question": "A clock is used to measure:",
+      "options": {
+        "choices": {
+          "a": "time",
+          "b": "weight",
+          "c": "distance",
+          "d": "temperature"
+        },
+        "answer": "a"
+      }
+    },
+    {
+      "type": "mcq",
+      "id": "cs04",
+      "question": "To see in a dark room, which of these would be most useful?",
+      "options": {
+        "choices": {
+          "a": "a fan",
+          "b": "a flashlight",
+          "c": "a clock",
+          "d": "a book"
+        },
+        "answer": "b"
+      }
+    },
+    {
+      "type": "mcq",
+      "id": "cs05",
+      "question": "The sun typically rises in which direction?",
+      "options": {
+        "choices": { "a": "north", "b": "south", "c": "east", "d": "west" },
+        "answer": "c"
+      }
+    },
+    {
+      "type": "mcq",
+      "id": "cs06",
+      "question": "A doctor primarily treats:",
+      "options": {
+        "choices": {
+          "a": "cars",
+          "b": "plants",
+          "c": "patients",
+          "d": "buildings"
+        },
+        "answer": "c"
+      }
+    },
+    {
+      "type": "mcq",
+      "id": "cs07",
+      "question": "To send a letter through the postal mail, you usually need:",
+      "options": {
+        "choices": {
+          "a": "a stamp",
+          "b": "a key",
+          "c": "a battery",
+          "d": "a screen"
+        },
+        "answer": "a"
+      }
+    },
+    {
+      "type": "mcq",
+      "id": "cs08",
+      "question": "Which season is typically coldest in the Northern Hemisphere?",
+      "options": {
+        "choices": { "a": "spring", "b": "summer", "c": "fall", "d": "winter" },
+        "answer": "d"
+      }
+    },
+    {
+      "type": "mcq",
+      "id": "cs09",
+      "question": "If a glass falls onto a hard floor, what is most likely to happen?",
+      "options": {
+        "choices": {
+          "a": "it floats",
+          "b": "it grows",
+          "c": "it breaks",
+          "d": "it melts"
+        },
+        "answer": "c"
+      }
+    },
+    {
+      "type": "mcq",
+      "id": "cs10",
+      "question": "What do bees produce?",
+      "options": {
+        "choices": { "a": "milk", "b": "honey", "c": "wool", "d": "silk" },
+        "answer": "b"
+      }
+    },
+
+    {
+      "type": "mcq",
+      "id": "logic01",
+      "question": "All cats are mammals. Felix is a cat. Therefore, Felix is:",
+      "options": {
+        "choices": { "a": "bird", "b": "mammal", "c": "fish", "d": "reptile" },
+        "answer": "b"
+      }
+    },
+    {
+      "type": "mcq",
+      "id": "logic02",
+      "question": "If A is greater than B, and B is greater than C, then A is:",
+      "options": {
+        "choices": {
+          "a": "less than C",
+          "b": "equal to C",
+          "c": "greater than C",
+          "d": "unrelated to C"
+        },
+        "answer": "c"
+      }
+    },
+    {
+      "type": "mcq",
+      "id": "logic03",
+      "question": "If today is Tuesday, what day is tomorrow?",
+      "options": {
+        "choices": {
+          "a": "Wednesday",
+          "b": "Sunday",
+          "c": "Monday",
+          "d": "Friday"
+        },
+        "answer": "a"
+      }
+    },
+    {
+      "type": "mcq",
+      "id": "logic04",
+      "question": "All dogs bark. Rex does not bark. Therefore, Rex is:",
+      "options": {
+        "choices": {
+          "a": "a cat",
+          "b": "a dog",
+          "c": "sleeping",
+          "d": "not a dog"
+        },
+        "answer": "d"
+      }
+    },
+    {
+      "type": "mcq",
+      "id": "logic05",
+      "question": "You have 10 apples and give away 3. How many do you have left?",
+      "options": {
+        "choices": { "a": "3", "b": "5", "c": "13", "d": "7" },
+        "answer": "d"
+      }
+    },
+    {
+      "type": "mcq",
+      "id": "logic06",
+      "question": "If 2 birds are in a tree and 3 more arrive, how many birds are in the tree?",
+      "options": {
+        "choices": { "a": "6", "b": "5", "c": "2", "d": "3" },
+        "answer": "b"
+      }
+    },
+    {
+      "type": "mcq",
+      "id": "logic07",
+      "question": "Anna is older than Ben. Ben is older than Carl. Who is youngest?",
+      "options": {
+        "choices": { "a": "can't tell", "b": "Anna", "c": "Ben", "d": "Carl" },
+        "answer": "d"
+      }
+    },
+    {
+      "type": "mcq",
+      "id": "logic08",
+      "question": "A is taller than B, and B is taller than C. Who is the tallest?",
+      "options": {
+        "choices": { "a": "A", "b": "B", "c": "C", "d": "can't tell" },
+        "answer": "a"
+      }
+    },
+    {
+      "type": "mcq",
+      "id": "logic09",
+      "question": "A square has how many sides?",
+      "options": {
+        "choices": { "a": "3", "b": "4", "c": "5", "d": "6" },
+        "answer": "b"
+      }
+    },
+    {
+      "type": "mcq",
+      "id": "logic10",
+      "question": "Sarah ate breakfast at 7am, lunch at noon, and dinner at 6pm. What did she eat at noon?",
+      "options": {
+        "choices": {
+          "a": "breakfast",
+          "b": "dinner",
+          "c": "lunch",
+          "d": "snack"
+        },
+        "answer": "c"
+      }
+    },
+
+    {
+      "type": "mcq",
+      "id": "cat01",
+      "question": "Three of these are fruits. Which one is not?",
+      "options": {
+        "choices": {
+          "a": "carrot",
+          "b": "apple",
+          "c": "banana",
+          "d": "orange"
+        },
+        "answer": "a"
+      }
+    },
+    {
+      "type": "mcq",
+      "id": "cat02",
+      "question": "Which of these is a vegetable?",
+      "options": {
+        "choices": { "a": "apple", "b": "banana", "c": "grape", "d": "carrot" },
+        "answer": "d"
+      }
+    },
+    {
+      "type": "mcq",
+      "id": "cat03",
+      "question": "Which of these is a metal?",
+      "options": {
+        "choices": { "a": "oxygen", "b": "gold", "c": "water", "d": "plastic" },
+        "answer": "b"
+      }
+    },
+    {
+      "type": "mcq",
+      "id": "cat04",
+      "question": "Which of these is a liquid at room temperature?",
+      "options": {
+        "choices": { "a": "ice", "b": "water", "c": "steam", "d": "salt" },
+        "answer": "b"
+      }
+    },
+    {
+      "type": "mcq",
+      "id": "cat05",
+      "question": "Which of these is a planet?",
+      "options": {
+        "choices": {
+          "a": "the Moon",
+          "b": "the Sun",
+          "c": "a comet",
+          "d": "Mars"
+        },
+        "answer": "d"
+      }
+    },
+    {
+      "type": "mcq",
+      "id": "cat06",
+      "question": "Which of these is not an animal?",
+      "options": {
+        "choices": { "a": "tree", "b": "dog", "c": "fish", "d": "bird" },
+        "answer": "a"
+      }
+    },
+    {
+      "type": "mcq",
+      "id": "cat07",
+      "question": "Which of these is not a color?",
+      "options": {
+        "choices": { "a": "red", "b": "blue", "c": "soft", "d": "green" },
+        "answer": "c"
+      }
+    },
+    {
+      "type": "mcq",
+      "id": "cat08",
+      "question": "Which of these is a fruit?",
+      "options": {
+        "choices": {
+          "a": "lettuce",
+          "b": "carrot",
+          "c": "apple",
+          "d": "potato"
+        },
+        "answer": "c"
+      }
+    },
+    {
+      "type": "mcq",
+      "id": "cat09",
+      "question": "Which of these is a musical instrument?",
+      "options": {
+        "choices": { "a": "piano", "b": "hammer", "c": "spoon", "d": "chair" },
+        "answer": "a"
+      }
+    },
+    {
+      "type": "mcq",
+      "id": "cat10",
+      "question": "Which of these is not a body of water?",
+      "options": {
+        "choices": { "a": "lake", "b": "river", "c": "mountain", "d": "ocean" },
+        "answer": "c"
+      }
+    },
+
+    {
+      "type": "mcq",
+      "id": "read01",
+      "question": "\"Sam went to the store and bought milk for $4.\" How much did Sam spend?",
+      "options": {
+        "choices": { "a": "$1", "b": "$2", "c": "$4", "d": "$8" },
+        "answer": "c"
+      }
+    },
+    {
+      "type": "mcq",
+      "id": "read02",
+      "question": "\"Tim has 3 dogs. Each dog has 4 legs.\" How many dog legs are there in total?",
+      "options": {
+        "choices": { "a": "12", "b": "3", "c": "7", "d": "16" },
+        "answer": "a"
+      }
+    },
+    {
+      "type": "mcq",
+      "id": "read03",
+      "question": "\"The library closes at 9pm. It is currently 8pm.\" How many hours until the library closes?",
+      "options": {
+        "choices": { "a": "9", "b": "1", "c": "2", "d": "3" },
+        "answer": "b"
+      }
+    },
+    {
+      "type": "mcq",
+      "id": "read04",
+      "question": "\"It rained all day Monday.\" What was the weather on Monday?",
+      "options": {
+        "choices": { "a": "sunny", "b": "snowy", "c": "windy", "d": "rainy" },
+        "answer": "d"
+      }
+    },
+    {
+      "type": "mcq",
+      "id": "read05",
+      "question": "\"Jane feels happy whenever she sees her sister.\" How does Jane feel when she sees her sister?",
+      "options": {
+        "choices": { "a": "angry", "b": "sad", "c": "tired", "d": "happy" },
+        "answer": "d"
+      }
+    },
+    {
+      "type": "mcq",
+      "id": "read06",
+      "question": "\"If it snows, school is closed. It is snowing today.\" Is school open today?",
+      "options": {
+        "choices": { "a": "yes", "b": "maybe", "c": "can't tell", "d": "no" },
+        "answer": "d"
+      }
+    },
+    {
+      "type": "mcq",
+      "id": "read07",
+      "question": "\"Maria has two cats: Luna and Mochi. Luna is older than Mochi.\" Which cat is younger?",
+      "options": {
+        "choices": {
+          "a": "Luna",
+          "b": "Mochi",
+          "c": "both the same age",
+          "d": "can't tell"
+        },
+        "answer": "b"
+      }
+    },
+    {
+      "type": "mcq",
+      "id": "read08",
+      "question": "\"The cat sat on the mat. The mat is red.\" What color is the mat?",
+      "options": {
+        "choices": { "a": "blue", "b": "green", "c": "red", "d": "yellow" },
+        "answer": "c"
+      }
+    },
+    {
+      "type": "mcq",
+      "id": "read09",
+      "question": "\"John wakes up at 6am every weekday.\" Does John wake up at 6am on Wednesday?",
+      "options": {
+        "choices": {
+          "a": "yes",
+          "b": "no",
+          "c": "only sometimes",
+          "d": "can't tell"
+        },
+        "answer": "a"
+      }
+    },
+    {
+      "type": "mcq",
+      "id": "read10",
+      "question": "\"Every box in the shed contains tools. Box 7 is in the shed.\" What is in Box 7?",
+      "options": {
+        "choices": { "a": "clothes", "b": "tools", "c": "food", "d": "books" },
+        "answer": "b"
+      }
+    }
+  ]
+}
