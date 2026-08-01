@@ -1005,7 +1005,7 @@
     {
       "type": "mcq",
       "id": "read01",
-      "question": "\"Sam went to the store and bought milk for $4.\" How much did Sam spend?",
+      "question": "Sam went to the store and bought milk for $4. How much did Sam spend?",
       "options": {
         "choices": { "a": "$1", "b": "$2", "c": "$4", "d": "$8" },
         "answer": "c"
@@ -1014,7 +1014,7 @@
     {
       "type": "mcq",
       "id": "read02",
-      "question": "\"Tim has 3 dogs. Each dog has 4 legs.\" How many dog legs are there in total?",
+      "question": "Tim has 3 dogs. Each dog has 4 legs. How many dog legs are there in total?",
       "options": {
         "choices": { "a": "12", "b": "3", "c": "7", "d": "16" },
         "answer": "a"
@@ -1023,7 +1023,7 @@
     {
       "type": "mcq",
       "id": "read03",
-      "question": "\"The library closes at 9pm. It is currently 8pm.\" How many hours until the library closes?",
+      "question": "The library closes at 9pm. It is currently 8pm. How many hours until the library closes?",
       "options": {
         "choices": { "a": "9", "b": "1", "c": "2", "d": "3" },
         "answer": "b"
@@ -1032,7 +1032,7 @@
     {
       "type": "mcq",
       "id": "read04",
-      "question": "\"It rained all day Monday.\" What was the weather on Monday?",
+      "question": "It rained all day Monday. What was the weather on Monday?",
       "options": {
         "choices": { "a": "sunny", "b": "snowy", "c": "windy", "d": "rainy" },
         "answer": "d"
@@ -1041,7 +1041,7 @@
     {
       "type": "mcq",
       "id": "read05",
-      "question": "\"Jane feels happy whenever she sees her sister.\" How does Jane feel when she sees her sister?",
+      "question": "Jane feels happy whenever she sees her sister. How does Jane feel when she sees her sister?",
       "options": {
         "choices": { "a": "angry", "b": "sad", "c": "tired", "d": "happy" },
         "answer": "d"
@@ -1050,7 +1050,7 @@
     {
       "type": "mcq",
       "id": "read06",
-      "question": "\"If it snows, school is closed. It is snowing today.\" Is school open today?",
+      "question": "If it snows, school is closed. It is snowing today. Is school open today?",
       "options": {
         "choices": { "a": "yes", "b": "maybe", "c": "can't tell", "d": "no" },
         "answer": "d"
@@ -1059,7 +1059,7 @@
     {
       "type": "mcq",
       "id": "read07",
-      "question": "\"Maria has two cats: Luna and Mochi. Luna is older than Mochi.\" Which cat is younger?",
+      "question": "Maria has two cats: Luna and Mochi. Luna is older than Mochi. Which cat is younger?",
       "options": {
         "choices": {
           "a": "Luna",
@@ -1073,7 +1073,7 @@
     {
       "type": "mcq",
       "id": "read08",
-      "question": "\"The cat sat on the mat. The mat is red.\" What color is the mat?",
+      "question": "The cat sat on the mat. The mat is red. What color is the mat?",
       "options": {
         "choices": { "a": "blue", "b": "green", "c": "red", "d": "yellow" },
         "answer": "c"
@@ -1082,7 +1082,7 @@
     {
       "type": "mcq",
       "id": "read09",
-      "question": "\"John wakes up at 6am every weekday.\" Does John wake up at 6am on Wednesday?",
+      "question": "John wakes up at 6am every weekday. Does John wake up at 6am on Wednesday?",
       "options": {
         "choices": {
           "a": "yes",
@@ -1096,7 +1096,7 @@
     {
       "type": "mcq",
       "id": "read10",
-      "question": "\"Every box in the shed contains tools. Box 7 is in the shed.\" What is in Box 7?",
+      "question": "Every box in the shed contains tools. Box 7 is in the shed. What is in Box 7?",
       "options": {
         "choices": { "a": "clothes", "b": "tools", "c": "food", "d": "books" },
         "answer": "b"
