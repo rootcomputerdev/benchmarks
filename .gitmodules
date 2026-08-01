@@ -1,0 +1,3 @@
+[submodule "llmark"]
+	path = llmark
+	url = https://github.com/karotte128/llmark
