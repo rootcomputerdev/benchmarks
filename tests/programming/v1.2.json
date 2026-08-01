@@ -2522,6 +2522,286 @@
         },
         "answer": "a"
       }
+    },
+    {
+      "type": "mcq",
+      "id": "prog-extreme-31",
+      "question": "Which theorem states that any total computable function can be represented by a Turing machine?",
+      "options": {
+        "choices": {
+          "a": "Church-Turing thesis",
+          "b": "Kleen`s recursion theorem",
+          "c": "Gödel`s incompleteness theorem",
+          "d": "Rice`s theorem"
+        },
+        "answer": "a"
+      }
+    },
+    {
+      "type": "mcq",
+      "id": "prog-extreme-32",
+      "question": "What does the `static single assignment` property prevent in compiler optimizations?",
+      "options": {
+        "choices": {
+          "a": "Multiple assignments to the same variable name, simplifying data-flow and enabling SSA based optimizations",
+          "b": "Any use of global variables",
+          "c": "All side effects",
+          "d": "Dynamic type changes"
+        },
+        "answer": "a"
+      }
+    },
+    {
+      "type": "mcq",
+      "id": "prog-extreme-33",
+      "question": "In functional programming, what is a `lens`?",
+      "options": {
+        "choices": {
+          "a": "A composable pair of getter/setter functions allowing immutable updates to nested data structures",
+          "b": "A debugging tool for visualizing recursion",
+          "c": "A macro system for code generation",
+          "d": "An optimization for tail calls"
+        },
+        "answer": "a"
+      }
+    },
+    {
+      "type": "mcq",
+      "id": "prog-extreme-34",
+      "question": "Which concept is central to the design of the Go scheduler?",
+      "options": {
+        "choices": {
+          "a": "Cooperative green-thread scheduling with GOMAXPROCS controlling OS thread count",
+          "b": "Preemptive multitasking at the kernel level",
+          "c": "Round-robin CPU time slicing only",
+          "d": "Event-driven callbacks only"
+        },
+        "answer": "a"
+      }
+    },
+    {
+      "type": "mcq",
+      "id": "prog-extreme-35",
+      "question": "What is the purpose of `escape analysis` in Java JIT compilation?",
+      "options": {
+        "choices": {
+          "a": "Determine whether an object can be allocated on the stack instead of heap, reducing GC pressure",
+          "b": "Detect security vulnerabilities at runtime",
+          "c": "Identify dead code for removal",
+          "d": "Analyze network latency"
+        },
+        "answer": "a"
+      }
+    },
+    {
+      "type": "mcq",
+      "id": "prog-extreme-36",
+      "question": "Which property distinguishes a `purely functional language` from an impure one?",
+      "options": {
+        "choices": {
+          "a": "All functions are total and have no side effects, returning the same output for given inputs",
+          "b": "Support for pointer arithmetic",
+          "c": "Ability to perform I/O directly without monads",
+          "d": "Requirement of manual memory management"
+        },
+        "answer": "a"
+      }
+    },
+    {
+      "type": "mcq",
+      "id": "prog-extreme-37",
+      "question": "In type theory, what does `subtyping` allow?",
+      "options": {
+        "choices": {
+          "a": "Treating a value of a more specific type as if it were of a more general supertype",
+          "b": "Automatic conversion between unrelated types",
+          "c": "Dynamic dispatch based on runtime tags",
+          "d": "Compile-time reflection"
+        },
+        "answer": "a"
+      }
+    },
+    {
+      "type": "mcq",
+      "id": "prog-extreme-38",
+      "question": "Which algorithm is used by most modern SAT solvers for efficient search?",
+      "options": {
+        "choices": {
+          "a": "DPLL with clause learning and conflict-driven backjumping",
+          "b": "Simple brute-force enumeration",
+          "c": "Breadth-first graph traversal",
+          "d": "Randomized hill climbing"
+        },
+        "answer": "a"
+      }
+    },
+    {
+      "type": "mcq",
+      "id": "prog-extreme-39",
+      "question": "What does the `No-alias` guarantee enable for compilers?",
+      "options": {
+        "choices": {
+          "a": "Assume two pointers never refer to overlapping memory, allowing aggressive vectorization and reordering",
+          "b": "Guarantee that objects are immutable",
+          "c": "Prevent deadlocks in multithreaded code",
+          "d": "Eliminate need for bounds checking"
+        },
+        "answer": "a"
+      }
+    },
+    {
+      "type": "mcq",
+      "id": "prog-extreme-40",
+      "question": "Which abstraction does the `actor model` provide for concurrency?",
+      "options": {
+        "choices": {
+          "a": "Encapsulated entities communicating via asynchronous message passing, avoiding shared mutable state",
+          "b": "Shared memory with locks",
+          "c": "Lock-free data structures only",
+          "d": "Coroutines with cooperative scheduling"
+        },
+        "answer": "a"
+      }
+    },
+    {
+      "type": "mcq",
+      "id": "prog-extreme-41",
+      "question": "What is a `type class` in Haskell used for?",
+      "options": {
+        "choices": {
+          "a": "Ad-hoc polymorphism: defining a set of functions that can be implemented by different types",
+          "b": "Runtime type identification",
+          "c": "Garbage collection policy specification",
+          "d": "Thread synchronization"
+        },
+        "answer": "a"
+      }
+    },
+    {
+      "type": "mcq",
+      "id": "prog-extreme-42",
+      "question": "Which property does the `strong normalization` guarantee in typed lambda calculi?",
+      "options": {
+        "choices": {
+          "a": "All reduction sequences terminate (no infinite loops) for well-typed terms",
+          "b": "Programs run faster on modern CPUs",
+          "c": "Garbage collector can reclaim all memory automatically",
+          "d": "Type inference always succeeds"
+        },
+        "answer": "a"
+      }
+    },
+    {
+      "type": "mcq",
+      "id": "prog-extreme-43",
+      "question": "What is the main purpose of `symbolic execution` tools?",
+      "options": {
+        "choices": {
+          "a": "Explore program paths using symbolic inputs to find bugs and generate test cases",
+          "b": "Compile code into assembly",
+          "c": "Measure runtime performance",
+          "d": "Obfuscate source code"
+        },
+        "answer": "a"
+      }
+    },
+    {
+      "type": "mcq",
+      "id": "prog-extreme-44",
+      "question": "In the context of LLVM, what does a `pass` refer to?",
+      "options": {
+        "choices": {
+          "a": "A modular transformation or analysis performed on the intermediate representation",
+          "b": "A security audit step",
+          "c": "An interactive debugging session",
+          "d": "A compilation phase that generates machine code"
+        },
+        "answer": "a"
+      }
+    },
+    {
+      "type": "mcq",
+      "id": "prog-extreme-45",
+      "question": "Which of the following best describes `gradual guarantee` in gradually typed languages?",
+      "options": {
+        "choices": {
+          "a": "Typed portions behave like a statically typed language, untyped parts like dynamic, and interop preserves behavior",
+          "b": "All code is compiled to native machine code",
+          "c": "Type errors are ignored at runtime",
+          "d": "The compiler can infer all missing types"
+        },
+        "answer": "a"
+      }
+    },
+    {
+      "type": "mcq",
+      "id": "prog-extreme-46",
+      "question": "What does `coinduction` allow reasoning about?",
+      "options": {
+        "choices": {
+          "a": "Potentially infinite data structures such as streams via greatest fixed points",
+          "b": "Recursive functions that terminate",
+          "c": "Memory allocation strategies",
+          "d": "Finite state machines only"
+        },
+        "answer": "a"
+      }
+    },
+    {
+      "type": "mcq",
+      "id": "prog-extreme-47",
+      "question": "Which technique is used to mitigate Spectre-type side-channel attacks?",
+      "options": {
+        "choices": {
+          "a": "Hardware microcode updates and compiler fences like LFENCE",
+          "b": "Increasing clock speed",
+          "c": "Disabling virtual memory",
+          "d": "Using more threads"
+        },
+        "answer": "a"
+      }
+    },
+    {
+      "type": "mcq",
+      "id": "prog-extreme-48",
+      "question": "In the context of blockchain smart contracts, what does `gas` represent?",
+      "options": {
+        "choices": {
+          "a": "A unit measuring computational work required to execute operations, paid in cryptocurrency",
+          "b": "Physical fuel for mining rigs",
+          "c": "Network bandwidth usage",
+          "d": "Memory allocation limit"
+        },
+        "answer": "a"
+      }
+    },
+    {
+      "type": "mcq",
+      "id": "prog-extreme-49",
+      "question": "Which concept is central to the design of the Rust `ownership` model?",
+      "options": {
+        "choices": {
+          "a": "Each value has a single owner; when the owner goes out of scope, the value is dropped, preventing double free and data races",
+          "b": "Reference counting only",
+          "c": "Garbage collection with generational spaces",
+          "d": "Manual malloc/free"
+        },
+        "answer": "a"
+      }
+    },
+    {
+      "type": "mcq",
+      "id": "prog-extreme-50",
+      "question": "What does the `Blum-Shub` algorithm provide in cryptography?",
+      "options": {
+        "choices": {
+          "a": "Cryptographically secure pseudorandom number generation based on quadratic residues",
+          "b": "Fast symmetric encryption",
+          "c": "Hash function construction",
+          "d": "Public key exchange"
+        },
+        "answer": "a"
+      }
     }
   ]
 }

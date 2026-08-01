@@ -3071,6 +3071,90 @@
     },
     {
       "type": "mcq",
+      "id": "cat25",
+      "question": "Which of these is a reptile?",
+      "options": {
+        "choices": {
+          "a": "snake",
+          "b": "frog",
+          "c": "salmon",
+          "d": "sparrow"
+        },
+        "answer": "a"
+      }
+    },
+    {
+      "type": "mcq",
+      "id": "cat26",
+      "question": "Which of these is not a planet?",
+      "options": {
+        "choices": {
+          "a": "the Moon",
+          "b": "Mars",
+          "c": "Venus",
+          "d": "Jupiter"
+        },
+        "answer": "a"
+      }
+    },
+    {
+      "type": "mcq",
+      "id": "cat27",
+      "question": "Which of these is a citrus fruit?",
+      "options": {
+        "choices": {
+          "a": "apple",
+          "b": "banana",
+          "c": "lemon",
+          "d": "strawberry"
+        },
+        "answer": "c"
+      }
+    },
+    {
+      "type": "mcq",
+      "id": "cat28",
+      "question": "Which of these is a continent?",
+      "options": {
+        "choices": {
+          "a": "France",
+          "b": "Africa",
+          "c": "Egypt",
+          "d": "Nile"
+        },
+        "answer": "b"
+      }
+    },
+    {
+      "type": "mcq",
+      "id": "cat29",
+      "question": "Which of these is not a season?",
+      "options": {
+        "choices": {
+          "a": "spring",
+          "b": "evening",
+          "c": "autumn",
+          "d": "summer"
+        },
+        "answer": "b"
+      }
+    },
+    {
+      "type": "mcq",
+      "id": "cat30",
+      "question": "Which of these is not a type of weather?",
+      "options": {
+        "choices": {
+          "a": "rain",
+          "b": "snow",
+          "c": "fog",
+          "d": "river"
+        },
+        "answer": "d"
+      }
+    },
+    {
+      "type": "mcq",
       "id": "read01",
       "question": "Anna paid $7 for a sandwich and $3 for a drink. How much did Anna spend in total?",
       "options": {
