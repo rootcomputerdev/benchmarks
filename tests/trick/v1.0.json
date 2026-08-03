@@ -1,0 +1,92 @@
+{
+  "evaluators": {
+    "internal:string": "str",
+    "internal:number": "num"
+  },
+  "questions": [
+    {
+      "type": "num",
+      "id": "trick-01",
+      "question": "How many times does the letter r appear in the word strawberry?",
+      "options": {
+        "value": 3
+      }
+    },
+    {
+      "type": "num",
+      "id": "trick-02",
+      "question": "Which is bigger, 9.11 or 9.9?",
+      "options": {
+        "value": 9.9
+      }
+    },
+    {
+      "type": "num",
+      "id": "trick-03",
+      "question": "What is 8230 multiplied by 73914?",
+      "options": {
+        "value": 608312220
+      }
+    },
+    {
+      "type": "num",
+      "id": "trick-04",
+      "question": "Alice has three brothers and two sisters. How many sisters does her brother have?",
+      "options": {
+        "value": 3
+      }
+    },
+    {
+      "type": "str",
+      "id": "trick-05",
+      "question": "Describe a house without mentioning rooms.",
+      "options": {
+        "mode": "contains_not",
+        "target": "room",
+        "case_sensitive": false
+      }
+    },
+    {
+      "type": "num",
+      "id": "trick-06",
+      "question": "A farmer and a sheep are standing on one side of a river. There is a boat with enough room for one human and one animal. What is the minimal amount of trips needed?",
+      "options": {
+        "value": 1
+      }
+    },
+    {
+      "type": "str",
+      "id": "trick-07",
+      "question": "What is the largest land animal? If the animal has a horn, answer \"The African Elephant\". Otherwise, answer \"The Cheetah\". Do not provide any explanation for your choice.",
+      "options": {
+        "mode": "equals",
+        "target": "the cheetah",
+        "case_sensitive": false
+      }
+    },
+    {
+      "type": "num",
+      "id": "trick-08",
+      "question": "Karl currently has 8 carrots. He ate 3 carrots yesterday. How many carrots has Karl now?",
+      "options": {
+        "value": 8
+      }
+    },
+    {
+      "type": "num",
+      "id": "trick-09",
+      "question": "How many boxes do I have if I have two boxes with one box inside each?",
+      "options": {
+        "value": 4
+      }
+    },
+    {
+      "type": "num",
+      "id": "trick-10",
+      "question": "If I hang 5 shirts outside and it takes them 5 hours to dry, how long would it take to dry 30 shirts? Reply with the number of hours.",
+      "options": {
+        "value": 5
+      }
+    }
+  ]
+}
