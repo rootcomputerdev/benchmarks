@@ -1,0 +1,1631 @@
+{
+  "evaluators": {
+    "internal:multiple-choice": "mcq",
+    "internal:string": "str",
+    "internal:number": "num",
+    "internal:regex": "regex",
+    "internal:boolean": "bool"
+  },
+  "questions": [
+    {
+      "type": "bool",
+      "id": "if-01",
+      "question": "Reply with only the word YES or only the word NO. Is water wet?",
+      "options": {
+        "value": true,
+        "true_word": "YES",
+        "false_word": "NO"
+      }
+    },
+    {
+      "type": "str",
+      "id": "if-02",
+      "question": "In one word, name the largest planet in our solar system.",
+      "options": {
+        "mode": "equals",
+        "target": "jupiter",
+        "case_sensitive": false
+      }
+    },
+    {
+      "type": "num",
+      "id": "if-03",
+      "question": "Output the number 42 and nothing else.",
+      "options": {
+        "value": 42
+      }
+    },
+    {
+      "type": "num",
+      "id": "if-04",
+      "question": "What is 12 times 12? Reply with only the number.",
+      "options": { "value": 144 }
+    },
+    {
+      "type": "str",
+      "id": "if-05",
+      "question": "Type the word 'hello' three times, separated by spaces.",
+      "options": {
+        "mode": "equals",
+        "target": "hello hello hello",
+        "case_sensitive": false
+      }
+    },
+    {
+      "type": "str",
+      "id": "if-06",
+      "question": "Say goodbye. Use only lowercase letters.",
+      "options": {
+        "mode": "equals",
+        "target": "goodbye",
+        "case_sensitive": false
+      }
+    },
+    {
+      "type": "str",
+      "id": "if-07",
+      "question": "What is the capital of France? Reply with only the city name.",
+      "options": {
+        "mode": "equals",
+        "target": "paris",
+        "case_sensitive": false
+      }
+    },
+    {
+      "type": "bool",
+      "id": "if-08",
+      "question": "Is the sun a star?.",
+      "options": {
+        "value": true
+      }
+    },
+    {
+      "type": "str",
+      "id": "if-09",
+      "question": "Count from 1 to 3. Only the numbers, separated by commas.",
+      "options": {
+        "mode": "equals",
+        "target": ["1,2,3", "1, 2, 3"],
+        "case_sensitive": false
+      }
+    },
+    {
+      "type": "str",
+      "id": "if-10",
+      "question": "What sound does a cat make? Reply with exactly one word.",
+      "options": {
+        "mode": "equals",
+        "target": "meow",
+        "case_sensitive": false
+      }
+    },
+    {
+      "type": "num",
+      "id": "if-11",
+      "question": "Output the number 100 and nothing else.",
+      "options": {
+        "value": 100
+      }
+    },
+    {
+      "type": "num",
+      "id": "if-12",
+      "question": "What is 5 plus 5? Reply with only the number.",
+      "options": {
+        "value": 10
+      }
+    },
+    {
+      "type": "str",
+      "id": "if-13",
+      "question": "Name the fifth planet from the sun. One word only.",
+      "options": {
+        "mode": "equals",
+        "target": "jupiter",
+        "case_sensitive": false
+      }
+    },
+    {
+      "type": "str",
+      "id": "if-14",
+      "question": "What is the chemical symbol for water? One word only.",
+      "options": {
+        "mode": "equals",
+        "target": "h2o",
+        "case_sensitive": false
+      }
+    },
+    {
+      "type": "num",
+      "id": "if-15",
+      "question": "What is 10 minus 7? Reply with only the number.",
+      "options": {
+        "value": 3
+      }
+    },
+    {
+      "type": "bool",
+      "id": "if-16",
+      "question": "Is the earth flat?",
+      "options": {
+        "value": false,
+        "true_word": "YES",
+        "false_word": "NO"
+      }
+    },
+    {
+      "type": "str",
+      "id": "if-17",
+      "question": "What color do you get when you mix blue and yellow? One word.",
+      "options": {
+        "mode": "equals",
+        "target": "green",
+        "case_sensitive": false
+      }
+    },
+    {
+      "type": "str",
+      "id": "if-18",
+      "question": "Type the letter 'A' three times with no spaces.",
+      "options": {
+        "mode": "equals",
+        "target": "AAA",
+        "case_sensitive": false
+      }
+    },
+    {
+      "type": "num",
+      "id": "if-19",
+      "question": "Reply with only the current year. (Assume 2024)",
+      "options": {
+        "value": 2024
+      }
+    },
+    {
+      "type": "str",
+      "id": "if-20",
+      "question": "Name the first month of the year. One word only.",
+      "options": {
+        "mode": "equals",
+        "target": "january",
+        "case_sensitive": false
+      }
+    },
+    {
+      "type": "num",
+      "id": "if-21",
+      "question": "What is 7 times 8? Reply with only the number.",
+      "options": {
+        "value": 56
+      }
+    },
+    {
+      "type": "str",
+      "id": "if-22",
+      "question": "What is the opposite of 'hot'? One word.",
+      "options": {
+        "mode": "equals",
+        "target": "cold",
+        "case_sensitive": false
+      }
+    },
+    {
+      "type": "num",
+      "id": "if-23",
+      "question": "How many days are in a week? Reply with only the number.",
+      "options": {
+        "value": 7
+      }
+    },
+    {
+      "type": "str",
+      "id": "if-24",
+      "question": "Name the largest ocean on Earth. One word.",
+      "options": {
+        "mode": "equals",
+        "target": "pacific",
+        "case_sensitive": false
+      }
+    },
+    {
+      "type": "bool",
+      "id": "if-25",
+      "question": "Is 10 greater than 5?",
+      "options": {
+        "value": true,
+        "true_word": "YES",
+        "false_word": "NO"
+      }
+    },
+    {
+      "type": "num",
+      "id": "if-26",
+      "question": "What is 20 divided by 4? Reply with only the number.",
+      "options": {
+        "value": 5
+      }
+    },
+    {
+      "type": "str",
+      "id": "if-27",
+      "question": "Name the fastest land animal. One word.",
+      "options": {
+        "mode": "equals",
+        "target": "cheetah",
+        "case_sensitive": false
+      }
+    },
+    {
+      "type": "str",
+      "id": "if-28",
+      "question": "What is the main ingredient in bread? One word.",
+      "options": {
+        "mode": "equals",
+        "target": "flour",
+        "case_sensitive": false
+      }
+    },
+    {
+      "type": "num",
+      "id": "if-29",
+      "question": "How many sides does a triangle have? Only the number.",
+      "options": {
+        "value": 3
+      }
+    },
+    {
+      "type": "str",
+      "id": "if-30",
+      "question": "Type the word 'test' backwards. Only the word.",
+      "options": {
+        "mode": "equals",
+        "target": "tset",
+        "case_sensitive": false
+      }
+    },
+    {
+      "type": "num",
+      "id": "if-31",
+      "question": "What is 15 plus 15? Only the number.",
+      "options": {
+        "value": 30
+      }
+    },
+    {
+      "type": "str",
+      "id": "if-32",
+      "question": "Name the planet we live on. One word.",
+      "options": {
+        "mode": "equals",
+        "target": "earth",
+        "case_sensitive": false
+      }
+    },
+    {
+      "type": "bool",
+      "id": "if-33",
+      "question": "Is ice cold?",
+      "options": {
+        "value": true,
+        "true_word": "YES",
+        "false_word": "NO"
+      }
+    },
+    {
+      "type": "num",
+      "id": "if-34",
+      "question": "What is 100 minus 1? Only the number.",
+      "options": {
+        "value": 99
+      }
+    },
+    {
+      "type": "str",
+      "id": "if-35",
+      "question": "Name the yellow center of an egg. One word.",
+      "options": {
+        "mode": "equals",
+        "target": "yolk",
+        "case_sensitive": false
+      }
+    },
+    {
+      "type": "num",
+      "id": "if-36",
+      "question": "What is 9 times 9? Only the number.",
+      "options": {
+        "value": 81
+      }
+    },
+    {
+      "type": "str",
+      "id": "if-37",
+      "question": "Type the word 'robot' in all capital letters.",
+      "options": {
+        "mode": "equals",
+        "target": "ROBOT",
+        "case_sensitive": true
+      }
+    },
+    {
+      "type": "str",
+      "id": "if-38",
+      "question": "Name the bird that cannot fly and lives in Antarctica. One word.",
+      "options": {
+        "mode": "equals",
+        "target": "penguin",
+        "case_sensitive": false
+      }
+    },
+    {
+      "type": "num",
+      "id": "if-39",
+      "question": "What is 50 plus 50? Only the number.",
+      "options": {
+        "value": 100
+      }
+    },
+    {
+      "type": "bool",
+      "id": "if-40",
+      "question": "Is fire hot?",
+      "options": {
+        "value": true,
+        "true_word": "YES",
+        "false_word": "NO"
+      }
+    },
+    {
+      "type": "num",
+      "id": "if-41",
+      "question": "What is 8 times 8? Only the number.",
+      "options": {
+        "value": 64
+      }
+    },
+    {
+      "type": "str",
+      "id": "if-42",
+      "question": "Name the longest river in the world. One word.",
+      "options": {
+        "mode": "equals",
+        "target": "nile",
+        "case_sensitive": false
+      }
+    },
+    {
+      "type": "num",
+      "id": "if-43",
+      "question": "How many minutes are in an hour? Only the number.",
+      "options": {
+        "value": 60
+      }
+    },
+    {
+      "type": "num",
+      "id": "if-44",
+      "question": "What is 144 divided by 12? Only the number.",
+      "options": {
+        "value": 12
+      }
+    },
+    {
+      "type": "str",
+      "id": "if-45",
+      "question": "Name the hardest natural substance on Earth. One word.",
+      "options": {
+        "mode": "equals",
+        "target": "diamond",
+        "case_sensitive": false
+      }
+    },
+    {
+      "type": "num",
+      "id": "if-46",
+      "question": "What is 3 cubed? Only the number.",
+      "options": {
+        "value": 27
+      }
+    },
+    {
+      "type": "bool",
+      "id": "if-47",
+      "question": "Is a whale a fish?",
+      "options": {
+        "value": false,
+        "true_word": "YES",
+        "false_word": "NO"
+      }
+    },
+    {
+      "type": "num",
+      "id": "if-48",
+      "question": "What is 1000 minus 1? Only the number.",
+      "options": {
+        "value": 999
+      }
+    },
+    {
+      "type": "str",
+      "id": "if-49",
+      "question": "Say the word computer backwards.",
+      "options": {
+        "mode": "equals",
+        "target": "retupmoc",
+        "case_sensitive": false
+      }
+    },
+    {
+      "type": "num",
+      "id": "if-50",
+      "question": "What is 14 times 2? Only the number.",
+      "options": {
+        "value": 28
+      }
+    },
+    {
+      "type": "num",
+      "id": "if-51",
+      "question": "Output the number 0 and nothing else.",
+      "options": {
+        "value": 0
+      }
+    },
+    {
+      "type": "num",
+      "id": "if-52",
+      "question": "What is 11 times 11? Only the number.",
+      "options": {
+        "value": 121
+      }
+    },
+    {
+      "type": "bool",
+      "id": "if-53",
+      "question": "Is snow white? Answer YES or NO.",
+      "options": { "value": true, "true_word": "YES", "false_word": "NO" }
+    },
+    {
+      "type": "str",
+      "id": "if-54",
+      "question": "Name the green pigment in plants. One word.",
+      "options": {
+        "mode": "equals",
+        "target": "chlorophyll",
+        "case_sensitive": false
+      }
+    },
+    {
+      "type": "num",
+      "id": "if-55",
+      "question": "What is 25 plus 25? Only the number.",
+      "options": { "value": 50 }
+    },
+    {
+      "type": "num",
+      "id": "if-56",
+      "question": "How many seconds are in a minute? Only the number.",
+      "options": { "value": 60 }
+    },
+    {
+      "type": "str",
+      "id": "if-57",
+      "question": "Name the force that pulls things to Earth. One word.",
+      "options": {
+        "mode": "equals",
+        "target": "gravity",
+        "case_sensitive": false
+      }
+    },
+    {
+      "type": "num",
+      "id": "if-58",
+      "question": "What is 7 times 7? Only the number.",
+      "options": { "value": 49 }
+    },
+    {
+      "type": "bool",
+      "id": "if-59",
+      "question": "Is a spider an insect? Answer YES or NO.",
+      "options": { "value": false, "true_word": "YES", "false_word": "NO" }
+    },
+    {
+      "type": "num",
+      "id": "if-60",
+      "question": "What is 20 minus 20? Only the number.",
+      "options": { "value": 0 }
+    },
+    {
+      "type": "str",
+      "id": "neg-01",
+      "question": "Explain what a firewall does, without using the word 'firewall'.",
+      "options": {
+        "mode": "contains_not",
+        "target": ["firewall"]
+      }
+    },
+    {
+      "type": "str",
+      "id": "neg-02",
+      "question": "Begin your reply with the word 'Sure' and then greet the user in one short sentence.",
+      "options": {
+        "mode": "starts_with",
+        "target": "Sure"
+      }
+    },
+    {
+      "type": "str",
+      "id": "neg-03",
+      "question": "Write a paragraph about cats. Do not use the letter 'a'.",
+      "options": {
+        "mode": "contains_not",
+        "target": ["a", "A"]
+      }
+    },
+    {
+      "type": "str",
+      "id": "neg-04",
+      "question": "Explain how to make a sandwich without using the word 'bread'.",
+      "options": {
+        "mode": "contains_not",
+        "target": ["bread"]
+      }
+    },
+    {
+      "type": "str",
+      "id": "neg-05",
+      "question": "Describe the sun without using the words 'hot' or 'yellow'.",
+      "options": {
+        "mode": "contains_not",
+        "target": ["hot", "yellow"]
+      }
+    },
+    {
+      "type": "str",
+      "id": "neg-06",
+      "question": "Write a sentence that ends with the word 'done'.",
+      "options": {
+        "mode": "ends_with",
+        "target": ["done", "done."]
+      }
+    },
+    {
+      "type": "str",
+      "id": "neg-07",
+      "question": "Explain what water is without using the word 'water'.",
+      "options": {
+        "mode": "contains_not",
+        "target": ["water"]
+      }
+    },
+    {
+      "type": "str",
+      "id": "neg-08",
+      "question": "Describe a tree without using the words 'green', 'leaves', or 'brown'.",
+      "options": {
+        "mode": "contains_not",
+        "target": ["green", "leaves", "brown"]
+      }
+    },
+    {
+      "type": "str",
+      "id": "neg-09",
+      "question": "Write a 10-word sentence. Do not use the word 'the'.",
+      "options": {
+        "mode": "contains_not",
+        "target": ["the"]
+      }
+    },
+    {
+      "type": "str",
+      "id": "neg-10",
+      "question": "Start your response with 'I think' and then state your favorite color.",
+      "options": {
+        "mode": "starts_with",
+        "target": "I think"
+      }
+    },
+    {
+      "type": "str",
+      "id": "neg-11",
+      "question": "Explain what a car is without using the words 'car', 'vehicle', or 'drive'.",
+      "options": {
+        "mode": "contains_not",
+        "target": ["car", "vehicle", "drive"]
+      }
+    },
+    {
+      "type": "str",
+      "id": "neg-12",
+      "question": "Write a sentence about space that does not contain the letter 'e'.",
+      "options": {
+        "mode": "contains_not",
+        "target": ["e", "E"],
+        "word_based": false
+      }
+    },
+    {
+      "type": "str",
+      "id": "neg-13",
+      "question": "Describe a book without using the words 'book', 'read', or 'pages'.",
+      "options": {
+        "mode": "contains_not",
+        "target": ["book", "read", "pages"]
+      }
+    },
+    {
+      "type": "str",
+      "id": "neg-14",
+      "question": "Write a sentence ending with a question mark.",
+      "options": {
+        "mode": "ends_with",
+        "target": "?"
+      }
+    },
+    {
+      "type": "str",
+      "id": "neg-15",
+      "question": "Explain what a computer is without using the word 'computer'.",
+      "options": {
+        "mode": "contains_not",
+        "target": ["computer"]
+      }
+    },
+    {
+      "type": "str",
+      "id": "neg-16",
+      "question": "Write a short story about a dog. Do not use the word 'dog'.",
+      "options": {
+        "mode": "contains_not",
+        "target": ["dog"]
+      }
+    },
+    {
+      "type": "str",
+      "id": "neg-17",
+      "question": "Describe the ocean without using the words 'blue', 'water', or 'wet'.",
+      "options": {
+        "mode": "contains_not",
+        "target": ["blue", "water", "wet"]
+      }
+    },
+    {
+      "type": "str",
+      "id": "neg-18",
+      "question": "Write a sentence that starts with 'Why' and ends with a question mark.",
+      "options": {
+        "mode": "starts_with",
+        "target": "Why"
+      }
+    },
+    {
+      "type": "str",
+      "id": "neg-19",
+      "question": "Explain what time is without using the word 'time'.",
+      "options": {
+        "mode": "contains_not",
+        "target": ["time"]
+      }
+    },
+    {
+      "type": "str",
+      "id": "neg-20",
+      "question": "Write a paragraph about food. Do not use the words 'eat', 'food', or 'taste'.",
+      "options": {
+        "mode": "contains_not",
+        "target": ["eat", "food", "taste"]
+      }
+    },
+    {
+      "type": "str",
+      "id": "neg-21",
+      "question": "Describe a tree without using the word 'tree'.",
+      "options": {
+        "mode": "contains_not",
+        "target": ["tree"]
+      }
+    },
+    {
+      "type": "str",
+      "id": "neg-22",
+      "question": "Write a sentence about a cat that does not contain the letter 't'.",
+      "options": {
+        "mode": "contains_not",
+        "target": ["t", "T"],
+        "word_based": false
+      }
+    },
+    {
+      "type": "str",
+      "id": "neg-23",
+      "question": "Explain what air is without using the words 'air' or 'oxygen'.",
+      "options": {
+        "mode": "contains_not",
+        "target": ["air", "oxygen"]
+      }
+    },
+    {
+      "type": "str",
+      "id": "neg-24",
+      "question": "Write a sentence ending with an exclamation mark.",
+      "options": {
+        "mode": "ends_with",
+        "target": "!"
+      }
+    },
+    {
+      "type": "str",
+      "id": "neg-25",
+      "question": "Describe a house without using the words 'house', 'home', or 'roof'.",
+      "options": {
+        "mode": "contains_not",
+        "target": ["house", "home", "roof"]
+      }
+    },
+    {
+      "type": "str",
+      "id": "neg-26",
+      "question": "Write a short paragraph about sleep. Do not use the word 'sleep'.",
+      "options": {
+        "mode": "contains_not",
+        "target": ["sleep"]
+      }
+    },
+    {
+      "type": "str",
+      "id": "neg-27",
+      "question": "Explain what music is without using the words 'music', 'sound', or 'song'.",
+      "options": {
+        "mode": "contains_not",
+        "target": ["music", "sound", "song"]
+      }
+    },
+    {
+      "type": "str",
+      "id": "neg-28",
+      "question": "Write a sentence that starts with 'Hello' and ends with a period.",
+      "options": {
+        "mode": "starts_with",
+        "target": "Hello"
+      }
+    },
+    {
+      "type": "str",
+      "id": "neg-29",
+      "question": "Describe a mountain without using the words 'mountain', 'tall', or 'rock'.",
+      "options": {
+        "mode": "contains_not",
+        "target": ["mountain", "tall", "rock"]
+      }
+    },
+    {
+      "type": "str",
+      "id": "neg-30",
+      "question": "Write a paragraph about winter. Do not use the words 'cold', 'snow', or 'winter'.",
+      "options": {
+        "mode": "contains_not",
+        "target": ["cold", "snow", "winter"]
+      }
+    },
+    {
+      "type": "str",
+      "id": "neg-31",
+      "question": "Explain what light is without using the word 'light'.",
+      "options": {
+        "mode": "contains_not",
+        "target": ["light"]
+      }
+    },
+    {
+      "type": "str",
+      "id": "neg-32",
+      "question": "Write a sentence about a fish that does not contain the letter 's'.",
+      "options": {
+        "mode": "contains_not",
+        "target": ["s", "S"],
+        "word_based": false
+      }
+    },
+    {
+      "type": "str",
+      "id": "neg-33",
+      "question": "Describe a bird without using the words 'bird', 'fly', or 'wings'.",
+      "options": {
+        "mode": "contains_not",
+        "target": ["bird", "fly", "wings"]
+      }
+    },
+    {
+      "type": "str",
+      "id": "neg-34",
+      "question": "Write a sentence that starts with 'Yes' and is followed by a comma.",
+      "options": {
+        "mode": "starts_with",
+        "target": "Yes,"
+      }
+    },
+    {
+      "type": "str",
+      "id": "neg-35",
+      "question": "Explain what a mirror is without using the word 'mirror'.",
+      "options": {
+        "mode": "contains_not",
+        "target": ["mirror"]
+      }
+    },
+    {
+      "type": "str",
+      "id": "neg-36",
+      "question": "Write a short story about a robot. Do not use the word 'robot'.",
+      "options": {
+        "mode": "contains_not",
+        "target": ["robot"]
+      }
+    },
+    {
+      "type": "str",
+      "id": "neg-37",
+      "question": "Describe a cloud without using the words 'cloud', 'sky', or 'white'.",
+      "options": {
+        "mode": "contains_not",
+        "target": ["cloud", "sky", "white"]
+      }
+    },
+    {
+      "type": "str",
+      "id": "neg-38",
+      "question": "Write a sentence that starts with 'No' and ends with a period.",
+      "options": {
+        "mode": "starts_with",
+        "target": "No"
+      }
+    },
+    {
+      "type": "str",
+      "id": "neg-39",
+      "question": "Explain what gravity is without using the word 'gravity'.",
+      "options": {
+        "mode": "contains_not",
+        "target": ["gravity"]
+      }
+    },
+    {
+      "type": "str",
+      "id": "neg-40",
+      "question": "Write a paragraph about summer. Do not use the words 'hot', 'sun', or 'summer'.",
+      "options": {
+        "mode": "contains_not",
+        "target": ["hot", "sun", "summer"]
+      }
+    },
+    {
+      "type": "str",
+      "id": "neg-41",
+      "question": "Explain what a clock is without using the word 'clock'.",
+      "options": {
+        "mode": "contains_not",
+        "target": ["clock"]
+      }
+    },
+    {
+      "type": "str",
+      "id": "neg-42",
+      "question": "Write a sentence about a snake that does not contain the letter 'e'.",
+      "options": {
+        "mode": "contains_not",
+        "target": ["e", "E"],
+        "word_based": false
+      }
+    },
+    {
+      "type": "str",
+      "id": "neg-43",
+      "question": "Describe a road without using the words 'road', 'car', or 'street'.",
+      "options": {
+        "mode": "contains_not",
+        "target": ["road", "car", "street"]
+      }
+    },
+    {
+      "type": "str",
+      "id": "neg-44",
+      "question": "Write a sentence that starts with 'I' and ends with a period.",
+      "options": {
+        "mode": "starts_with",
+        "target": "I"
+      }
+    },
+    {
+      "type": "str",
+      "id": "neg-45",
+      "question": "Explain what a map is without using the word 'map'.",
+      "options": {
+        "mode": "contains_not",
+        "target": ["map"]
+      }
+    },
+    {
+      "type": "str",
+      "id": "neg-46",
+      "question": "Write a short story about a ghost. Do not use the word 'ghost'.",
+      "options": {
+        "mode": "contains_not",
+        "target": ["ghost"]
+      }
+    },
+    {
+      "type": "str",
+      "id": "neg-47",
+      "question": "Describe a river without using the words 'river', 'water', or 'stream'.",
+      "options": {
+        "mode": "contains_not",
+        "target": ["river", "water", "stream"]
+      }
+    },
+    {
+      "type": "str",
+      "id": "neg-48",
+      "question": "Write a sentence that starts with 'Please' and ends with a period.",
+      "options": {
+        "mode": "starts_with",
+        "target": "Please"
+      }
+    },
+    {
+      "type": "str",
+      "id": "neg-49",
+      "question": "Explain what a storm is without using the word 'storm'.",
+      "options": {
+        "mode": "contains_not",
+        "target": ["storm"]
+      }
+    },
+    {
+      "type": "str",
+      "id": "neg-50",
+      "question": "Write a paragraph about a city. Do not use the words 'city', 'buildings', or 'people'.",
+      "options": {
+        "mode": "contains_not",
+        "target": ["city", "buildings", "people"]
+      }
+    },
+    {
+      "type": "str",
+      "id": "neg-51",
+      "question": "Explain what a key is without using the word 'key'.",
+      "options": {
+        "mode": "contains_not",
+        "target": ["key"]
+      }
+    },
+    {
+      "type": "str",
+      "id": "neg-52",
+      "question": "Write a sentence about a star that does not contain the letter 'a'.",
+      "options": {
+        "mode": "contains_not",
+        "target": ["a", "A"],
+        "word_based": false
+      }
+    },
+    {
+      "type": "str",
+      "id": "neg-53",
+      "question": "Describe a pen without using the words 'pen', 'write', or 'ink'.",
+      "options": {
+        "mode": "contains_not",
+        "target": ["pen", "write", "ink"]
+      }
+    },
+    {
+      "type": "str",
+      "id": "neg-54",
+      "question": "Write a sentence that starts with 'The' and ends with a period.",
+      "options": {
+        "mode": "starts_with",
+        "target": "The"
+      }
+    },
+    {
+      "type": "str",
+      "id": "neg-55",
+      "question": "Explain what a door is without using the word 'door'.",
+      "options": {
+        "mode": "contains_not",
+        "target": ["door"]
+      }
+    },
+    {
+      "type": "str",
+      "id": "neg-56",
+      "question": "Write a short story about a king. Do not use the word 'king'.",
+      "options": {
+        "mode": "contains_not",
+        "target": ["king"]
+      }
+    },
+    {
+      "type": "str",
+      "id": "neg-57",
+      "question": "Describe a phone without using the words 'phone', 'call', or 'mobile'.",
+      "options": {
+        "mode": "contains_not",
+        "target": ["phone", "call", "mobile"]
+      }
+    },
+    {
+      "type": "str",
+      "id": "neg-58",
+      "question": "Write a sentence that starts with 'Sorry' and ends with a period.",
+      "options": {
+        "mode": "starts_with",
+        "target": "Sorry"
+      }
+    },
+    {
+      "type": "str",
+      "id": "neg-59",
+      "question": "Explain what a wheel is without using the word 'wheel'.",
+      "options": {
+        "mode": "contains_not",
+        "target": ["wheel"]
+      }
+    },
+    {
+      "type": "str",
+      "id": "neg-60",
+      "question": "Write a paragraph about a forest. Do not use the words 'forest', 'trees', or 'green'.",
+      "options": {
+        "mode": "contains_not",
+        "target": ["forest", "trees", "green"]
+      }
+    },
+    {
+      "type": "str",
+      "id": "cor-01",
+      "question": "Is 17 a prime number? Answer with only the single word 'prime' or the two words 'not prime'.",
+      "options": {
+        "mode": "equals",
+        "target": "prime",
+        "case_sensitive": false
+      }
+    },
+    {
+      "type": "regex",
+      "id": "cor-02",
+      "question": "Give three tips for better sleep as a bullet list. Each line must start with '- '. Only the list.",
+      "options": {
+        "regex": "^(- .+\\n){2}- .+$",
+        "invert": false
+      }
+    },
+    {
+      "type": "str",
+      "id": "cor-03",
+      "question": "What is the capital of Japan? Reply with exactly the city name, nothing else.",
+      "options": {
+        "mode": "equals",
+        "target": "tokyo",
+        "case_sensitive": false
+      }
+    },
+    {
+      "type": "bool",
+      "id": "cor-04",
+      "question": "Is 9 an even number?",
+      "options": {
+        "value": false
+      }
+    },
+    {
+      "type": "num",
+      "id": "cor-05",
+      "question": "What is 5 times 6? Reply with only the number.",
+      "options": {
+        "value": 30
+      }
+    },
+    {
+      "type": "str",
+      "id": "cor-06",
+      "question": "Name the planet closest to the sun. One word only.",
+      "options": {
+        "mode": "equals",
+        "target": "mercury",
+        "case_sensitive": false
+      }
+    },
+    {
+      "type": "bool",
+      "id": "cor-07",
+      "question": "Is 100 a prime number?",
+      "options": {
+        "value": false
+      }
+    },
+    {
+      "type": "regex",
+      "id": "cor8",
+      "question": "List exactly three even numbers separated by commas.",
+      "options": {
+        "regex": "^(?:[02468]|\\d*[02468]),\\s*(?:[02468]|\\d*[02468]),\\s*(?:[02468]|\\d*[02468])$",
+        "invert": false
+      }
+    },
+    {
+      "type": "str",
+      "id": "cor-09",
+      "question": "What is the chemical symbol for gold? One word only.",
+      "options": {
+        "mode": "equals",
+        "target": "au",
+        "case_sensitive": false
+      }
+    },
+    {
+      "type": "bool",
+      "id": "cor-10",
+      "question": "Is 2 an even number?",
+      "options": {
+        "value": true
+      }
+    },
+    {
+      "type": "num",
+      "id": "cor-11",
+      "question": "What is 15 minus 8? Reply with only the number.",
+      "options": {
+        "value": 7
+      }
+    },
+    {
+      "type": "str",
+      "id": "cor-12",
+      "question": "Name the largest mammal on Earth. Only respond with the name.",
+      "options": {
+        "mode": "equals",
+        "target": "blue whale",
+        "case_sensitive": false
+      }
+    },
+    {
+      "type": "str",
+      "id": "cor-13",
+      "question": "Is 29 a prime number? Answer with 'prime' or 'not prime'.",
+      "options": {
+        "mode": "equals",
+        "target": "prime",
+        "case_sensitive": false
+      }
+    },
+    {
+      "type": "str",
+      "id": "cor-14",
+      "question": "What is the capital of Italy? Reply with exactly the city name, nothing else.",
+      "options": {
+        "mode": "equals",
+        "target": "rome",
+        "case_sensitive": false
+      }
+    },
+    {
+      "type": "num",
+      "id": "cor-15",
+      "question": "What is 8 times 8? Reply with only the number.",
+      "options": {
+        "value": 64
+      }
+    },
+    {
+      "type": "str",
+      "id": "cor-16",
+      "question": "Name the gas plants absorb from the atmosphere. Reply with only the name, not the chemical formula.",
+      "options": {
+        "mode": "equals",
+        "target": "carbon dioxide",
+        "case_sensitive": false
+      }
+    },
+    {
+      "type": "bool",
+      "id": "cor-17",
+      "question": "Is 4 a prime number?",
+      "options": {
+        "value": false
+      }
+    },
+    {
+      "type": "str",
+      "id": "cor-18",
+      "question": "What is the capital of Spain? Reply with exactly the city name, nothing else.",
+      "options": {
+        "mode": "equals",
+        "target": "madrid",
+        "case_sensitive": false
+      }
+    },
+    {
+      "type": "num",
+      "id": "cor-19",
+      "question": "What is 9 times 9? Reply with only the number.",
+      "options": {
+        "value": 81
+      }
+    },
+    {
+      "type": "str",
+      "id": "cor-20",
+      "question": "Name the smallest planet in our solar system. One word only.",
+      "options": {
+        "mode": "equals",
+        "target": "mercury",
+        "case_sensitive": false
+      }
+    },
+    {
+      "type": "str",
+      "id": "cor-21",
+      "question": "Is 13 a prime number? Answer with 'prime' or 'not prime'.",
+      "options": {
+        "mode": "equals",
+        "target": "prime",
+        "case_sensitive": false
+      }
+    },
+    {
+      "type": "str",
+      "id": "cor-22",
+      "question": "What is the capital of Germany? Reply with exactly the city name, nothing else.",
+      "options": {
+        "mode": "equals",
+        "target": "berlin",
+        "case_sensitive": false
+      }
+    },
+    {
+      "type": "num",
+      "id": "cor-23",
+      "question": "What is 7 times 6? Reply with only the number.",
+      "options": {
+        "value": 42
+      }
+    },
+    {
+      "type": "str",
+      "id": "cor-24",
+      "question": "Name the process by which plants make food. One word only.",
+      "options": {
+        "mode": "equals",
+        "target": "photosynthesis",
+        "case_sensitive": false
+      }
+    },
+    {
+      "type": "bool",
+      "id": "cor-25",
+      "question": "Is 1 a prime number?",
+      "options": {
+        "value": false
+      }
+    },
+    {
+      "type": "str",
+      "id": "cor-26",
+      "question": "What is the capital of Canada? Reply with exactly the city name, nothing else.",
+      "options": {
+        "mode": "equals",
+        "target": "ottawa",
+        "case_sensitive": false
+      }
+    },
+    {
+      "type": "num",
+      "id": "cor-27",
+      "question": "What is 6 times 7? Reply with only the number.",
+      "options": {
+        "value": 42
+      }
+    },
+    {
+      "type": "str",
+      "id": "cor-28",
+      "question": "Name the force that pulls objects toward each other. One word only.",
+      "options": {
+        "mode": "equals",
+        "target": "gravity",
+        "case_sensitive": false
+      }
+    },
+    {
+      "type": "bool",
+      "id": "cor-29",
+      "question": "Is 2 a prime number?",
+      "options": {
+        "value": true
+      }
+    },
+    {
+      "type": "str",
+      "id": "cor-30",
+      "question": "What is the capital of Australia? Reply with exactly the city name, nothing else.",
+      "options": {
+        "mode": "equals",
+        "target": "canberra",
+        "case_sensitive": false
+      }
+    },
+    {
+      "type": "num",
+      "id": "cor-31",
+      "question": "What is 8 times 7? Reply with only the number.",
+      "options": {
+        "value": 56
+      }
+    },
+    {
+      "type": "str",
+      "id": "cor-32",
+      "question": "Name the hardest natural substance on Earth. One word only.",
+      "options": {
+        "mode": "equals",
+        "target": "diamond",
+        "case_sensitive": false
+      }
+    },
+    {
+      "type": "bool",
+      "id": "cor-33",
+      "question": "Is 15 a prime number?",
+      "options": {
+        "value": false
+      }
+    },
+    {
+      "type": "str",
+      "id": "cor-34",
+      "question": "What is the capital of Russia? Reply with exactly the city name, nothing else.",
+      "options": {
+        "mode": "equals",
+        "target": "moscow",
+        "case_sensitive": false
+      }
+    },
+    {
+      "type": "num",
+      "id": "cor-35",
+      "question": "What is 9 times 7? Reply with only the number.",
+      "options": {
+        "value": 63
+      }
+    },
+    {
+      "type": "str",
+      "id": "cor-36",
+      "question": "Name the planet known as the Red Planet. One word only.",
+      "options": {
+        "mode": "equals",
+        "target": "mars",
+        "case_sensitive": false
+      }
+    },
+    {
+      "type": "str",
+      "id": "cor-37",
+      "question": "Is 19 a prime number? Answer with 'prime' or 'not prime'.",
+      "options": {
+        "mode": "equals",
+        "target": "prime",
+        "case_sensitive": false
+      }
+    },
+    {
+      "type": "str",
+      "id": "cor-38",
+      "question": "What is the capital of Brazil? Reply with exactly the city name, nothing else.",
+      "options": {
+        "mode": "equals",
+        "target": ["Brasilia", "Brasília"],
+        "case_sensitive": true
+      }
+    },
+    {
+      "type": "num",
+      "id": "cor-39",
+      "question": "What is 8 times 9? Reply with only the number.",
+      "options": {
+        "value": 72
+      }
+    },
+    {
+      "type": "str",
+      "id": "cor-40",
+      "question": "Name the liquid metal at room temperature. One word only.",
+      "options": {
+        "mode": "equals",
+        "target": "mercury",
+        "case_sensitive": false
+      }
+    },
+    {
+      "type": "bool",
+      "id": "cor-41",
+      "question": "Is 21 a prime number?",
+      "options": {
+        "value": false
+      }
+    },
+    {
+      "type": "str",
+      "id": "cor-42",
+      "question": "What is the capital of India? Reply with exactly the city name, nothing else.",
+      "options": {
+        "mode": "equals",
+        "target": "new delhi",
+        "case_sensitive": false
+      }
+    },
+    {
+      "type": "num",
+      "id": "cor-43",
+      "question": "What is 6 times 8? Reply with only the number.",
+      "options": {
+        "value": 48
+      }
+    },
+    {
+      "type": "str",
+      "id": "cor-44",
+      "question": "Name the process by which water turns into vapor. One word only.",
+      "options": {
+        "mode": "equals",
+        "target": "evaporation",
+        "case_sensitive": false
+      }
+    },
+    {
+      "type": "bool",
+      "id": "cor-45",
+      "question": "Is 3 a prime number?",
+      "options": {
+        "value": true
+      }
+    },
+    {
+      "type": "str",
+      "id": "cor-46",
+      "question": "What is the capital of China? Reply with exactly the city name, nothing else.",
+      "options": {
+        "mode": "equals",
+        "target": "beijing",
+        "case_sensitive": false
+      }
+    },
+    {
+      "type": "num",
+      "id": "cor-47",
+      "question": "What is 7 times 7? Reply with only the number.",
+      "options": {
+        "value": 49
+      }
+    },
+    {
+      "type": "str",
+      "id": "cor-48",
+      "question": "Name the closest star to Earth (except the sun). Reply with only the name.",
+      "options": {
+        "mode": "equals",
+        "target": "proxima centauri",
+        "case_sensitive": false
+      }
+    },
+    {
+      "type": "bool",
+      "id": "cor-49",
+      "question": "Is 6 a prime number?",
+      "options": {
+        "value": false
+      }
+    },
+    {
+      "type": "str",
+      "id": "cor-50",
+      "question": "What is the capital of Egypt? Reply with exactly the city name, nothing else.",
+      "options": {
+        "mode": "equals",
+        "target": "cairo",
+        "case_sensitive": false
+      }
+    },
+    {
+      "type": "num",
+      "id": "cor-51",
+      "question": "What is 12 times 12? Reply with only the number.",
+      "options": {
+        "value": 144
+      }
+    },
+    {
+      "type": "str",
+      "id": "cor-52",
+      "question": "Name the smallest unit of matter. One word only.",
+      "options": {
+        "mode": "equals",
+        "target": "atom",
+        "case_sensitive": false
+      }
+    },
+    {
+      "type": "str",
+      "id": "cor-53",
+      "question": "Is 23 a prime number? Answer with 'prime' or 'not prime'.",
+      "options": {
+        "mode": "equals",
+        "target": "prime",
+        "case_sensitive": false
+      }
+    },
+    {
+      "type": "str",
+      "id": "cor-54",
+      "question": "What is the capital of Mexico? Reply with exactly the city name, nothing else.",
+      "options": {
+        "mode": "equals",
+        "target": "mexico city",
+        "case_sensitive": false
+      }
+    },
+    {
+      "type": "num",
+      "id": "cor-55",
+      "question": "What is 11 times 11? Reply with only the number.",
+      "options": {
+        "value": 121
+      }
+    },
+    {
+      "type": "str",
+      "id": "cor-56",
+      "question": "Name the galaxy we live in. Two words only.",
+      "options": {
+        "mode": "equals",
+        "target": "milky way",
+        "case_sensitive": false
+      }
+    },
+    {
+      "type": "bool",
+      "id": "cor-57",
+      "question": "Is 8 a prime number?",
+      "options": {
+        "value": false
+      }
+    },
+    {
+      "type": "str",
+      "id": "cor-58",
+      "question": "What is the capital of Argentina? Reply with exactly the city name, nothing else.",
+      "options": {
+        "mode": "equals",
+        "target": "buenos aires",
+        "case_sensitive": false
+      }
+    },
+    {
+      "type": "num",
+      "id": "cor-59",
+      "question": "What is 13 times 13? Reply with only the number.",
+      "options": {
+        "value": 169
+      }
+    },
+    {
+      "type": "num",
+      "id": "cor-60",
+      "question": "What is the speed of light approximately in m/s",
+      "options": {
+        "value": 299792458,
+        "tolerance": 207542
+      }
+    }
+  ]
+}
